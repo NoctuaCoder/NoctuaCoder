@@ -1,65 +1,113 @@
 <div align="center">
 
 <!-- Hero Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=280&section=header&text=NoctuaCoder&fontSize=90&fontColor=FDF0D5&fontAlignY=38&desc=Crafting%20Beautiful%20Linux%20Experiences&descSize=24&descAlignY=58&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,25,26&height=300&section=header&text=NOCTUACODER&fontSize=70&fontColor=C084FC&fontAlignY=35&desc=Developer%20%7C%20Designer%20%7C%20Creator&descSize=20&descAlignY=55&animation=fadeIn" width="100%" />
 
 <br/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=8ECAE6&center=true&vCenter=true&width=600&lines=Code+by+Night+%F0%9F%8C%99;Create+by+Passion+%E2%9C%A8;Linux+Enthusiast+%F0%9F%90%A7;Design+%2B+Development" alt="Typing SVG" />
+<!-- Typing Effect -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&width=600&lines=Building+Digital+Experiences+%E2%9C%A8;Linux+Customization+Expert+%F0%9F%90%A7;UI%2FUX+Design+Enthusiast+%F0%9F%8E%A8;Open+Source+Contributor+%F0%9F%92%9C" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- Social Badges -->
-[![GitHub](https://img.shields.io/badge/GitHub-1B5299?style=for-the-badge&logo=github&logoColor=FDF0D5)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Email-1B5299?style=for-the-badge&logo=gmail&logoColor=FDF0D5)](mailto:your@email.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-1B5299?style=for-the-badge&logo=firefox&logoColor=FDF0D5)](https://github.com/NoctuaCoder)
-
-<br/>
+</div>
 
 ---
 
 <br/>
 
-## 💙 About Me
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```typescript
-const developer = {
-    name: "NoctuaCoder",
-    location: "Brazil 🇧🇷",
-    timezone: "GMT-3",
-    
-    passion: ["Linux Customization", "UI/UX Design", "Automation"],
-    currentProject: "Stellar Dots - Glassmorphism for Hyprland",
-    
-    code: ["Shell", "Python", "JavaScript", "Rust"],
-    tools: ["Hyprland", "Neovim", "Git", "Figma"],
-    
-    motto: "Beauty meets Functionality"
-};
+### 👤 Developer Profile
+
+```json
+{
+  "name": "NoctuaCoder",
+  "role": "Full Stack Developer",
+  "location": "Brazil 🇧🇷",
+  "timezone": "GMT-3",
+  
+  "skills": {
+    "languages": ["Shell", "Python", "JavaScript", "Rust"],
+    "tools": ["Hyprland", "Neovim", "Git", "Docker"],
+    "design": ["Figma", "Glassmorphism", "UI/UX"]
+  },
+  
+  "currentQuest": "Stellar Dots v2.0",
+  "xp": "∞",
+  "level": "Senior"
+}
 ```
 
 <br/>
 
+### 📊 Activity Stats
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=radical&hide_border=true&background=1E1B29&ring=C084FC&fire=A855F7&currStreakLabel=E9D5FF&sideLabels=E9D5FF&currStreakNum=C084FC&sideNums=C084FC&dates=9CA3AF" width="100%" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 Skill Points
+
+<img src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=radical&hide_border=true&bg_color=1E1B29&title_color=C084FC&text_color=E9D5FF&icon_color=A855F7&count_private=true&include_all_commits=true" width="100%" />
+
+<br/>
+
+### 📈 Language Distribution
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=radical&hide_border=true&bg_color=1E1B29&title_color=C084FC&text_color=E9D5FF&langs_count=8" width="100%" />
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 ---
 
 <br/>
 
-## ✨ Featured Project
+<div align="center">
+
+## 🚀 Featured Quest
+
+<br/>
 
 <a href="https://github.com/NoctuaCoder/stellar-dots">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,12&height=180&text=Stellar%20Dots&fontSize=60&fontColor=FDF0D5&desc=Premium%20Glassmorphism%20Collection%20for%20Hyprland&descSize=22&descAlignY=75" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24,25&height=200&text=STELLAR%20DOTS&fontSize=50&fontColor=C084FC&desc=Premium%20Glassmorphism%20Collection%20for%20Hyprland&descSize=18&descAlignY=75&fontAlignY=40" width="100%" />
 </a>
 
+<br/><br/>
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Menus-10-A855F7?style=for-the-badge&labelColor=1E1B29" /><br/>
+<sub>Glassmorphism Styles</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Themes-8-C084FC?style=for-the-badge&labelColor=1E1B29" /><br/>
+<sub>Color Palettes</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Scripts-30+-E879F9?style=for-the-badge&labelColor=1E1B29" /><br/>
+<sub>Utility Tools</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Status-Active-F0ABFC?style=for-the-badge&labelColor=1E1B29" /><br/>
+<sub>Development</sub>
+</td>
+</tr>
+</table>
+
 <br/>
 
-<div align="center">
-
-[![Stars](https://img.shields.io/github/stars/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=8ECAE6&labelColor=1B5299&logoColor=FDF0D5)](https://github.com/NoctuaCoder/stellar-dots)
-[![Forks](https://img.shields.io/github/forks/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=8ECAE6&labelColor=1B5299&logoColor=FDF0D5)](https://github.com/NoctuaCoder/stellar-dots)
-[![Issues](https://img.shields.io/github/issues/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=8ECAE6&labelColor=1B5299&logoColor=FDF0D5)](https://github.com/NoctuaCoder/stellar-dots/issues)
-
-**🎨 10 Glassmorphism Menus** • **🌈 8 Premium Themes** • **⚡ 30+ Utility Scripts**
+[![Stars](https://img.shields.io/github/stars/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=C084FC&labelColor=1E1B29)](https://github.com/NoctuaCoder/stellar-dots)
+[![Forks](https://img.shields.io/github/forks/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=A855F7&labelColor=1E1B29)](https://github.com/NoctuaCoder/stellar-dots)
+[![Issues](https://img.shields.io/github/issues/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=E879F9&labelColor=1E1B29)](https://github.com/NoctuaCoder/stellar-dots/issues)
 
 </div>
 
@@ -69,11 +117,15 @@ const developer = {
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Arsenal
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=linux,bash,python,js,rust,git,docker,neovim,vscode,figma&perline=5&theme=dark" />
+### Core Technologies
+<img src="https://skillicons.dev/icons?i=linux,bash,python,js,rust,git&theme=dark" />
+
+### Development Environment
+<img src="https://skillicons.dev/icons?i=neovim,vscode,docker,figma,github,notion&theme=dark" />
 
 </div>
 
@@ -83,20 +135,17 @@ const developer = {
 
 <br/>
 
-## 📊 GitHub Stats
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&hide_border=true&bg_color=1B5299&title_color=FDF0D5&text_color=8ECAE6&icon_color=FDF0D5&count_private=true&include_all_commits=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&hide_border=true&bg_color=1B5299&title_color=FDF0D5&text_color=8ECAE6&langs_count=8" height="170" />
+## 📈 Contribution Graph
 
-</div>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&theme=react-dark&hide_border=true&bg_color=1E1B29&color=C084FC&line=A855F7&point=E9D5FF&area=true&area_color=C084FC" width="100%" />
 
-<br/>
+<br/><br/>
 
-<div align="center">
+## 🏆 Achievements
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&hide_border=true&background=1B5299&ring=8ECAE6&fire=FDF0D5&currStreakLabel=FDF0D5&sideLabels=FDF0D5&currStreakNum=8ECAE6&sideNums=8ECAE6&dates=8ECAE6" width="600" />
+<img src="https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="100%" />
 
 </div>
 
@@ -106,26 +155,25 @@ const developer = {
 
 <br/>
 
-## 🌙 Philosophy
-
 <div align="center">
 
-> *"Code is poetry written in logic,*  
-> *Design is art painted with pixels."*
+### 💬 Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-1E1B29?style=for-the-badge&logo=github&logoColor=C084FC)](https://github.com/NoctuaCoder)
+[![Email](https://img.shields.io/badge/Email-1E1B29?style=for-the-badge&logo=gmail&logoColor=C084FC)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1E1B29?style=for-the-badge&logo=firefox&logoColor=C084FC)](https://github.com/NoctuaCoder)
 
 <br/>
 
-**Building the future, one commit at a time** ✨
-
-</div>
-
-<br/>
-
-<!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=120&section=footer" width="100%" />
+> *"Code is the language of creation,*  
+> *Design is the art of expression."*
 
 <br/>
 
-<sub>© 2025 NoctuaCoder • Made with 💙 and ☕</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,25,26&height=120&section=footer" width="100%" />
+
+<br/>
+
+<sub>✨ Crafted with passion • © 2025 NoctuaCoder</sub>
 
 </div>
