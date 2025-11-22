@@ -118,23 +118,92 @@
         }
 
         .owl-logo {
-            width: 120px;
-            height: 120px;
-            margin: 0 auto 20px;
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 30px;
             position: relative;
-            filter: drop-shadow(0 0 20px var(--glow-1));
-            animation: float 3s ease-in-out infinite;
+            z-index: 2;
+            animation: mystical-float 6s ease-in-out infinite;
         }
 
-        @keyframes float {
+        .owl-logo::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 160%;
+            height: 160%;
+            background: conic-gradient(from 0deg, transparent, var(--color-accent), transparent, var(--color-accent-2), transparent);
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            opacity: 0.2;
+            z-index: -1;
+            animation: aura-spin 10s linear infinite;
+            filter: blur(20px);
+        }
+
+        .owl-logo::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 120%;
+            height: 120%;
+            background: radial-gradient(circle, var(--glow-1) 0%, transparent 70%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            animation: pulse-glow 4s ease-in-out infinite;
+        }
+
+        @keyframes mystical-float {
 
             0%,
             100% {
-                transform: translateY(0px);
+                transform: translateY(0px) rotate(0deg);
+                filter: drop-shadow(0 0 15px var(--glow-1));
             }
 
             50% {
-                transform: translateY(-15px);
+                transform: translateY(-20px) rotate(2deg);
+                filter: drop-shadow(0 0 30px var(--color-accent));
+            }
+        }
+
+        @keyframes aura-spin {
+            from {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+
+            to {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                opacity: 0.5;
+                transform: translate(-50%, -50%) scale(1);
+            }
+
+            50% {
+                opacity: 0.8;
+                transform: translate(-50%, -50%) scale(1.2);
+            }
+        }
+
+        @keyframes blink-eyes {
+
+            0%,
+            48%,
+            52%,
+            100% {
+                transform: scaleY(1);
+            }
+
+            50% {
+                transform: scaleY(0.1);
             }
         }
 
@@ -559,11 +628,16 @@
                     <!-- Ear tufts -->
                     <path d="M 70 50 L 60 30 L 75 45 Z" fill="url(#owlGradient)" opacity="0.3" />
                     <path d="M 130 50 L 140 30 L 125 45 Z" fill="url(#owlGradient)" opacity="0.3" />
-                    <!-- Eyes -->
-                    <circle cx="85" cy="75" r="15" fill="#e0def4" opacity="0.9" />
-                    <circle cx="115" cy="75" r="15" fill="#e0def4" opacity="0.9" />
-                    <circle cx="85" cy="75" r="8" fill="#9ccfd8" />
-                    <circle cx="115" cy="75" r="8" fill="#9ccfd8" />
+                    <!-- Eyes with blinking animation -->
+                    <g style="animation: blink-eyes 4s infinite; transform-origin: center 75px;">
+                        <circle cx="85" cy="75" r="15" fill="#e0def4" opacity="0.9" />
+                        <circle cx="115" cy="75" r="15" fill="#e0def4" opacity="0.9" />
+                        <circle cx="85" cy="75" r="8" fill="#9ccfd8" />
+                        <circle cx="115" cy="75" r="8" fill="#9ccfd8" />
+                        <!-- Sparkle in eyes -->
+                        <circle cx="88" cy="72" r="3" fill="white" />
+                        <circle cx="118" cy="72" r="3" fill="white" />
+                    </g>
                     <!-- Beak -->
                     <path d="M 100 85 L 95 95 L 105 95 Z" fill="#c4a7e7" opacity="0.8" />
                     <!-- Wings -->
