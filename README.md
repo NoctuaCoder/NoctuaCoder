@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner/Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=051021,0b1c36,023047&height=200&section=header&text=NoctuaCoder&fontSize=80&fontColor=fdf0d5&animation=twinkling&fontAlignY=35" />
+<img src="./assets/banner.png" width="100%" style="border-radius: 20px; box-shadow: 0 0 20px rgba(142, 202, 230, 0.5);" />
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=8ecae6&center=true&vCenter=true&repeat=true&width=600&lines=Crafting+Cozy+Linux+Experiences;Blue+Moon+Enthusiast;Open+Source+Creator;Hyprland+Rice+Developer" alt="Typing SVG" /></a>
@@ -25,6 +25,11 @@
 ---
 
 ## 🚀 About Me
+
+<div align="center">
+<img src="./assets/portrait.png" width="200" style="border-radius: 50%; border: 4px solid #8ecae6; box-shadow: 0 0 30px rgba(142, 202, 230, 0.4);" />
+</div>
+<br/>
 
 ```typescript
 const noctuaCoder = {
