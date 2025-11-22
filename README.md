@@ -4,21 +4,21 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=200&section=header&text=NoctuaCoder&fontSize=80&fontColor=e0def4&animation=twinkling&fontAlignY=35" />
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&repeat=true&width=600&lines=Crafting+Cozy+Linux+Experiences;Glassmorphism+Enthusiast;Open+Source+Creator;Hyprland+Rice+Developer" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=9ccfd8&center=true&vCenter=true&repeat=true&width=600&lines=Crafting+Cozy+Linux+Experiences;Glassmorphism+Enthusiast;Open+Source+Creator;Hyprland+Rice+Developer" alt="Typing SVG" /></a>
 
 <br/>
 
 <!-- Bio -->
-💜 **Creator of [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)** - The largest glassmorphism collection for Hyprland  
+💙 **Creator of [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)** - The largest glassmorphism collection for Hyprland  
 🎨 **10 Menu Styles** • **8 Premium Themes** • **30+ Utility Scripts**  
 ✨ Making desktop customization magical, one commit at a time
 
 <br/>
 
 <!-- Social Badges -->
-[![GitHub followers](https://img.shields.io/github/followers/NoctuaCoder?style=for-the-badge&logo=github&color=c4a7e7&labelColor=191724)](https://github.com/NoctuaCoder)
-[![GitHub stars](https://img.shields.io/github/stars/NoctuaCoder?style=for-the-badge&logo=github&color=eb6f92&labelColor=191724)](https://github.com/NoctuaCoder?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=NoctuaCoder&style=for-the-badge&color=c4a7e7&label=PROFILE+VIEWS&labelColor=191724)](https://github.com/NoctuaCoder)
+[![GitHub followers](https://img.shields.io/github/followers/NoctuaCoder?style=for-the-badge&logo=github&color=9ccfd8&labelColor=191724)](https://github.com/NoctuaCoder)
+[![GitHub stars](https://img.shields.io/github/stars/NoctuaCoder?style=for-the-badge&logo=github&color=31748f&labelColor=191724)](https://github.com/NoctuaCoder?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=NoctuaCoder&style=for-the-badge&color=9ccfd8&label=PROFILE+VIEWS&labelColor=191724)](https://github.com/NoctuaCoder)
 
 </div>
 
@@ -63,8 +63,8 @@ const noctuaCoder = {
 ### ✨ [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)
 
 <img src="https://img.shields.io/badge/STATUS-ACTIVE-9ccfd8?style=for-the-badge&labelColor=191724" />
-<img src="https://img.shields.io/github/stars/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=c4a7e7&labelColor=191724" />
-<img src="https://img.shields.io/github/forks/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=eb6f92&labelColor=191724" />
+<img src="https://img.shields.io/github/stars/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=9ccfd8&labelColor=191724" />
+<img src="https://img.shields.io/github/forks/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=31748f&labelColor=191724" />
 
 **Premium Hyprland Dotfiles with Glassmorphism Magic**
 
@@ -144,14 +144,14 @@ const noctuaCoder = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true&hide_border=true&bg_color=191724&title_color=c4a7e7&icon_color=eb6f92&text_color=e0def4"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&langs_count=8&theme=rose_pine&hide_border=true&bg_color=191724&title_color=c4a7e7&text_color=e0def4"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true&hide_border=true&bg_color=191724&title_color=9ccfd8&icon_color=31748f&text_color=e0def4"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&langs_count=8&theme=rose_pine&hide_border=true&bg_color=191724&title_color=9ccfd8&text_color=e0def4"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=NoctuaCoder&theme=rose-pine&hide_border=true&background=191724&ring=c4a7e7&fire=eb6f92&currStreakLabel=e0def4&sideLabels=e0def4&currStreakNum=c4a7e7&sideNums=9ccfd8&dates=908caa)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=NoctuaCoder&theme=rose-pine&hide_border=true&background=191724&ring=9ccfd8&fire=31748f&currStreakLabel=e0def4&sideLabels=e0def4&currStreakNum=9ccfd8&sideNums=9ccfd8&dates=908caa)](https://git.io/streak-stats)
 
 </div>
 
@@ -159,7 +159,7 @@ const noctuaCoder = {
 
 ### 📈 Contribution Activity
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&theme=rose-pine&hide_border=true&bg_color=191724&color=c4a7e7&line=eb6f92&point=9ccfd8)](https://github.com/NoctuaCoder)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&theme=rose-pine&hide_border=true&bg_color=191724&color=9ccfd8&line=31748f&point=9ccfd8)](https://github.com/NoctuaCoder)
 
 </div>
 
@@ -256,8 +256,8 @@ Wayland compositors • Terminal tools • Design systems • Educational conten
 <!-- BLOG-POST-LIST:END -->
 
 ### 🎥 Video Tutorials
-[![Stellar Dots Setup Guide](https://img.shields.io/badge/▶️-Setup_Guide-eb6f92?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
-[![Hyprland Configuration](https://img.shields.io/badge/▶️-Configuration_Tips-c4a7e7?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
+[![Stellar Dots Setup Guide](https://img.shields.io/badge/▶️-Setup_Guide-31748f?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
+[![Hyprland Configuration](https://img.shields.io/badge/▶️-Configuration_Tips-9ccfd8?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
 
 </div>
 
@@ -271,11 +271,11 @@ Wayland compositors • Terminal tools • Design systems • Educational conten
 
 If you love what I create, consider giving my repos a star!
 
-[![Stellar Dots](https://img.shields.io/badge/⭐_Star-Stellar_Dots-c4a7e7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NoctuaCoder/stellar-dots)
+[![Stellar Dots](https://img.shields.io/badge/⭐_Star-Stellar_Dots-9ccfd8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NoctuaCoder/stellar-dots)
 
 ### 💝 Sponsor
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-eb6f92?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/noctuacoder)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support_Me-31748f?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/noctuacoder)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-Support_Me-f6c177?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/noctuacoder)
 
 **Your support helps me:**
@@ -319,6 +319,6 @@ Check individual repositories for specific licenses
 
 ---
 
-**Last Updated:** 2026 • **Made with** 💜 **and lots of** ☕
+**Last Updated:** 2026 • **Made with** 💙 **and lots of** ☕
 
 </div>
