@@ -49,10 +49,27 @@ const noctuaCoder = {
     pronouns: "she/her",
     location: "Brazil 🇧🇷",
     timezone: "GMT-3",
-    code: ["Shell", "Python", "JavaScript", "CSS"],
-    askMeAbout: ["Hyprland", "Linux customization", "Glassmorphism", "UI/UX"],
-    currentFocus: "Building the most beautiful Hyprland rice",
-    funFact: "I code better at night 🌙"
+    
+    languages: {
+        scripting: ["Shell", "Python", "JavaScript"],
+        markup: ["CSS", "HTML", "Markdown"],
+        learning: ["Rust", "TypeScript", "Nix"]
+    },
+    
+    expertise: [
+        "Hyprland customization",
+        "Linux system configuration", 
+        "Glassmorphism design",
+        "UI/UX development"
+    ],
+    
+    currentFocus: "Building the most beautiful Hyprland rice 🌟",
+    motto: "Code by night, create by passion 🌙",
+    
+    links: {
+        project: "https://github.com/NoctuaCoder/stellar-dots",
+        contact: "38922657+NoctuaCoder@users.noreply.github.com"
+    }
 };
 ```
 
