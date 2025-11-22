@@ -1,23 +1,42 @@
 <div align="center">
 
-<!-- Banner/Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=200&section=header&text=NoctuaCoder&fontSize=80&fontColor=e0def4&animation=twinkling&fontAlignY=35" />
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&repeat=true&width=600&lines=Crafting+Cozy+Linux+Experiences;Glassmorphism+Enthusiast;Open+Source+Creator;Hyprland+Rice+Developer" alt="Typing SVG" /></a>
+<!-- Banner/Header com animação mais suave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=200&section=header&text=NoctuaCoder&fontSize=80&fontColor=e0def4&animation=fadeIn&fontAlignY=35&desc=Code%20by%20night,%20create%20by%20passion&descAlignY=55&descSize=20" />
 
 <br/>
 
-<!-- Bio -->
-💜 **Creator of [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)** - The largest glassmorphism collection for Hyprland  
-🎨 **10 Menu Styles** • **8 Premium Themes** • **30+ Utility Scripts**  
-✨ Making desktop customization magical, one commit at a time
+<!-- Typing Animation com mais variedade -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&repeat=true&width=600&lines=Crafting+Cozy+Linux+Experiences+🌙;Glassmorphism+Enthusiast+✨;Open+Source+Creator+💜;Hyprland+Rice+Developer+🎨;Building+Stellar+Dots+🌟" alt="Typing SVG" /></a>
+
+<br/><br/>
+
+<!-- Bio com mais destaque visual -->
+<table>
+<tr>
+<td align="center" width="50%">
+
+### 💜 Featured Project
+**[Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)**  
+*Premium Hyprland Dotfiles*
+
+</td>
+<td align="center" width="50%">
+
+### ✨ Quick Stats
+🎨 **10** Menu Styles  
+🌈 **8** Premium Themes  
+⚡ **30+** Utility Scripts
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-<!-- Social Badges -->
+<!-- Social Badges com mais opções -->
 [![GitHub followers](https://img.shields.io/github/followers/NoctuaCoder?style=for-the-badge&logo=github&color=c4a7e7&labelColor=191724)](https://github.com/NoctuaCoder)
 [![GitHub stars](https://img.shields.io/github/stars/NoctuaCoder?style=for-the-badge&logo=github&color=eb6f92&labelColor=191724)](https://github.com/NoctuaCoder?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=NoctuaCoder&style=for-the-badge&color=c4a7e7&labelColor=191724)](https://github.com/NoctuaCoder)
 
 </div>
 
