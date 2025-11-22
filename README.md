@@ -60,24 +60,57 @@ const noctuaCoder = {
 
 <div align="center">
 
-### Languages & Tools
+### Languages & Scripting
 
 ![Shell](https://img.shields.io/badge/Shell-191724?style=for-the-badge&logo=gnu-bash&logoColor=9ccfd8)
 ![Python](https://img.shields.io/badge/Python-191724?style=for-the-badge&logo=python&logoColor=f6c177)
 ![JavaScript](https://img.shields.io/badge/JavaScript-191724?style=for-the-badge&logo=javascript&logoColor=eb6f92)
-![CSS](https://img.shields.io/badge/CSS-191724?style=for-the-badge&logo=css3&logoColor=c4a7e7)
+![TypeScript](https://img.shields.io/badge/TypeScript-191724?style=for-the-badge&logo=typescript&logoColor=9ccfd8)
+![CSS3](https://img.shields.io/badge/CSS3-191724?style=for-the-badge&logo=css3&logoColor=c4a7e7)
+![HTML5](https://img.shields.io/badge/HTML5-191724?style=for-the-badge&logo=html5&logoColor=eb6f92)
+![Markdown](https://img.shields.io/badge/Markdown-191724?style=for-the-badge&logo=markdown&logoColor=e0def4)
 
-### Environment
+### Linux & System
 
 ![Linux](https://img.shields.io/badge/Linux-191724?style=for-the-badge&logo=linux&logoColor=ebbcba)
-![Arch](https://img.shields.io/badge/Arch-191724?style=for-the-badge&logo=arch-linux&logoColor=9ccfd8)
+![Arch](https://img.shields.io/badge/Arch_Linux-191724?style=for-the-badge&logo=arch-linux&logoColor=9ccfd8)
+![Debian](https://img.shields.io/badge/Debian-191724?style=for-the-badge&logo=debian&logoColor=eb6f92)
+![Fedora](https://img.shields.io/badge/Fedora-191724?style=for-the-badge&logo=fedora&logoColor=c4a7e7)
 ![Hyprland](https://img.shields.io/badge/Hyprland-191724?style=for-the-badge&logo=wayland&logoColor=c4a7e7)
-![Git](https://img.shields.io/badge/Git-191724?style=for-the-badge&logo=git&logoColor=eb6f92)
+![Wayland](https://img.shields.io/badge/Wayland-191724?style=for-the-badge&logo=wayland&logoColor=f6c177)
 
-### Design
+### Development Tools
+
+![Git](https://img.shields.io/badge/Git-191724?style=for-the-badge&logo=git&logoColor=eb6f92)
+![GitHub](https://img.shields.io/badge/GitHub-191724?style=for-the-badge&logo=github&logoColor=e0def4)
+![VS Code](https://img.shields.io/badge/VS_Code-191724?style=for-the-badge&logo=visual-studio-code&logoColor=9ccfd8)
+![Neovim](https://img.shields.io/badge/Neovim-191724?style=for-the-badge&logo=neovim&logoColor=9ccfd8)
+![Vim](https://img.shields.io/badge/Vim-191724?style=for-the-badge&logo=vim&logoColor=9ccfd8)
+
+### Design & UI/UX
 
 ![Figma](https://img.shields.io/badge/Figma-191724?style=for-the-badge&logo=figma&logoColor=f6c177)
 ![Inkscape](https://img.shields.io/badge/Inkscape-191724?style=for-the-badge&logo=inkscape&logoColor=9ccfd8)
+![GIMP](https://img.shields.io/badge/GIMP-191724?style=for-the-badge&logo=gimp&logoColor=ebbcba)
+![Blender](https://img.shields.io/badge/Blender-191724?style=for-the-badge&logo=blender&logoColor=eb6f92)
+
+### Terminal & CLI
+
+![Kitty](https://img.shields.io/badge/Kitty-191724?style=for-the-badge&logo=kitty&logoColor=c4a7e7)
+![Tmux](https://img.shields.io/badge/Tmux-191724?style=for-the-badge&logo=tmux&logoColor=9ccfd8)
+![Zsh](https://img.shields.io/badge/Zsh-191724?style=for-the-badge&logo=gnu-bash&logoColor=f6c177)
+
+### Package Managers
+
+![npm](https://img.shields.io/badge/npm-191724?style=for-the-badge&logo=npm&logoColor=eb6f92)
+![pip](https://img.shields.io/badge/pip-191724?style=for-the-badge&logo=pypi&logoColor=f6c177)
+![Flatpak](https://img.shields.io/badge/Flatpak-191724?style=for-the-badge&logo=flatpak&logoColor=9ccfd8)
+
+### Currently Learning
+
+![Rust](https://img.shields.io/badge/Rust-191724?style=for-the-badge&logo=rust&logoColor=eb6f92)
+![Nix](https://img.shields.io/badge/Nix-191724?style=for-the-badge&logo=nixos&logoColor=9ccfd8)
+![Go](https://img.shields.io/badge/Go-191724?style=for-the-badge&logo=go&logoColor=9ccfd8)
 
 </div>
 
