@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" style="background: linear-gradient(135deg, #1e1e2e 0%, #2e3440 50%, #191724 100%);">
+  <!-- Background Stars -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="moonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9ccfd8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c4a7e7;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#c4a7e7;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#c4a7e7;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Constellation Lines (subtle) -->
+  <g opacity="0.1" stroke="#9ccfd8" stroke-width="1" fill="none">
+    <path d="M 100,80 L 180,60 L 220,120" />
+    <path d="M 900,100 L 980,90 L 1020,140" />
+    <path d="M 150,300 L 200,280 L 180,330" />
+  </g>
+  
+  <!-- Animated Stars -->
+  <g id="stars">
+    <circle cx="120" cy="60" r="2" fill="#ebbcba" opacity="0.9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="120" r="1.5" fill="#f6c177" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="890" cy="85" r="2" fill="#9ccfd8" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="180" r="1.8" fill="#eb6f92" opacity="0.9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="320" r="1.5" fill="#c4a7e7" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="340" r="2" fill="#9ccfd8" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Smaller sparkles -->
+    <circle cx="200" cy="150" r="1" fill="#e0def4" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="240" r="1" fill="#ebbcba" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="260" r="1" fill="#f6c177" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Crescent Moon (Large, Left Side) -->
+  <g transform="translate(250, 200)">
+    <!-- Glow effect -->
+    <circle cx="0" cy="0" r="90" fill="url(#glowGradient)" opacity="0.4">
+      <animate attributeName="r" values="85;95;85" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Moon body -->
+    <path d="M 0,-60 A 60,60 0 1,1 0,60 A 45,45 0 1,0 0,-60" 
+          fill="url(#moonGradient)" 
+          filter="url(#glow)"
+          opacity="0.95">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 0 0"
+        to="5 0 0"
+        dur="3s"
+        repeatCount="indefinite"
+        additive="sum"/>
+    </path>
+    
+    <!-- Moon craters/details -->
+    <circle cx="-15" cy="-20" r="8" fill="#191724" opacity="0.15"/>
+    <circle cx="10" cy="15" r="6" fill="#191724" opacity="0.12"/>
+    <circle cx="-8" cy="25" r="5" fill="#191724" opacity="0.1"/>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="600" y="140" 
+        font-family="'JetBrains Mono', 'Courier New', monospace" 
+        font-size="72" 
+        font-weight="bold" 
+        fill="#e0def4"
+        text-anchor="middle"
+        filter="url(#glow)">
+    NoctuaCoder
+  </text>
+  
+  <!-- Subtitle with typing effect -->
+  <text x="600" y="200" 
+        font-family="'JetBrains Mono', monospace" 
+        font-size="24" 
+        fill="#c4a7e7"
+        text-anchor="middle"
+        opacity="0.9">
+    🌙 Code by night, create by passion
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="400" y1="230" x2="800" y2="230" 
+        stroke="url(#moonGradient)" 
+        stroke-width="2" 
+        opacity="0.5">
+    <animate attributeName="stroke-dasharray" values="0,400;400,0" dur="2s" fill="freeze"/>
+  </line>
+  
+  <!-- Tech Stack Icons (simplified) -->
+  <g transform="translate(600, 280)" opacity="0.8">
+    <!-- Hyprland -->
+    <g transform="translate(-120, 0)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" 
+            fill="#26233a" stroke="#9ccfd8" stroke-width="2"/>
+      <text x="0" y="8" font-size="18" fill="#9ccfd8" text-anchor="middle">H</text>
+      <text x="0" y="45" font-size="12" fill="#908caa" text-anchor="middle">Hyprland</text>
+    </g>
+    
+    <!-- Linux -->
+    <g transform="translate(-40, 0)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" 
+            fill="#26233a" stroke="#ebbcba" stroke-width="2"/>
+      <text x="0" y="8" font-size="18" fill="#ebbcba" text-anchor="middle">🐧</text>
+      <text x="0" y="45" font-size="12" fill="#908caa" text-anchor="middle">Linux</text>
+    </g>
+    
+    <!-- Code -->
+    <g transform="translate(40, 0)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" 
+            fill="#26233a" stroke="#f6c177" stroke-width="2"/>
+      <text x="0" y="8" font-size="18" fill="#f6c177" text-anchor="middle">&lt;/&gt;</text>
+      <text x="0" y="45" font-size="12" fill="#908caa" text-anchor="middle">Code</text>
+    </g>
+    
+    <!-- Design -->
+    <g transform="translate(120, 0)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" 
+            fill="#26233a" stroke="#eb6f92" stroke-width="2"/>
+      <text x="0" y="8" font-size="18" fill="#eb6f92" text-anchor="middle">🎨</text>
+      <text x="0" y="45" font-size="12" fill="#908caa" text-anchor="middle">Design</text>
+    </g>
+  </g>
+  
+  <!-- Decorative sparkles around the composition -->
+  <g opacity="0.6">
+    <path d="M 850,120 L 855,130 L 865,135 L 855,140 L 850,150 L 845,140 L 835,135 L 845,130 Z" 
+          fill="#c4a7e7">
+      <animateTransform attributeName="transform" type="rotate" 
+                        values="0 850 135;360 850 135" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 350,100 L 353,106 L 359,109 L 353,112 L 350,118 L 347,112 L 341,109 L 347,106 Z" 
+          fill="#9ccfd8">
+      <animateTransform attributeName="transform" type="rotate" 
+                        values="0 350 109;-360 350 109" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 950,320 L 953,326 L 959,329 L 953,332 L 950,338 L 947,332 L 941,329 L 947,326 Z" 
+          fill="#eb6f92">
+      <animateTransform attributeName="transform" type="rotate" 
+                        values="0 950 329;360 950 329" dur="12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Bottom accent wave -->
+  <path d="M 0,380 Q 300,360 600,380 T 1200,380 L 1200,400 L 0,400 Z" 
+        fill="#26233a" 
+        opacity="0.3"/>
+</svg>

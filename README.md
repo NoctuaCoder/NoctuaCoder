@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- Lunar Avatar Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=45&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&width=800&height=100&lines=🌙+NoctuaCoder;✨+Stellar+Dots+Creator;💎+Glassmorphism+Artist;🦉+Code+by+Night">
-  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=45&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&width=800&height=100&lines=🌙+NoctuaCoder;✨+Stellar+Dots+Creator;💎+Glassmorphism+Artist;🦉+Code+by+Night">
-</picture>
+<!-- Custom Animated Banner -->
+<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/banner.svg" width="100%" alt="NoctuaCoder Banner" />
 
 <br/>
 
