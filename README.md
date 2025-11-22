@@ -1,16 +1,5 @@
 <div align="center">
 
-<!-- Visual Mockup (Como ficará) -->
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  [Gradiente: Deep Navy #151E2E ──────────────→ Electric Blue #1E40FF]    │
-│                                                                            │
-│                         N O C T U A C O D E R                             │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
-
 <!-- Banner/Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=200&section=header&text=NoctuaCoder&fontSize=80&fontColor=e0def4&animation=twinkling&fontAlignY=35" />
 
