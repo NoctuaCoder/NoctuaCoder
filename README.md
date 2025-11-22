@@ -47,11 +47,8 @@ const noctuaCoder = {
 
 **Premium Hyprland Dotfiles with Glassmorphism**
 
-[![Stars](https://img.shields.io/github/stars/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=f6c177&labelColor=191724)](https://github.com/NoctuaCoder/stellar-dots/stargazers)
-[![Forks](https://img.shields.io/github/forks/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=9ccfd8&labelColor=191724)](https://github.com/NoctuaCoder/stellar-dots/network/members)
-[![Issues](https://img.shields.io/github/issues/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=eb6f92&labelColor=191724)](https://github.com/NoctuaCoder/stellar-dots/issues)
-
-🎨 **10 Glassmorphism Menus** • 🌈 **8 Beautiful Themes** • 🛡️ **Security First**
+🎨 **10 Glassmorphism Menus** • 🌈 **8 Beautiful Themes** • 🛡️ **Security First**  
+⚡ **30+ Utility Scripts** • 🎮 **Gaming Ready** • 🌍 **Multi-Distro Support**
 
 [View Project →](https://github.com/NoctuaCoder/stellar-dots)
 
