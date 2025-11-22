@@ -1,0 +1,142 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="moonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5A9BC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7BA8C0;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="owlBodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C5F8D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2f42;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Animations -->
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+      }
+      
+      @keyframes blink {
+        0%, 48%, 52%, 100% { opacity: 1; }
+        50% { opacity: 0.1; }
+      }
+      
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      
+      .owl-body {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+      
+      .eye-pupil {
+        animation: blink 5s ease-in-out infinite;
+      }
+      
+      .star {
+        animation: twinkle 3s ease-in-out infinite;
+      }
+      
+      .star-1 { animation-delay: 0s; }
+      .star-2 { animation-delay: 1s; }
+      .star-3 { animation-delay: 2s; }
+      .star-4 { animation-delay: 0.5s; }
+      .star-5 { animation-delay: 1.5s; }
+      
+      .aura {
+        animation: rotate 20s linear infinite;
+        transform-origin: center;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background Circle with Aura -->
+  <circle cx="100" cy="100" r="90" fill="#0a1929" opacity="0.3"/>
+  
+  <!-- Rotating Aura -->
+  <g class="aura" opacity="0.2">
+    <ellipse cx="100" cy="100" rx="85" ry="88" fill="none" stroke="#5A9BC4" stroke-width="2" stroke-dasharray="10 5"/>
+    <ellipse cx="100" cy="100" rx="88" ry="85" fill="none" stroke="#7BA8C0" stroke-width="1.5" stroke-dasharray="8 6"/>
+  </g>
+  
+  <!-- Stars -->
+  <g class="stars">
+    <path class="star star-1" d="M 140 50 L 142 45 L 144 50 L 149 52 L 144 54 L 142 59 L 140 54 L 135 52 Z" fill="#5A9BC4" filter="url(#softGlow)"/>
+    <path class="star star-2" d="M 40 120 L 42 115 L 44 120 L 49 122 L 44 124 L 42 129 L 40 124 L 35 122 Z" fill="#7BA8C0" filter="url(#softGlow)" transform="scale(0.8)"/>
+    <path class="star star-3" d="M 160 140 L 162 135 L 164 140 L 169 142 L 164 144 L 162 149 L 160 144 L 155 142 Z" fill="#5A9BC4" filter="url(#softGlow)" transform="scale(0.6)"/>
+    <path class="star star-4" d="M 50 60 L 52 55 L 54 60 L 59 62 L 54 64 L 52 69 L 50 64 L 45 62 Z" fill="#7BA8C0" filter="url(#softGlow)" transform="scale(0.7)"/>
+    <path class="star star-5" d="M 150 100 L 152 95 L 154 100 L 159 102 L 154 104 L 152 109 L 150 104 L 145 102 Z" fill="#A8D8EA" filter="url(#softGlow)" transform="scale(0.5)"/>
+  </g>
+  
+  <!-- Moon/Owl Body -->
+  <g class="owl-body">
+    <!-- Crescent Moon Background -->
+    <path d="M 100 30 A 70 70 0 1 0 100 170 A 50 50 0 1 1 100 30" fill="url(#moonGradient)" filter="url(#glow)"/>
+    
+    <!-- Owl Silhouette -->
+    <g fill="url(#owlBodyGradient)" opacity="0.9">
+      <!-- Ear Tufts -->
+      <path d="M 70 70 L 65 50 L 75 65 Z"/>
+      <path d="M 130 70 L 135 50 L 125 65 Z"/>
+      
+      <!-- Head -->
+      <ellipse cx="100" cy="90" rx="35" ry="38"/>
+      
+      <!-- Body -->
+      <ellipse cx="100" cy="130" rx="30" ry="35"/>
+      
+      <!-- Wings -->
+      <path d="M 70 110 Q 50 120 55 135 Q 60 130 70 130 Z"/>
+      <path d="M 130 110 Q 150 120 145 135 Q 140 130 130 130 Z"/>
+    </g>
+    
+    <!-- Eyes -->
+    <g>
+      <!-- Left Eye -->
+      <circle cx="88" cy="85" r="10" fill="#5A9BC4" filter="url(#softGlow)"/>
+      <circle class="eye-pupil" cx="88" cy="85" r="5" fill="#0a1929"/>
+      <circle cx="90" cy="83" r="2" fill="#A8D8EA" opacity="0.8"/>
+      
+      <!-- Right Eye -->
+      <circle cx="112" cy="85" r="10" fill="#5A9BC4" filter="url(#softGlow)"/>
+      <circle class="eye-pupil" cx="112" cy="85" r="5" fill="#0a1929"/>
+      <circle cx="114" cy="83" r="2" fill="#A8D8EA" opacity="0.8"/>
+    </g>
+    
+    <!-- Beak -->
+    <path d="M 100 95 L 95 100 L 100 102 L 105 100 Z" fill="#7BA8C0"/>
+  </g>
+  
+  <!-- Floating Particles -->
+  <g opacity="0.4">
+    <circle class="star star-1" cx="75" cy="45" r="1.5" fill="#5A9BC4"/>
+    <circle class="star star-2" cx="125" cy="155" r="1" fill="#7BA8C0"/>
+    <circle class="star star-3" cx="45" cy="95" r="1.2" fill="#A8D8EA"/>
+    <circle class="star star-4" cx="155" cy="75" r="0.8" fill="#7BA8C0"/>
+    <circle class="star star-5" cx="100" cy="180" r="1" fill="#5A9BC4"/>
+  </g>
+</svg>
