@@ -140,12 +140,12 @@ const noctuaCoder = {
 
 ---
 
-## 📊 GitHub Statistics
+## 💙 GitHub Statistics
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true&hide_border=true&bg_color=191724&title_color=9ccfd8&icon_color=31748f&text_color=e0def4"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&langs_count=8&theme=rose_pine&hide_border=true&bg_color=191724&title_color=9ccfd8&text_color=e0def4"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true&hide_border=true&bg_color=191724&title_color=31748f&icon_color=9ccfd8&text_color=e0def4"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&langs_count=8&theme=rose_pine&hide_border=true&bg_color=191724&title_color=31748f&text_color=e0def4"/>
 
 </div>
 
