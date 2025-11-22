@@ -1,247 +1,233 @@
 <div align="center">
 
-<!-- Banner/Header com animação mais suave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=200&section=header&text=NoctuaCoder&fontSize=80&fontColor=e0def4&animation=fadeIn&fontAlignY=35&desc=Code%20by%20night,%20create%20by%20passion&descAlignY=55&descSize=20" />
+<!-- Lunar Avatar Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=45&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&width=800&height=100&lines=🌙+NoctuaCoder;✨+Stellar+Dots+Creator;💎+Glassmorphism+Artist;🦉+Code+by+Night">
+  <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=45&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&width=800&height=100&lines=🌙+NoctuaCoder;✨+Stellar+Dots+Creator;💎+Glassmorphism+Artist;🦉+Code+by+Night">
+</picture>
 
 <br/>
 
-<!-- Typing Animation com mais variedade -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C4A7E7&center=true&vCenter=true&repeat=true&width=600&lines=Crafting+Cozy+Linux+Experiences+🌙;Glassmorphism+Enthusiast+✨;Open+Source+Creator+💜;Hyprland+Rice+Developer+🎨;Building+Stellar+Dots+🌟" alt="Typing SVG" /></a>
+<!-- Avatar with Lunar Theme -->
+<img src="https://github.com/NoctuaCoder.png" width="180" style="border-radius: 50%; border: 4px solid #9ccfd8; box-shadow: 0 0 30px rgba(156, 207, 216, 0.5);" />
 
 <br/><br/>
 
-<!-- Bio com mais destaque visual -->
+<!-- Poetic Bio -->
+```typescript
+const noctuaCoder = {
+    identity: {
+        name: "NoctuaCoder",
+        pronouns: "she/her",
+        essence: "🦉 Night owl • 🎨 Design witch • 💻 Code sorceress"
+    },
+    
+    location: {
+        country: "Brazil 🇧🇷",
+        timezone: "GMT-3",
+        vibes: "Lunar energy + tropical warmth"
+    },
+    
+    philosophy: {
+        motto: "Code by night, create by passion",
+        belief: "Beauty and functionality are not opposites",
+        approach: "Every pixel tells a story"
+    },
+    
+    craft: {
+        magnum_opus: "Stellar Dots",
+        specialties: [
+            "Glassmorphism Design 💎",
+            "Hyprland Customization 🌊",
+            "UI/UX that feels alive ✨",
+            "Linux Rice Artistry 🎨"
+        ],
+        tools: ["Shell", "Python", "CSS", "JavaScript"],
+        learning: ["Rust 🦀", "Nix ❄️", "WebAssembly 🌐"]
+    },
+    
+    creations: {
+        menus: 10,
+        themes: 8,
+        scripts: 30,
+        stars_given: "∞",
+        coffee_consumed: "too_much"
+    },
+    
+    when_awake: () => {
+        if (time.isNight()) {
+            return "Building beautiful interfaces 🌙";
+        } else {
+            return "Probably sleeping or dreaming of code 💤";
+        }
+    }
+};
+```
+
+<br/>
+
+---
+
+### 🌟 **My Digital Constellation**
+
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
-### 💜 Featured Project
-**[Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)**  
-*Premium Hyprland Dotfiles*
+#### 💎 **Stellar Dots**
+*The Magnum Opus*
+
+10 glassmorphism menus  
+8 beautiful themes  
+30+ utility scripts  
+
+[![Stars](https://img.shields.io/github/stars/NoctuaCoder/stellar-dots?style=for-the-badge&logo=github&color=c4a7e7&labelColor=191724)](https://github.com/NoctuaCoder/stellar-dots)
+
+[✨ Explore →](https://github.com/NoctuaCoder/stellar-dots)
 
 </td>
-<td align="center" width="50%">
+<td align="center" width="33%">
 
-### ✨ Quick Stats
-🎨 **10** Menu Styles  
-🌈 **8** Premium Themes  
-⚡ **30+** Utility Scripts
+#### 🎨 **Design Philosophy**
+*Where Art Meets Code*
+
+Glassmorphism effects  
+Smooth animations  
+Cozy aesthetics  
+
+[![Rose Pine](https://img.shields.io/badge/Rose_Pine-Theme-eb6f92?style=for-the-badge&labelColor=191724)](https://rosepinetheme.com/)
+
+*Every interface should spark joy*
+
+</td>
+<td align="center" width="33%">
+
+#### 🦉 **Night Coding**
+*Nocturnal Creativity*
+
+Peak hours: 22:00-04:00  
+Moon-powered commits  
+Coffee-fueled features  
+
+[![Commits](https://img.shields.io/badge/Best_Commits-After_Midnight-9ccfd8?style=for-the-badge&labelColor=191724)](https://github.com/NoctuaCoder)
+
+*Ideas flow better under stars*
 
 </td>
 </tr>
 </table>
 
-<br/>
-
-<!-- Social Badges com mais opções -->
-[![GitHub followers](https://img.shields.io/github/followers/NoctuaCoder?style=for-the-badge&logo=github&color=c4a7e7&labelColor=191724)](https://github.com/NoctuaCoder)
-[![GitHub stars](https://img.shields.io/github/stars/NoctuaCoder?style=for-the-badge&logo=github&color=eb6f92&labelColor=191724)](https://github.com/NoctuaCoder?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=NoctuaCoder&style=for-the-badge&color=c4a7e7&labelColor=191724)](https://github.com/NoctuaCoder)
-
-</div>
-
 ---
 
-## 🚀 About Me
+### 🎯 **What I'm Conjuring**
 
-```typescript
-const noctuaCoder = {
-    pronouns: "she/her",
-    location: "Brazil 🇧🇷",
-    timezone: "GMT-3",
-    
-    languages: {
-        scripting: ["Shell", "Python", "JavaScript"],
-        markup: ["CSS", "HTML", "Markdown"],
-        learning: ["Rust", "TypeScript", "Nix"]
-    },
-    
-    expertise: [
-        "Hyprland customization",
-        "Linux system configuration", 
-        "Glassmorphism design",
-        "UI/UX development"
-    ],
-    
-    currentFocus: "Building the most beautiful Hyprland rice 🌟",
-    motto: "Code by night, create by passion 🌙",
-    
-    links: {
-        project: "https://github.com/NoctuaCoder/stellar-dots",
-        contact: "38922657+NoctuaCoder@users.noreply.github.com"
-    }
-};
-```
-
----
-
-## 💎 Featured Project
-
-<div align="center">
-
-### ✨ [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)
-
-**Premium Hyprland Dotfiles with Glassmorphism**
-
-🎨 **10 Glassmorphism Menus** • 🌈 **8 Beautiful Themes** • 🛡️ **Security First**  
-⚡ **30+ Utility Scripts** • 🎮 **Gaming Ready** • 🌍 **Multi-Distro Support**
-
-[View Project →](https://github.com/NoctuaCoder/stellar-dots)
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Languages & Scripting
-
-![Shell](https://img.shields.io/badge/Shell-191724?style=for-the-badge&logo=gnu-bash&logoColor=9ccfd8)
-![Python](https://img.shields.io/badge/Python-191724?style=for-the-badge&logo=python&logoColor=f6c177)
-![JavaScript](https://img.shields.io/badge/JavaScript-191724?style=for-the-badge&logo=javascript&logoColor=eb6f92)
-![TypeScript](https://img.shields.io/badge/TypeScript-191724?style=for-the-badge&logo=typescript&logoColor=9ccfd8)
-![CSS3](https://img.shields.io/badge/CSS3-191724?style=for-the-badge&logo=css3&logoColor=c4a7e7)
-![HTML5](https://img.shields.io/badge/HTML5-191724?style=for-the-badge&logo=html5&logoColor=eb6f92)
-![Markdown](https://img.shields.io/badge/Markdown-191724?style=for-the-badge&logo=markdown&logoColor=e0def4)
-
-### Linux & System
-
-![Linux](https://img.shields.io/badge/Linux-191724?style=for-the-badge&logo=linux&logoColor=ebbcba)
-![Arch](https://img.shields.io/badge/Arch_Linux-191724?style=for-the-badge&logo=arch-linux&logoColor=9ccfd8)
-![Debian](https://img.shields.io/badge/Debian-191724?style=for-the-badge&logo=debian&logoColor=eb6f92)
-![Fedora](https://img.shields.io/badge/Fedora-191724?style=for-the-badge&logo=fedora&logoColor=c4a7e7)
-![Hyprland](https://img.shields.io/badge/Hyprland-191724?style=for-the-badge&logo=wayland&logoColor=c4a7e7)
-![Wayland](https://img.shields.io/badge/Wayland-191724?style=for-the-badge&logo=wayland&logoColor=f6c177)
-
-### Development Tools
-
-![Git](https://img.shields.io/badge/Git-191724?style=for-the-badge&logo=git&logoColor=eb6f92)
-![GitHub](https://img.shields.io/badge/GitHub-191724?style=for-the-badge&logo=github&logoColor=e0def4)
-![VS Code](https://img.shields.io/badge/VS_Code-191724?style=for-the-badge&logo=visual-studio-code&logoColor=9ccfd8)
-![Neovim](https://img.shields.io/badge/Neovim-191724?style=for-the-badge&logo=neovim&logoColor=9ccfd8)
-![Vim](https://img.shields.io/badge/Vim-191724?style=for-the-badge&logo=vim&logoColor=9ccfd8)
-
-### Design & UI/UX
-
-![Figma](https://img.shields.io/badge/Figma-191724?style=for-the-badge&logo=figma&logoColor=f6c177)
-![Inkscape](https://img.shields.io/badge/Inkscape-191724?style=for-the-badge&logo=inkscape&logoColor=9ccfd8)
-![GIMP](https://img.shields.io/badge/GIMP-191724?style=for-the-badge&logo=gimp&logoColor=ebbcba)
-![Blender](https://img.shields.io/badge/Blender-191724?style=for-the-badge&logo=blender&logoColor=eb6f92)
-
-### Terminal & CLI
-
-![Kitty](https://img.shields.io/badge/Kitty-191724?style=for-the-badge&logo=kitty&logoColor=c4a7e7)
-![Tmux](https://img.shields.io/badge/Tmux-191724?style=for-the-badge&logo=tmux&logoColor=9ccfd8)
-![Zsh](https://img.shields.io/badge/Zsh-191724?style=for-the-badge&logo=gnu-bash&logoColor=f6c177)
-
-### Package Managers
-
-![npm](https://img.shields.io/badge/npm-191724?style=for-the-badge&logo=npm&logoColor=eb6f92)
-![pip](https://img.shields.io/badge/pip-191724?style=for-the-badge&logo=pypi&logoColor=f6c177)
-![Flatpak](https://img.shields.io/badge/Flatpak-191724?style=for-the-badge&logo=flatpak&logoColor=9ccfd8)
-
-### Currently Learning
-
-![Rust](https://img.shields.io/badge/Rust-191724?style=for-the-badge&logo=rust&logoColor=eb6f92)
-![Nix](https://img.shields.io/badge/Nix-191724?style=for-the-badge&logo=nixos&logoColor=9ccfd8)
-![Go](https://img.shields.io/badge/Go-191724?style=for-the-badge&logo=go&logoColor=9ccfd8)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=rose_pine&include_all_commits=true&count_private=true&hide_border=true&bg_color=191724&title_color=c4a7e7&icon_color=eb6f92&text_color=e0def4"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&langs_count=8&theme=rose_pine&hide_border=true&bg_color=191724&title_color=c4a7e7&text_color=e0def4"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=NoctuaCoder&theme=rose-pine&hide_border=true&background=191724&ring=c4a7e7&fire=eb6f92&currStreakLabel=e0def4&sideLabels=e0def4&currStreakNum=c4a7e7&sideNums=9ccfd8&dates=908caa)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🎯 Current Focus
+<div align="left">
 
 ```diff
-+ 🌟 Stellar Dots v2.0 - Adding more glassmorphism styles
-+ 🎨 Creating theme variations for all 8 color schemes
-+ 📚 Writing comprehensive documentation
-+ 🤝 Building an active community around Stellar Dots
+✨ Stellar Dots Evolution
++ 🌈 4 new theme variations (Tokyo Night, Dracula, Gruvbox, Everforest)
++ 🎨 Community theme submission system
++ 📱 Mobile-responsive showcase website
++ 🎥 Video tutorial series on YouTube
++ 🌐 Multi-language documentation (ES, FR)
+
+💎 Glassmorphism Research
++ 🔬 Advanced blur techniques for Wayland
++ 🎭 Dynamic glass effects based on content
++ 🌊 Fluid animation system for transitions
++ ⚡ Performance optimization for older hardware
+
+🦀 Learning Journey
++ 🦀 Rust: Building a theme engine from scratch
++ ❄️ Nix: Declarative dotfiles management
++ 🌐 WASM: Cross-platform desktop customization tools
 ```
 
----
-
-## 🌱 Learning & Exploring
-
-- 🦀 **Rust** - For system-level tools
-- ❄️ **Nix** - Declarative system configuration
-- 🎨 **Advanced CSS** - Animations and glassmorphism
-- 🔧 **Wayland Protocols** - Deep dive into compositor development
-
----
-
-## 💬 Let's Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-NoctuaCoder-191724?style=for-the-badge&logo=github&logoColor=e0def4)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Email-Contact-191724?style=for-the-badge&logo=gmail&logoColor=eb6f92)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
-
-**Open for collaborations on:**  
-Linux customization • Dotfiles • UI/UX design • Open source projects
-
 </div>
 
 ---
 
-## 🏆 Achievements
+### 🌙 **After-Hours Creations**
 
-<div align="center">
+> *"The best code is written when the world is asleep and the stars are watching"*
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=rose_pine&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)
+<details>
+<summary><b>🦉 My Nocturnal Workflow</b></summary>
 
-</div>
+<br/>
+
+**🌆 Evening (20:00-22:00)**
+- Review issues and PRs
+- Plan features for the night
+- Brew the first coffee ☕
+
+**🌙 Peak Hours (22:00-02:00)**
+- Deep focus coding sessions
+- UI/UX experiments
+- Glassmorphism refinements
+- New theme variations
+
+**🌃 Late Night (02:00-04:00)**
+- Documentation updates
+- Testing on different configs
+- Community engagement
+- Creative experiments
+
+**☀️ Morning (04:00-06:00)**
+- Final commits and pushes
+- Check build status
+- Plan next night's work
+- Sleep with dreams of perfect gradients
+
+</details>
 
 ---
 
-## 📈 Contribution Graph
+### 💌 **Let's Create Together**
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&theme=rose-pine&hide_border=true&bg_color=191724&color=c4a7e7&line=eb6f92&point=9ccfd8)](https://github.com/NoctuaCoder)
+I believe the most beautiful interfaces are built in collaboration 🤝
 
-</div>
+**Looking for:**
+- 🎨 Design feedback and ideas
+- 🐛 Bug reports and testing
+- 💡 Feature suggestions
+- 🌍 Translation help
+- 📸 Screenshots of your setups
+- ⭐ Stars to keep the motivation alive!
 
----
-
-## 💜 Support My Work
-
-<div align="center">
-
-If you like my projects, consider giving them a ⭐!
+<br/>
 
 [![Stellar Dots](https://img.shields.io/badge/⭐_Star-Stellar_Dots-c4a7e7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NoctuaCoder/stellar-dots)
+[![Discussions](https://img.shields.io/badge/💬_Join-Discussions-9ccfd8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NoctuaCoder/stellar-dots/discussions)
+[![Email](https://img.shields.io/badge/✉️_Email-Contact-eb6f92?style=for-the-badge&logo=gmail&logoColor=white)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
-**Every star motivates me to create more!** ✨
-
-</div>
+<br/><br/>
 
 ---
 
-<div align="center">
+<sub>
+🌙 **Fun Facts**: I code better with lo-fi music playing • My ideal commit message: "✨ feat: add more sparkles" • I have 47 wallpaper folders organized by mood • The perfect blur radius is always between 25-35px • Glassmorphism is not just a trend, it's a lifestyle
+</sub>
 
-### 🦉 "Code by night, create by passion"
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=100&section=footer" />
+```ascii
+        ✦       
+    ✦       ✦   
+       🌙        
+    ✦       ✦   
+        ✦       
+
+  "Creating magic,
+   one pixel at a time"
+   
+      - NoctuaCoder
+```
+
+<br/>
+
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=100&section=footer)
 
 </div>
