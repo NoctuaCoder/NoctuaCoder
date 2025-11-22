@@ -22,6 +22,8 @@
 
 ### 👤 Developer Profile
 
+<div style="background: linear-gradient(135deg, #1E1B29 0%, #2D1B4E 100%); border-radius: 12px; padding: 20px; border: 1px solid #C084FC;">
+
 ```json
 {
   "name": "NoctuaCoder",
@@ -40,6 +42,8 @@
   "level": "Senior"
 }
 ```
+
+</div>
 
 <br/>
 
