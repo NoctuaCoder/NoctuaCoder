@@ -309,11 +309,10 @@ Check individual repositories for specific licenses
 ### 🦉 "Code by night, create by passion"
 
 ```ascii
-   /\_/\  
-  ( o.o ) 
-   > ^ <   NoctuaCoder
-  /|   |\  Building dreams in terminal
- (_|   |_) One commit at a time
+     /\_/\
+    ((@v@))   NoctuaCoder
+    ():::()   Building dreams in terminal
+     VV-VV    One commit at a time
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16&height=100&section=footer" />
