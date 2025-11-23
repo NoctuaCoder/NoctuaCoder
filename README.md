@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Gradient Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=300&section=header&text=NoctuaCoder&fontSize=80&fontColor=FDF0D5&fontAlignY=38&desc=Crafting%20Beautiful%20Digital%20Experiences&descSize=22&descAlignY=58&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B5299,100:8ECAE6&height=300&section=header&text=NoctuaCoder&fontSize=80&fontColor=FDF0D5&fontAlignY=38&desc=Crafting%20Beautiful%20Digital%20Experiences&descSize=22&descAlignY=58&animation=twinkling" width="100%" />
 
 <br/>
 
@@ -86,7 +86,7 @@ const noctuaCoder: Developer = {
 ## 🌟 Featured Project
 
 <a href="https://github.com/NoctuaCoder/stellar-dots">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,12,20&height=200&text=STELLAR%20DOTS&fontSize=60&fontColor=FDF0D5&desc=Premium%20Glassmorphism%20Collection%20for%20Hyprland&descSize=20&descAlignY=75&fontAlignY=40" width="100%" style="border-radius: 15px;" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1B5299,100:8ECAE6&height=200&text=STELLAR%20DOTS&fontSize=60&fontColor=FDF0D5&desc=Premium%20Glassmorphism%20Collection%20for%20Hyprland&descSize=20&descAlignY=75&fontAlignY=40" width="100%" style="border-radius: 15px;" />
 </a>
 
 <br/><br/>
@@ -227,7 +227,7 @@ const noctuaCoder: Developer = {
 <!-- Animated Footer -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=150&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8ECAE6,100:1B5299&height=150&section=footer" width="100%" />
 
 <br/>
 
