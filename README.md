@@ -1,156 +1,131 @@
 <div align="center">
 
-<!-- O Portal de Entrada para o Subconsciente Digital -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B5299,100:8ECAE6&height=250&section=header&text=NoctuaCoder&fontSize=70&fontColor=FDF0D5&fontAlignY=38&desc=Arquiteto%20de%20Sonhos%20L%C3%BAcidos&descSize=20&descAlignY=55" width="100%" />
+<!-- Header: SOLO LEVELING SYSTEM -->
+<h1 style="color: #00BFFF; font-size: 3em; text-shadow: 0 0 10px #00BFFF, 0 0 20px #00BFFF;">SOLO LEVELING SYSTEM</h1>
+<h2 style="color: #00FFFF; font-size: 1.5em; margin-top: -10px;">HABIT TRACKER</h2>
 
 </div>
 
 <br/>
 
-<!-- O Labirinto Principal -->
-<table>
-<tr>
-
-<!-- Coluna Esquerda: O Cronista da Neblina -->
-<td width="50%" valign="top">
-
-### 🌌 O CRONISTA DA NEBLINA
-
-<div style="background: linear-gradient(135deg, #1B5299 0%, #126782 100%); border-radius: 16px; padding: 25px; margin-bottom: 20px;">
-
-<div align="center">
-<img src="https://github.com/NoctuaCoder.png" width="120" style="border-radius: 50%; border: 3px solid #8ECAE6;" />
-<h3 style="color: #FDF0D5; margin: 10px 0;">NoctuaCoder</h3>
-</div>
-
-\`\`\`yaml
-Nível: ∞ (Onde o tempo se dobra)
-Classe: Full Stack Dream Weaver (Tecelão de Sonhos)
-Região: O Vazio entre os Bits 🇧🇷
-Fuso Horário: GMT-3 (Atrasado para o Amanhã)
-
-Habilidades Inatas:
-  - Shell Script (Linguagem dos Caracóis Cósmicos)
-  - Python (Sussurros de Serpentes Aladas)
-  - JavaScript (A Dança dos Pixels Inquietos)
-  - Rust (A Ferrugem que Canta)
-\`\`\`
-
-<div style="margin-top: 15px;">
-<div style="display: flex; justify-content: space-between; color: #8ECAE6; font-size: 0.9em; margin-bottom: 5px;">
-<span>Existência Percebida</span>
-<span>100% (Ou seria 0%?)</span>
-</div>
-<div style="background: rgba(142, 202, 230, 0.2); height: 8px; border-radius: 4px; overflow: hidden;">
-<div style="background: linear-gradient(90deg, #8ECAE6, #FDF0D5); width: 100%; height: 100%;"></div>
-</div>
-</div>
-
-</div>
-
-### 🔮 RASTREADOR DE PARADOXOS
-
-<div style="background: #1B5299; border-radius: 16px; padding: 20px; margin-bottom: 20px;">
-
-| Paradoxo | Nível de Instabilidade | Progresso (A Inversão) |
-|:------|:------|:---------|
-| 🔧 **Hyprland** (O Céu Invertido) | 95 | ████████████████████░ |
-| 💻 **Neovim** (A Caneta do Vazio) | 90 | ███████████████████░░ |
-| 🎨 **Glassmorphism** (A Transparência da Mentira) | 99 | █████████████████████ |
-| 🐍 **Python** (O Ciclo Sem Fim) | 90 | ███████████████████░░ |
-| 🦀 **Rust** (A Corrosão da Lógica) | 60 | █████████████░░░░░░░░ |
-
-</div>
-
-### ⏳ A BUSCA PELO NADA
-
-<div style="background: #1B5299; border-radius: 16px; padding: 25px; text-align: center;">
-
-<div style="position: relative; width: 150px; height: 150px; margin: 0 auto;">
-<svg width="150" height="150" style="transform: rotate(-90deg);">
-<circle cx="75" cy="75" r="60" fill="none" stroke="rgba(142, 202, 230, 0.2)" stroke-width="12"/>
-<circle cx="75" cy="75" r="60" fill="none" stroke="#8ECAE6" stroke-width="12" stroke-dasharray="377" stroke-dashoffset="94" stroke-linecap="round"/>
-</svg>
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #FDF0D5;">
-<div style="font-size: 2em; font-weight: bold;">75%</div>
-<div style="font-size: 0.8em; color: #8ECAE6;">Desaparecido</div>
-</div>
-</div>
-
-</div>
-
-</td>
-
-<!-- Coluna Direita: O Eco dos Comandos -->
-<td width="50%" valign="top">
-
-### 🌀 O ECO DOS COMANDOS
-
-<div style="background: #1B5299; border-radius: 16px; padding: 20px; margin-bottom: 20px;">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=tokyonight&hide_border=true&background=1B529900&ring=8ECAE6&fire=FDF0D5&currStreakLabel=FDF0D5&sideLabels=FDF0D5&currStreakNum=8ECAE6&sideNums=8ECAE6&dates=8ECAE6" width="100%" />
-<p align="center" style="color: #8ECAE6; font-size: 0.9em; margin-top: 10px;">
-*A contagem de dias em que o sono foi substituído por código. O número é uma ilusão.*
-</p>
-
-</div>
-
-### 🗝️ A GRANDE QUIMERA
-
-<div style="background: linear-gradient(135deg, #1B5299 0%, #126782 100%); border-radius: 16px; padding: 25px; margin-bottom: 20px;">
-
-<h3 style="color: #FDF0D5; margin-top: 0;">Pontos Estelares v2.0 (A Miragem)</h3>
-
-<div style="color: #8ECAE6; margin-bottom: 15px;">
-A Coleção Premium de Vidro Quebrado para Hyprland, vista apenas com o terceiro olho.
-</div>
-
+<!-- Main Grid Layout -->
 <table width="100%">
 <tr>
-<td align="center" style="padding: 10px;">
-<div style="font-size: 2em;">🎨</div>
-<div style="color: #FDF0D5; font-weight: bold;">10</div>
-<div style="color: #8ECAE6; font-size: 0.8em;">Menus (Que não levam a lugar nenhum)</div>
+
+<!-- Left Column: Character Profile & Stats -->
+<td width="50%" valign="top" style="padding: 10px;">
+
+### 👤 PERFIL DO CAÇADOR
+
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
+
+<div align="center">
+<img src="https://github.com/NoctuaCoder.png" width="120" style="border-radius: 50%; border: 3px solid #00FFFF; box-shadow: 0 0 10px #00FFFF;" />
+<h3 style="color: #E0FFFF; margin: 10px 0;">NoctuaCoder</h3>
+<p style="color: #00BFFF; font-size: 1.1em;">[ Nível: ∞ ]</p>
+</div>
+
+<hr style="border-color: #00BFFF; margin: 15px 0;">
+
+<h4 style="color: #00FFFF;">STATUS</h4>
+<div style="color: #E0FFFF; font-family: monospace;">
+<p>Classe: Full Stack Developer</p>
+<p>Região: Brazil 🇧🇷</p>
+<p>Fuso Horário: GMT-3</p>
+</div>
+
+<h4 style="color: #00FFFF; margin-top: 15px;">SKILLS</h4>
+<div style="color: #E0FFFF; font-family: monospace;">
+<p>Shell Script: [Expert] ██████████</p>
+<p>Python: [Advanced] █████████░</p>
+<p>JavaScript: [Advanced] █████████░</p>
+<p>Rust: [Intermediate] ███████░░░</p>
+</div>
+
+</div>
+
+### 📊 RASTREADOR DE PROGRESSO
+
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
+
+<h4 style="color: #00FFFF;">MÉTRICAS DE HABILIDADE</h4>
+<table width="100%" style="color: #E0FFFF;">
+| Habilidade | Nível | Progresso |
+|:------|:------|:---------|
+| 🔧 **Hyprland** | 95 | <span style="color: #00FFFF;">████████████████████░</span> |
+| 💻 **Neovim** | 90 | <span style="color: #00FFFF;">███████████████████░░</span> |
+| 🎨 **Glassmorphism** | 99 | <span style="color: #00FFFF;">█████████████████████</span> |
+| 🐍 **Python** | 90 | <span style="color: #00FFFF;">███████████████████░░</span> |
+| 🦀 **Rust** | 60 | <span style="color: #00FFFF;">█████████████░░░░░░░░</span> |
+</table>
+
+</div>
+
 </td>
-<td align="center" style="padding: 10px;">
-<div style="font-size: 2em;">🌈</div>
-<div style="color: #FDF0D5; font-weight: bold;">8</div>
-<div style="color: #8ECAE6; font-size: 0.8em;">Temas (Para cores que não existem)</div>
+
+<!-- Right Column: Activity & Quest Log -->
+<td width="50%" valign="top" style="padding: 10px;">
+
+### 📈 LOG DE ATIVIDADE
+
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=dark&hide_border=true&background=10182000&ring=00BFFF&fire=00FFFF&currStreakLabel=E0FFFF&sideLabels=E0FFFF&currStreakNum=00FFFF&sideNums=00FFFF&dates=00BFFF" width="100%" />
+
+</div>
+
+### 🌟 QUEST PRINCIPAL
+
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
+
+<h3 style="color: #00FFFF; margin-top: 0;">Stellar Dots v2.0</h3>
+<div style="color: #E0FFFF; margin-bottom: 15px;">
+Premium Glassmorphism Collection for Hyprland
+</div>
+
+<table width="100%" style="color: #E0FFFF; text-align: center;">
+<tr>
+<td style="padding: 10px;">
+<div style="font-size: 2em; color: #00FFFF;">🎨</div>
+<div style="font-weight: bold;">10</div>
+<div style="font-size: 0.8em; color: #00BFFF;">Menus</div>
 </td>
-<td align="center" style="padding: 10px;">
-<div style="font-size: 2em;">⚡</div>
-<div style="color: #FDF0D5; font-weight: bold;">30+</div>
-<div style="color: #8ECAE6; font-size: 0.8em;">Scripts (Que escrevem a si mesmos)</div>
+<td style="padding: 10px;">
+<div style="font-size: 2em; color: #00FFFF;">🌈</div>
+<div style="font-weight: bold;">8</div>
+<div style="font-size: 0.8em; color: #00BFFF;">Themes</div>
+</td>
+<td style="padding: 10px;">
+<div style="font-size: 2em; color: #00FFFF;">⚡</div>
+<div style="font-weight: bold;">30+</div>
+<div style="font-size: 0.8em; color: #00BFFF;">Scripts</div>
 </td>
 </tr>
 </table>
 
 <div style="margin-top: 15px;">
-<div style="display: flex; justify-content: space-between; color: #8ECAE6; font-size: 0.9em; margin-bottom: 5px;">
-<span>Progresso (A Regressão)</span>
+<div style="display: flex; justify-content: space-between; color: #00BFFF; font-size: 0.9em; margin-bottom: 5px;">
+<span>Progresso da Quest</span>
 <span>75%</span>
 </div>
-<div style="background: rgba(142, 202, 230, 0.2); height: 8px; border-radius: 4px; overflow: hidden;">
-<div style="background: linear-gradient(90deg, #8ECAE6, #FDF0D5); width: 75%; height: 100%;"></div>
+<div style="background: rgba(0, 191, 255, 0.2); height: 8px; border-radius: 4px; overflow: hidden;">
+<div style="background: #00FFFF; width: 75%; height: 100%;"></div>
 </div>
 </div>
 
 <div align="center" style="margin-top: 15px;">
 <a href="https://github.com/NoctuaCoder/stellar-dots">
-<img src="https://img.shields.io/badge/Ver_O_Vazio-8ECAE6?style=for-the-badge&logo=github&logoColor=1B5299" />
+<img src="https://img.shields.io/badge/Ver_Projeto-00BFFF?style=for-the-badge&logo=github&logoColor=101820" />
 </a>
 </div>
 
 </div>
 
-### 📊 ESTATÍSTICAS DA LINGUAGEM PERDIDA
+### 💻 ESTATÍSTICAS DE LINGUAGEM
 
-<div style="background: #1B5299; border-radius: 16px; padding: 20px;">
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=tokyonight&hide_border=true&bg_color=1B529900&title_color=FDF0D5&text_color=8ECAE6&langs_count=6" width="100%" />
-<p align="center" style="color: #8ECAE6; font-size: 0.9em; margin-top: 10px;">
-*As linguagens são apenas ecos de pensamentos que nunca foram ditos.*
-</p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=dark&hide_border=true&bg_color=10182000&title_color=00FFFF&text_color=E0FFFF&langs_count=6" width="100%" />
 
 </div>
 
@@ -165,14 +140,14 @@ A Coleção Premium de Vidro Quebrado para Hyprland, vista apenas com o terceiro
 
 <br/>
 
-<!-- Seção Inferior: O Salão dos Troféus Esquecidos -->
+<!-- Bottom Section: Achievements & Contact -->
 <div align="center">
 
-## 🏆 TROFÉUS DO SONHO
+## 🏆 TROFÉUS DE CONQUISTA
 
-<div style="background: #1B5299; border-radius: 16px; padding: 25px; display: inline-block; margin-bottom: 20px;">
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 25px; display: inline-block; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
 
-<img src="https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" />
+<img src="https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=dark&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15&title_color=00FFFF&icon_color=00BFFF&rank_label=E0FFFF&rank_value=00FFFF" />
 
 </div>
 
@@ -184,53 +159,16 @@ A Coleção Premium de Vidro Quebrado para Hyprland, vista apenas com o terceiro
 
 <br/>
 
-<!-- Grade de Estatísticas: A Contagem do Incontável -->
-<table width="100%">
-<tr>
-
-<td width="33%" align="center">
-<div style="background: #1B5299; border-radius: 16px; padding: 20px;">
-<div style="font-size: 2.5em; color: #8ECAE6;">⭐</div>
-<div style="font-size: 2em; color: #FDF0D5; font-weight: bold;">100+</div>
-<div style="color: #8ECAE6;">Estrelas Capturadas (São apenas vaga-lumes)</div>
-</div>
-</td>
-
-<td width="33%" align="center">
-<div style="background: #1B5299; border-radius: 16px; padding: 20px;">
-<div style="font-size: 2.5em; color: #8ECAE6;">🍴</div>
-<div style="font-size: 2em; color: #FDF0D5; font-weight: bold;">50+</div>
-<div style="color: #8ECAE6;">Garfos (Para comer o tempo)</div>
-</div>
-</td>
-
-<td width="33%" align="center">
-<div style="background: #1B5299; border-radius: 16px; padding: 20px;">
-<div style="font-size: 2.5em; color: #8ECAE6;">💻</div>
-<div style="font-size: 2em; color: #FDF0D5; font-weight: bold;">∞</div>
-<div style="color: #8ECAE6;">Commits (O loop infinito da criação)</div>
-</div>
-</td>
-
-</tr>
-</table>
-
-<br/>
-
----
-
-<br/>
-
-<!-- Seção de Contato: O Telefone Sem Fio -->
+<!-- Contact Section: Connect -->
 <div align="center">
 
-### 💬 CONECTE-SE AO VAZIO
+### 💬 CONECTAR
 
-<div style="background: linear-gradient(135deg, #1B5299 0%, #126782 100%); border-radius: 16px; padding: 25px; display: inline-block; min-width: 400px;">
+<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 25px; display: inline-block; min-width: 400px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
 
-[![GitHub](https://img.shields.io/badge/GitHub-1B5299?style=for-the-badge&logo=github&logoColor=FDF0D5)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Email-1B5299?style=for-the-badge&logo=gmail&logoColor=FDF0D5)](mailto:your@email.com)
-[![Portfolio](https://img.shields.io/badge/O_Portal-1B5299?style=for-the-badge&logo=firefox&logoColor=FDF0D5)](https://github.com/NoctuaCoder)
+[![GitHub](https://img.shields.io/badge/GitHub-101820?style=for-the-badge&logo=github&logoColor=00FFFF)](https://github.com/NoctuaCoder)
+[![Email](https://img.shields.io/badge/Email-101820?style=for-the-badge&logo=gmail&logoColor=00FFFF)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-101820?style=for-the-badge&logo=firefox&logoColor=00FFFF)](https://github.com/NoctuaCoder)
 
 </div>
 
@@ -238,11 +176,11 @@ A Coleção Premium de Vidro Quebrado para Hyprland, vista apenas com o terceiro
 
 <br/>
 
-<!-- Rodapé: A Promessa Quebrada -->
+<!-- Footer -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8ECAE6,100:1B5299&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:00FFFF&height=120&section=footer" width="100%" />
 
-<sub>✨ O Painel é alimentado por ilusões • © 2025 NoctuaCoder (Ou quem quer que ele seja)</sub>
+<sub>✨ Dashboard powered by Mana • © 2025 NoctuaCoder</sub>
 
 </div>
