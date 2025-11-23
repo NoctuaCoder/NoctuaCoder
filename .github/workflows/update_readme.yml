@@ -1,0 +1,32 @@
+name: Auto Update README
+
+on:
+  schedule:
+    # Roda todos os dias à meia-noite (00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Necessário para que o git-auto-commit-action funcione corretamente
+          fetch-depth: 0
+
+      - name: Forçar atualização do README.md
+        # Esta etapa simplesmente 'toca' o arquivo README.md, alterando seu timestamp.
+        # Isso força o GitHub a re-renderizar o arquivo, o que por sua vez,
+        # força o recarregamento das imagens de estatísticas externas (que são cacheadas).
+        run: |
+          echo "Forçando a atualização do README.md para recarregar estatísticas externas."
+          touch README.md
+
+      - name: Commitar e Enviar Alterações
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): Atualização diária forçada para recarregar estatísticas"
+          # O token GITHUB_TOKEN padrão tem permissão para commitar e enviar para o repositório
+          # O nome de usuário e email serão definidos automaticamente pela action
