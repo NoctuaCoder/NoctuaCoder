@@ -7,6 +7,17 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00BFFF,100:00FFFF&height=3&section=header" width="200"/>
 </div>
 
+<!-- Matrix Owl Interactive Preview -->
+<a href="https://noctuacoder.github.io/NoctuaCoder/matrix-owl.html">
+  <img src="assets/matrix-owl-preview.png" alt="Matrix Owl - Interactive Terminal" width="100%" style="border-radius: 10px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.4);"/>
+</a>
+
+<p style="margin-top: 10px; color: #00BFFF; font-size: 0.9em;">
+  ✨ <strong>Click to experience the interactive Matrix Owl terminal</strong> ✨
+</p>
+
+<br/>
+
 </div>
 
 <!-- Main Bento Grid -->

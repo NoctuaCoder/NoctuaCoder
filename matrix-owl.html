@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoctuaCoder - Matrix Owl</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            overflow: hidden;
+            font-family: 'Courier New', monospace;
+        }
+
+        canvas {
+            display: block;
+            background: #000;
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+        }
+
+        .terminal {
+            background: rgba(0, 0, 0, 0.85);
+            border: 2px solid #00BFFF;
+            border-radius: 10px;
+            padding: 30px 40px;
+            box-shadow: 0 0 30px rgba(0, 191, 255, 0.5),
+                inset 0 0 20px rgba(0, 191, 255, 0.1);
+            max-width: 700px;
+            animation: terminalBoot 0.5s ease-out;
+        }
+
+        @keyframes terminalBoot {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .terminal-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #00BFFF;
+        }
+
+        .terminal-buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .terminal-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .terminal-button.close {
+            background: #ff5f56;
+        }
+
+        .terminal-button.minimize {
+            background: #ffbd2e;
+        }
+
+        .terminal-button.maximize {
+            background: #00FFFF;
+        }
+
+        .terminal-title {
+            flex: 1;
+            text-align: center;
+            color: #00FFFF;
+            font-size: 14px;
+            text-shadow: 0 0 10px #00FFFF;
+        }
+
+        .ascii-owl {
+            color: #00FFFF;
+            font-size: 10px;
+            line-height: 1.2;
+            text-shadow: 0 0 5px #00FFFF;
+            white-space: pre;
+            text-align: center;
+            margin-bottom: 20px;
+            animation: owlGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes owlGlow {
+
+            0%,
+            100% {
+                opacity: 0.8;
+            }
+
+            50% {
+                opacity: 1;
+                text-shadow: 0 0 15px #00FFFF;
+            }
+        }
+
+        .main-title {
+            color: #00FFFF;
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px #00FFFF,
+                0 0 40px #00BFFF;
+            animation: titlePulse 2s ease-in-out infinite;
+        }
+
+        @keyframes titlePulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        .tagline {
+            color: #00BFFF;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        .code-block {
+            color: #00BFFF;
+            font-size: 14px;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0, 191, 255, 0.05);
+            border-left: 3px solid #00FFFF;
+            line-height: 1.6;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background: #00FFFF;
+            margin-left: 5px;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .status {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0, 191, 255, 0.3);
+            font-size: 12px;
+            color: #00BFFF;
+            opacity: 0.7;
+        }
+
+        .glitch {
+            position: relative;
+        }
+
+        .glitch::before,
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 #4A9EFF;
+            animation: glitch1 0.3s infinite;
+        }
+
+        .glitch::after {
+            left: -2px;
+            text-shadow: 2px 0 #00BFFF;
+            animation: glitch2 0.3s infinite;
+        }
+
+        @keyframes glitch1 {
+
+            0%,
+            100% {
+                clip-path: inset(40% 0 43% 0);
+            }
+
+            50% {
+                clip-path: inset(54% 0 23% 0);
+            }
+        }
+
+        @keyframes glitch2 {
+
+            0%,
+            100% {
+                clip-path: inset(10% 0 75% 0);
+            }
+
+            50% {
+                clip-path: inset(60% 0 15% 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="matrix"></canvas>
+
+    <div class="content">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <div class="terminal-button close"></div>
+                    <div class="terminal-button minimize"></div>
+                    <div class="terminal-button maximize"></div>
+                </div>
+                <div class="terminal-title">noctuacoder@github:~$</div>
+            </div>
+
+            <div class="ascii-owl">
+                ___
+                (o,o)
+                {`"'}
+                -"-"-
+            </div>
+
+            <div class="main-title glitch" data-text="NoctuaCoder">NoctuaCoder</div>
+
+            <div class="tagline">
+                &gt; Code by night<span class="cursor"></span>
+            </div>
+
+            <div class="code-block">
+                <div>$ whoami</div>
+                <div style="margin-left: 20px; opacity: 0.8;">&gt; Digital night owl 🦉</div>
+                <div style="margin-top: 10px;">$ cat mission.txt</div>
+                <div style="margin-left: 20px; opacity: 0.8;">&gt; Creating glassmorphism magic</div>
+                <div style="margin-left: 20px; opacity: 0.8;">&gt; Building Stellar Dots</div>
+                <div style="margin-left: 20px; opacity: 0.8;">&gt; Making Hyprland beautiful</div>
+                <div style="margin-top: 10px;">$ status</div>
+                <div style="margin-left: 20px; color: #00FFFF;">&gt; [✓] ONLINE - Coding in progress...</div>
+            </div>
+
+            <div class="status">
+                <span>🌙 GMT-3 • Brazil</span>
+                <span>⚡ 10 Menus • 8 Themes • 30+ Scripts</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Matrix rain effect in BLUE
+        const canvas = document.getElementById('matrix');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const chars = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const charArray = chars.split('');
+
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function draw() {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const char = charArray[Math.floor(Math.random() * charArray.length)];
+                const x = i * fontSize;
+                const y = drops[i] * fontSize;
+
+                // Random brightness with BLUE colors
+                const brightness = Math.random();
+                if (brightness > 0.95) {
+                    ctx.fillStyle = '#00FFFF'; // Bright cyan
+                } else if (brightness > 0.7) {
+                    ctx.fillStyle = '#00BFFF'; // Deep sky blue
+                } else {
+                    ctx.fillStyle = '#004466'; // Dark blue
+                }
+
+                ctx.fillText(char, x, y);
+
+                if (y > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+
+                drops[i]++;
+            }
+        }
+
+        setInterval(draw, 35);
+
+        // Resize canvas on window resize
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        // Add some random glitch effects
+        setInterval(() => {
+            const title = document.querySelector('.main-title');
+            title.style.transform = `translate(${Math.random() * 4 - 2}px, ${Math.random() * 4 - 2}px)`;
+            setTimeout(() => {
+                title.style.transform = 'translate(0, 0)';
+            }, 50);
+        }, 3000);
+    </script>
+</body>
+
+</html>
