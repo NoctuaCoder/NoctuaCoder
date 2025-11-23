@@ -1,215 +1,414 @@
 <div align="center">
 
-<!-- Header with Name -->
-<h1 style="font-size: 3.5em; font-weight: 300; letter-spacing: 2px; margin-bottom: 5px; color: #E0FFFF;">NoctuaCoder</h1>
+<!-- Animated SVG Header with 4-Pointed Stars -->
+<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BFFF;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="200" fill="url(#starGradient)" opacity="0.05"/>
+  
+  <!-- Animated 4-Pointed Stars -->
+  <g filter="url(#glow)">
+    <!-- Star 1 -->
+    <g transform="translate(100, 50)">
+      <animateTransform attributeName="transform" type="rotate" from="0 100 50" to="360 100 50" dur="4s" repeatCount="indefinite"/>
+      <rect x="98" y="40" width="4" height="20" fill="#00FFFF" opacity="0.8"/>
+      <rect x="90" y="48" width="20" height="4" fill="#00FFFF" opacity="0.8"/>
+    </g>
+    
+    <!-- Star 2 -->
+    <g transform="translate(300, 150)">
+      <animateTransform attributeName="transform" type="rotate" from="0 300 150" to="360 300 150" dur="6s" repeatCount="indefinite"/>
+      <rect x="298" y="143" width="4" height="14" fill="#00BFFF" opacity="0.6"/>
+      <rect x="293" y="148" width="14" height="4" fill="#00BFFF" opacity="0.6"/>
+    </g>
+    
+    <!-- Star 3 -->
+    <g transform="translate(500, 80)">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 80" to="360 500 80" dur="5s" repeatCount="indefinite"/>
+      <rect x="498" y="72" width="4" height="16" fill="#4A9EFF" opacity="0.7"/>
+      <rect x="492" y="78" width="16" height="4" fill="#4A9EFF" opacity="0.7"/>
+    </g>
+    
+    <!-- Star 4 -->
+    <g transform="translate(700, 120)">
+      <animateTransform attributeName="transform" type="rotate" from="0 700 120" to="360 700 120" dur="7s" repeatCount="indefinite"/>
+      <rect x="698" y="112" width="4" height="16" fill="#00FFFF" opacity="0.8"/>
+      <rect x="692" y="118" width="16" height="4" fill="#00FFFF" opacity="0.8"/>
+    </g>
+    
+    <!-- Star 5 -->
+    <g transform="translate(900, 60)">
+      <animateTransform attributeName="transform" type="rotate" from="0 900 60" to="360 900 60" dur="5.5s" repeatCount="indefinite"/>
+      <rect x="898" y="53" width="4" height="14" fill="#00BFFF" opacity="0.6"/>
+      <rect x="893" y="58" width="14" height="4" fill="#00BFFF" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Constellation Lines -->
+  <line x1="100" y1="50" x2="300" y2="150" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="300" y1="150" x2="500" y2="80" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="500" y1="80" x2="700" y2="120" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="700" y1="120" x2="900" y2="60" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
+</svg>
 
-<div style="margin-bottom: 40px;">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00BFFF,100:00FFFF&height=3&section=header" width="200"/>
-</div>
+<!-- ASCII Art Owl Constellation -->
+<pre style="color: #00FFFF; font-size: 10px; line-height: 1.2; text-shadow: 0 0 10px #00FFFF;">
+        ✦           ✦
+    ✦      ___      ✦
+          (o,o)
+    ✦     {`"'}     ✦
+          -"-"-
+        ✦       ✦
+</pre>
 
-<!-- Matrix Owl Interactive Preview -->
-<a href="https://noctuacoder.github.io/NoctuaCoder/matrix-owl.html">
-  <img src="assets/matrix-owl-preview.png" alt="Matrix Owl - Interactive Terminal" width="100%" style="border-radius: 10px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.4);"/>
-</a>
+<!-- Title Section -->
+<h1 style="font-size: 4em; font-weight: 700; background: linear-gradient(135deg, #00FFFF 0%, #00BFFF 50%, #4A9EFF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 20px 0; letter-spacing: 3px;">
+  NoctuaCoder
+</h1>
 
-<p style="margin-top: 10px; color: #00BFFF; font-size: 0.9em;">
-  ✨ <strong>Click to experience the interactive Matrix Owl terminal</strong> ✨
+<p style="font-size: 1.3em; color: #00BFFF; margin-bottom: 30px;">
+  ✨ <em>Crafting stellar experiences by night</em> ✨
 </p>
 
+<!-- Animated Divider -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00BFFF,100:4A9EFF&height=100&section=header&animation=twinkling" width="100%"/>
+
+</div>
+
 <br/>
 
-</div>
-
-<!-- Main Bento Grid -->
-<table width="100%" cellspacing="15">
-<tr>
-
-<!-- LEFT COLUMN -->
-<td width="35%" valign="top">
-
-<!-- Profile Card -->
-<div style="background: linear-gradient(135deg, #1a1f3a 0%, #0d1128 100%); border-radius: 20px; padding: 25px; margin-bottom: 20px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3);">
-
+<!-- Profile Section with Stellar Theme -->
 <div align="center">
-  <div style="position: relative; display: inline-block;">
-    <span style="position: absolute; top: -10px; left: -15px; font-size: 1.5em;">⭐</span>
-    <span style="position: absolute; top: -5px; right: -10px; font-size: 1em;">✨</span>
-    <span style="position: absolute; bottom: 10px; left: -20px; font-size: 0.8em;">⭐</span>
-    <span style="position: absolute; bottom: -5px; right: -15px; font-size: 1.2em;">✨</span>
-    <img src="https://github.com/NoctuaCoder.png" width="140" style="border-radius: 50%; border: 3px solid #00FFFF; box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);" />
-  </div>
-</div>
 
-<div style="background: linear-gradient(135deg, #00BFFF 0%, #00FFFF 100%); border-radius: 15px; padding: 20px; margin: 20px 0; color: #0A0E27;">
-  <h3 style="margin: 0 0 10px 0; font-size: 1.3em; color: #0A0E27;">Hello, I'm <strong>Alana</strong></h3>
-  <p style="margin: 0; font-size: 0.95em; font-style: italic; color: #1a1f3a;">" Passionate developer driven by creativity & learning! "</p>
-</div>
-
-</div>
-
-<!-- Education Card -->
-<div style="background: linear-gradient(135deg, #1a1f3a 0%, #0d1128 100%); border-radius: 20px; padding: 25px; margin-bottom: 20px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3);">
-
-<h3 style="color: #00FFFF; margin-top: 0; font-size: 1.2em;">🎓 Education</h3>
-
-<div style="color: #E0FFFF;">
-  <p style="margin: 8px 0; font-size: 0.95em;"><strong>Computer Science</strong></p>
-  <p style="margin: 5px 0; font-size: 0.85em; color: #4A9EFF;">Self-taught Developer</p>
-  <p style="margin: 5px 0; font-size: 0.85em; color: #00BFFF;">2020 - Present</p>
-</div>
-
-</div>
-
-<!-- Skills Card -->
-<div style="background: linear-gradient(135deg, #1a1f3a 0%, #0d1128 100%); border-radius: 20px; padding: 25px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3);">
-
-<h3 style="color: #00FFFF; margin-top: 0; font-size: 1.2em;">💻 Designing Skills</h3>
-<p style="color: #E0FFFF; font-size: 0.9em; margin: 10px 0;">UI/UX Design, Figma, Framer, UX Research</p>
-
-<h3 style="color: #00FFFF; margin-top: 20px; font-size: 1.2em;">⚡ Software Skills</h3>
-<p style="color: #E0FFFF; font-size: 0.9em; margin: 10px 0;">Shell Script, Python, JavaScript, HTML, CSS, Rust, React.js</p>
-
-</div>
-
-</td>
-
-<!-- RIGHT COLUMN -->
-<td width="65%" valign="top">
-
-<!-- Featured Work Card -->
-<div style="background: linear-gradient(135deg, #1a1f3a 0%, #0d1128 100%); border-radius: 20px; padding: 30px; margin-bottom: 20px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3);">
-
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-  <h2 style="color: #E0FFFF; margin: 0; font-size: 1.5em;">Featured Work</h2>
-  <a href="https://github.com/NoctuaCoder?tab=repositories" style="color: #00FFFF; text-decoration: none; font-size: 0.9em;">View Projects ↗</a>
-</div>
-
-<!-- Project Grid -->
-<table width="100%" cellspacing="10">
+<table>
 <tr>
 <td width="50%" valign="top">
 
-<!-- Project 1 -->
-<div style="background: rgba(0, 191, 255, 0.1); border-radius: 15px; padding: 20px; border: 1px solid #00BFFF; min-height: 180px;">
-  <div style="background: linear-gradient(135deg, #00BFFF 0%, #00FFFF 100%); border-radius: 10px; padding: 15px; margin-bottom: 15px; text-align: center;">
-    <h3 style="margin: 0; color: #0A0E27; font-size: 1.1em;">🌟 Stellar Dots</h3>
-  </div>
-  <p style="color: #E0FFFF; font-size: 0.85em; margin: 10px 0; line-height: 1.5;">Premium Glassmorphism collection for Hyprland with 10+ menus & 30+ scripts</p>
-  <div style="margin-top: 15px;">
-    <a href="https://github.com/NoctuaCoder/stellar-dots">
-      <img src="https://img.shields.io/badge/View-00FFFF?style=flat&logo=github&logoColor=0A0E27" />
-    </a>
-  </div>
-</div>
+### 🌟 About Me
+
+<img align="right" src="https://github.com/NoctuaCoder.png" width="200" style="border-radius: 50%; border: 3px solid #00FFFF; box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);"/>
+
+```yaml
+name: Alana
+role: Full Stack Developer
+location: Brazil 🇧🇷
+timezone: GMT-3
+motto: "Code by night, dream by day"
+
+currently:
+  - Building Stellar Dots v2.0
+  - Exploring glassmorphism design
+  - Creating beautiful UIs
+  
+interests:
+  - UI/UX Design
+  - System Customization
+  - Open Source
+  - Astronomy & Stars ✨
+```
 
 </td>
 <td width="50%" valign="top">
 
-<!-- Project 2 -->
-<div style="background: rgba(0, 191, 255, 0.1); border-radius: 15px; padding: 20px; border: 1px solid #00BFFF; min-height: 180px;">
-  <div style="background: linear-gradient(135deg, #4A9EFF 0%, #00BFFF 100%); border-radius: 10px; padding: 15px; margin-bottom: 15px; text-align: center;">
-    <h3 style="margin: 0; color: #0A0E27; font-size: 1.1em;">📊 Dashboard Pro</h3>
-  </div>
-  <p style="color: #E0FFFF; font-size: 0.85em; margin: 10px 0; line-height: 1.5;">Modern analytics dashboard with real-time data visualization</p>
-  <div style="margin-top: 15px;">
-    <img src="https://img.shields.io/badge/In_Progress-00BFFF?style=flat" />
-  </div>
-</div>
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-<!-- Project 3 - Wide -->
-<div style="background: rgba(0, 191, 255, 0.1); border-radius: 15px; padding: 20px; border: 1px solid #00BFFF;">
-  <table width="100%">
-  <tr>
-  <td width="70%">
-    <h3 style="color: #00FFFF; margin: 0 0 10px 0; font-size: 1.1em;">🎨 Design System</h3>
-    <p style="color: #E0FFFF; font-size: 0.85em; margin: 0; line-height: 1.5;">Comprehensive UI component library with modern aesthetics</p>
-  </td>
-  <td width="30%" align="right" valign="middle">
-    <div style="text-align: center;">
-      <div style="font-size: 2em; color: #00FFFF; margin-bottom: 5px;">3%</div>
-      <div style="font-size: 0.75em; color: #4A9EFF;">Increase</div>
-    </div>
-  </td>
-  </tr>
-  </table>
-</div>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<!-- Stats & Social Section -->
-<table width="100%" cellspacing="15">
-<tr>
-
-<!-- GitHub Stats -->
-<td width="60%" valign="top">
-<div style="background: linear-gradient(135deg, #1a1f3a 0%, #0d1128 100%); border-radius: 20px; padding: 25px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3);">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=dark&hide_border=true&background=1a1f3a00&ring=00BFFF&fire=00FFFF&currStreakLabel=E0FFFF&sideLabels=E0FFFF&currStreakNum=00FFFF&sideNums=00FFFF&dates=4A9EFF" width="100%" />
-</div>
-</td>
-
-<!-- Social Links -->
-<td width="40%" valign="top">
-<div style="background: linear-gradient(135deg, #1a1f3a 0%, #0d1128 100%); border-radius: 20px; padding: 30px; border: 2px solid #00BFFF; box-shadow: 0 8px 32px rgba(0, 191, 255, 0.3); min-height: 180px;">
+### 💫 Quick Stats
 
 <div align="center">
-  
-  <div style="margin-bottom: 25px;">
-    <a href="https://github.com/NoctuaCoder" style="text-decoration: none; margin: 0 12px;">
-      <img src="https://img.shields.io/badge/GitHub-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27" height="35"/>
-    </a>
-  </div>
-  
-  <div style="margin-bottom: 25px;">
-    <a href="mailto:your@email.com" style="text-decoration: none; margin: 0 12px;">
-      <img src="https://img.shields.io/badge/Email-00BFFF?style=for-the-badge&logo=gmail&logoColor=0A0E27" height="35"/>
-    </a>
-  </div>
-  
-  <div style="margin-bottom: 25px;">
-    <a href="https://instagram.com/yourusername" style="text-decoration: none; margin: 0 12px;">
-      <img src="https://img.shields.io/badge/Instagram-4A9EFF?style=for-the-badge&logo=instagram&logoColor=0A0E27" height="35"/>
-    </a>
-  </div>
-  
-  <div style="margin-top: 30px;">
-    <a href="https://github.com/NoctuaCoder" style="background: linear-gradient(135deg, #00BFFF 0%, #00FFFF 100%); color: #0A0E27; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);">
-      Resume ↗
-    </a>
-  </div>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=transparent&hide_border=true&title_color=00FFFF&icon_color=00BFFF&text_color=00BFFF&bg_color=0A0E27)
+
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=transparent&hide_border=true&background=0A0E2700&ring=00FFFF&fire=00BFFF&currStreakLabel=00FFFF&sideLabels=00BFFF&currStreakNum=00FFFF&sideNums=00BFFF&dates=4A9EFF)
 
 </div>
 
-</div>
 </td>
-
 </tr>
 </table>
 
-</td>
+</div>
 
+<br/>
+
+<!-- Constellation Divider -->
+<div align="center">
+
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
+
+</div>
+
+<br/>
+
+<!-- Skills Constellation -->
+<div align="center">
+
+## 🌌 Skills Constellation
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### ⭐ Languages
+
+![Shell](https://img.shields.io/badge/Shell_Script-★★★★★-00FFFF?style=for-the-badge&logo=gnu-bash&logoColor=00FFFF&labelColor=0A0E27)
+![Python](https://img.shields.io/badge/Python-★★★★☆-00BFFF?style=for-the-badge&logo=python&logoColor=00BFFF&labelColor=0A0E27)
+![JavaScript](https://img.shields.io/badge/JavaScript-★★★★☆-4A9EFF?style=for-the-badge&logo=javascript&logoColor=4A9EFF&labelColor=0A0E27)
+![Rust](https://img.shields.io/badge/Rust-★★★☆☆-00FFFF?style=for-the-badge&logo=rust&logoColor=00FFFF&labelColor=0A0E27)
+
+</td>
+<td width="33%" align="center">
+
+### 💎 Frontend
+
+![HTML5](https://img.shields.io/badge/HTML5-00FFFF?style=for-the-badge&logo=html5&logoColor=00FFFF&labelColor=0A0E27)
+![CSS3](https://img.shields.io/badge/CSS3-00BFFF?style=for-the-badge&logo=css3&logoColor=00BFFF&labelColor=0A0E27)
+![React](https://img.shields.io/badge/React-4A9EFF?style=for-the-badge&logo=react&logoColor=4A9EFF&labelColor=0A0E27)
+![Tailwind](https://img.shields.io/badge/Tailwind-00FFFF?style=for-the-badge&logo=tailwind-css&logoColor=00FFFF&labelColor=0A0E27)
+
+</td>
+<td width="33%" align="center">
+
+### 🎨 Design
+
+![Figma](https://img.shields.io/badge/Figma-00FFFF?style=for-the-badge&logo=figma&logoColor=00FFFF&labelColor=0A0E27)
+![UI/UX](https://img.shields.io/badge/UI/UX-00BFFF?style=for-the-badge&logo=adobe&logoColor=00BFFF&labelColor=0A0E27)
+![Glassmorphism](https://img.shields.io/badge/Glassmorphism-4A9EFF?style=for-the-badge&logoColor=4A9EFF&labelColor=0A0E27)
+
+</td>
+</tr>
+</table>
+
+<!-- Language Stats as Constellation -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=transparent&hide_border=true&title_color=00FFFF&text_color=00BFFF&bg_color=0A0E27&langs_count=8" width="500"/>
+
+</div>
+
+<br/>
+
+<!-- Constellation Divider -->
+<div align="center">
+
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
+
+</div>
+
+<br/>
+
+<!-- Featured Projects Galaxy -->
+<div align="center">
+
+## 🌠 Featured Projects Galaxy
+
+</div>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🌟 [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)
+
+<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dotfiles-00BFFF?style=flat-square"/>
+
+Premium glassmorphism collection for Hyprland featuring:
+- ✨ 10+ beautiful menus
+- 🎨 8 stunning themes  
+- ⚡ 30+ utility scripts
+- 💎 Modern UI/UX design
+
+**Tech Stack:** `Shell` `CSS` `Hyprland` `Rofi` `Waybar`
+
+<a href="https://github.com/NoctuaCoder/stellar-dots">
+  <img src="https://img.shields.io/badge/View_Project-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 💎 [Matrix Owl Terminal](https://noctuacoder.github.io/NoctuaCoder/matrix-owl.html)
+
+<img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Interactive-00BFFF?style=flat-square"/>
+
+Cyberpunk terminal experience with:
+- 🌊 Matrix rain effect in blue
+- 🦉 ASCII owl art
+- ✨ Glitch animations
+- 💫 Terminal interface
+
+**Tech Stack:** `HTML` `CSS` `JavaScript` `Canvas`
+
+<a href="https://noctuacoder.github.io/NoctuaCoder/matrix-owl.html">
+  <img src="https://img.shields.io/badge/Live_Demo-00BFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 [Stellar Profile](https://noctuacoder.github.io/NoctuaCoder/stellar-profile.html)
+
+<img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Portfolio-00BFFF?style=flat-square"/>
+
+Interactive celestial portfolio with:
+- ⭐ Animated 4-pointed stars
+- 🌌 Parallax effects
+- 💫 Glassmorphism UI
+- ✨ Smooth animations
+
+**Tech Stack:** `HTML` `CSS` `JavaScript` `SVG`
+
+<a href="https://noctuacoder.github.io/NoctuaCoder/stellar-profile.html">
+  <img src="https://img.shields.io/badge/Live_Demo-4A9EFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🌈 Design System
+
+<img src="https://img.shields.io/badge/Status-In_Progress-4A9EFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Library-00BFFF?style=flat-square"/>
+
+Comprehensive UI component library:
+- 🎨 Modern aesthetics
+- ♿ Accessible design
+- 📱 Responsive components
+- 🎭 Dark mode support
+
+**Tech Stack:** `React` `TypeScript` `Tailwind` `Storybook`
+
+<img src="https://img.shields.io/badge/Coming_Soon-00FFFF?style=for-the-badge"/>
+
+</td>
 </tr>
 </table>
 
 <br/>
 
----
+<!-- Constellation Divider -->
+<div align="center">
+
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
+
+</div>
 
 <br/>
 
-<!-- Footer -->
+<!-- GitHub Activity & Trophies -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:00FFFF&height=100&section=footer" width="100%" />
+## 🏆 Achievements Constellation
 
-<sub style="color: #4A9EFF;">✨ Crafted with passion • © 2025 NoctuaCoder</sub>
+![Trophies](https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=darkhub&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15&title_color=00FFFF&icon_color=00BFFF&text_color=00BFFF)
+
+### 📊 Contribution Graph
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&theme=react-dark&hide_border=true&bg_color=0A0E27&color=00FFFF&line=00BFFF&point=4A9EFF&area=true&area_color=00BFFF)
+
+</div>
+
+<br/>
+
+<!-- Constellation Divider -->
+<div align="center">
+
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
+
+</div>
+
+<br/>
+
+<!-- Social Constellation -->
+<div align="center">
+
+## 🌌 Connect Across the Stars
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### ⭐ GitHub
+<a href="https://github.com/NoctuaCoder">
+  <img src="https://img.shields.io/badge/NoctuaCoder-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td align="center" width="25%">
+
+### 💎 Email
+<a href="mailto:your@email.com">
+  <img src="https://img.shields.io/badge/Contact_Me-00BFFF?style=for-the-badge&logo=gmail&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td align="center" width="25%">
+
+### ✨ Instagram
+<a href="https://instagram.com/yourusername">
+  <img src="https://img.shields.io/badge/@yourusername-4A9EFF?style=for-the-badge&logo=instagram&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td align="center" width="25%">
+
+### 🌟 Portfolio
+<a href="https://noctuacoder.github.io/NoctuaCoder/stellar-profile.html">
+  <img src="https://img.shields.io/badge/View_Portfolio-00FFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/><br/>
+
+<!-- Footer with Constellation -->
+<div align="center">
+
+<!-- Animated Wave Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:00BFFF,100:4A9EFF&height=120&section=footer" width="100%"/>
+
+<!-- Footer Constellation -->
+<pre style="color: #00BFFF; font-size: 8px; line-height: 1.2; opacity: 0.6;">
+    ✦       ✦       ✦       ✦       ✦       ✦       ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦       ✦       ✦       ✦       ✦       ✦       ✦
+</pre>
+
+<sub style="color: #00BFFF; opacity: 0.8;">
+  ✨ Crafted with passion under the stars • © 2025 NoctuaCoder 🦉
+</sub>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=NoctuaCoder&color=00FFFF&style=flat-square&label=Profile+Views"/>
 
 </div>
