@@ -20,7 +20,7 @@
 <div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
 
 <div align="center">
-<img src="https://github.com/NoctuaCoder.png" width="120" style="border-radius: 50%; border: 3px solid #00FFFF; box-shadow: 0 0 10px #00FFFF;" />
+<img src="assets/profile-icon.jpg" width="120" style="border-radius: 50%; border: 3px solid #00FFFF; box-shadow: 0 0 10px #00FFFF;" />
 <h3 style="color: #E0FFFF; margin: 10px 0;">NoctuaCoder</h3>
 <p style="color: #00BFFF; font-size: 1.1em;">[ Nível: ∞ ]</p>
 </div>
