@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Animated SVG Header with 4-Pointed Stars -->
-<img src="assets/header.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/assets/header.svg" width="100%" />
 
 
 
