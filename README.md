@@ -4,7 +4,7 @@
 
 # Olá, eu sou **Noctua ⟡**
 
-### 🌌 Converting starlight into source code. The night is my compiler.
+### ✨🌌 Converting starlight into source code. The night is my compiler. 🌠✨
 
 <p align="center">
   <a href="#sobre-mim">Sobre Mim</a> •
@@ -25,7 +25,7 @@
 
 ---
 
-## 🦉 Sobre Mim
+## 🌌 Sobre Mim (Estrelas e Códigos)
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=NoctuaCoder&repo=stellar-dots&theme=dark&bg_color=03045E&title_color=00B4D8&icon_color=0077B6&border_color=0077B6" />
 
@@ -39,7 +39,7 @@ Sou uma desenvolvedora apaixonada por **criatividade** e **soluções elegantes*
 
 ---
 
-## 🛠️ Habilidades & Tendências 2025
+## 🌠 Habilidades & Tendências 2025 (Navegação Estelar)
 
 Foco em performance, escalabilidade e experiências imersivas, com ênfase em **Rust**, **TypeScript**, **WebAssembly** e **Design 3D Interativo**.
 
@@ -57,7 +57,7 @@ Foco em performance, escalabilidade e experiências imersivas, com ênfase em **
 
 ---
 
-## 🌟 Projetos em Destaque
+## 🌟 Projetos em Destaque (Constelações)
 
 <p align="center">
   <!-- Projeto 1: stellar-dots -->
@@ -72,7 +72,7 @@ Foco em performance, escalabilidade e experiências imersivas, com ênfase em **
 
 ---
 
-## 📈 Estatísticas Noturnas (Automatizado)
+## 📈 Estatísticas Noturnas (Mapa Estelar Automatizado)
 
 Acompanhe meu progresso e atividade no GitHub.
 
@@ -86,7 +86,7 @@ Acompanhe meu progresso e atividade no GitHub.
 
 ---
 
-## 🚀 Atividade Recente (Automatizado)
+## 🚀 Atividade Recente (Rastro de Estrelas Automatizado)
 
 Esta seção será atualizada automaticamente por um **GitHub Action** para mostrar meus últimos movimentos.
 
@@ -106,7 +106,7 @@ Esta seção será atualizada automaticamente por um **GitHub Action** para most
 
 ---
 
-## 💬 Contato & Conexão
+## 💬 Contato & Conexão (Sinais de Rádio)
 
 Vamos nos conectar!
 
@@ -123,5 +123,5 @@ Vamos nos conectar!
   <br>
   <img src="https://komarev.com/ghpvc/?username=NoctuaCoder&color=00B4D8&style=for-the-badge" alt="Contagem de Visualizações do Perfil" />
   <br>
-  ✨ Crafted with passion • © 2025 NoctuaCoder
+  ✨ Crafted with starlight and passion • © 2025 NoctuaCoder 🌠
 </div>
