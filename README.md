@@ -15,7 +15,7 @@
 <!-- Left Column: Character Profile & Stats -->
 <td width="50%" valign="top" style="padding: 10px;">
 
-### 👤 PERFIL DO CAÇADOR
+### 👤 PERFIL DA CAÇADORA
 
 <div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
 
@@ -95,7 +95,7 @@
 
 <h3 style="color: #00FFFF; margin-top: 0;">Stellar Dots v2.0</h3>
 <div style="color: #E0FFFF; margin-bottom: 15px;">
-Premium Glassmorphism Collection for Hyprland
+Coleção Premium Glassmorphism para Hyprland
 </div>
 
 <table width="100%" style="color: #E0FFFF; text-align: center;">
@@ -108,7 +108,7 @@ Premium Glassmorphism Collection for Hyprland
 <td style="padding: 10px;">
 <div style="font-size: 2em; color: #00FFFF;">🌈</div>
 <div style="font-weight: bold;">8</div>
-<div style="font-size: 0.8em; color: #00BFFF;">Themes</div>
+<div style="font-size: 0.8em; color: #00BFFF;">Temas</div>
 </td>
 <td style="padding: 10px;">
 <div style="font-size: 2em; color: #00FFFF;">⚡</div>
