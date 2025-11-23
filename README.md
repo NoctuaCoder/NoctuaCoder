@@ -137,14 +137,6 @@ Coleção Premium Glassmorphism para Hyprland
 
 </div>
 
-### 💻 ESTATÍSTICAS DE LINGUAGEM
-
-<div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=dark&hide_border=true&bg_color=10182000&title_color=00FFFF&text_color=E0FFFF&langs_count=6" width="100%" />
-
-</div>
-
 </td>
 
 </tr>
