@@ -32,7 +32,7 @@
 
 ### 🌟 About Me
 
-<img align="right" src="https://github.com/NoctuaCoder.png" width="200" style="border-radius: 50%; border: 3px solid #00FFFF; box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);"/>
+
 
 ```yaml
 name: Alana
