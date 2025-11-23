@@ -35,11 +35,26 @@
 </div>
 
 <h4 style="color: #00FFFF; margin-top: 15px;">SKILLS</h4>
-<div style="color: #E0FFFF; font-family: monospace;">
-<p>Shell Script: [Expert] ██████████</p>
-<p>Python: [Advanced] █████████░</p>
-<p>JavaScript: [Advanced] █████████░</p>
-<p>Rust: [Intermediate] ███████░░░</p>
+<div style="color: #E0FFFF; font-family: monospace; font-size: 0.9em;">
+<p>Shell Script: [Expert]</p>
+<div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; margin-top: -5px; margin-bottom: 10px; overflow: hidden; border: 1px solid #00BFFF;">
+<div style="background: #00FFFF; width: 100%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div>
+</div>
+
+<p>Python: [Advanced]</p>
+<div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; margin-top: -5px; margin-bottom: 10px; overflow: hidden; border: 1px solid #00BFFF;">
+<div style="background: #00FFFF; width: 90%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div>
+</div>
+
+<p>JavaScript: [Advanced]</p>
+<div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; margin-top: -5px; margin-bottom: 10px; overflow: hidden; border: 1px solid #00BFFF;">
+<div style="background: #00FFFF; width: 90%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div>
+</div>
+
+<p>Rust: [Intermediate]</p>
+<div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; margin-top: -5px; margin-bottom: 10px; overflow: hidden; border: 1px solid #00BFFF;">
+<div style="background: #00FFFF; width: 70%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div>
+</div>
 </div>
 
 </div>
@@ -49,14 +64,14 @@
 <div style="background: #101820; border: 2px solid #00BFFF; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 15px rgba(0, 191, 255, 0.5);">
 
 <h4 style="color: #00FFFF;">MÉTRICAS DE HABILIDADE</h4>
-<table width="100%" style="color: #E0FFFF;">
+<table width="100%" style="color: #E0FFFF; font-size: 0.9em;">
 | Habilidade | Nível | Progresso |
 |:------|:------|:---------|
-| 🔧 **Hyprland** | 95 | <span style="color: #00FFFF;">████████████████████░</span> |
-| 💻 **Neovim** | 90 | <span style="color: #00FFFF;">███████████████████░░</span> |
-| 🎨 **Glassmorphism** | 99 | <span style="color: #00FFFF;">█████████████████████</span> |
-| 🐍 **Python** | 90 | <span style="color: #00FFFF;">███████████████████░░</span> |
-| 🦀 **Rust** | 60 | <span style="color: #00FFFF;">█████████████░░░░░░░░</span> |
+| 🔧 **Hyprland** | 95 | <div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; overflow: hidden; border: 1px solid #00BFFF;"><div style="background: #00FFFF; width: 95%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div></div> |
+| 💻 **Neovim** | 90 | <div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; overflow: hidden; border: 1px solid #00BFFF;"><div style="background: #00FFFF; width: 90%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div></div> |
+| 🎨 **Glassmorphism** | 99 | <div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; overflow: hidden; border: 1px solid #00BFFF;"><div style="background: #00FFFF; width: 99%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div></div> |
+| 🐍 **Python** | 90 | <div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; overflow: hidden; border: 1px solid #00BFFF;"><div style="background: #00FFFF; width: 90%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div></div> |
+| 🦀 **Rust** | 60 | <div style="background: rgba(0, 191, 255, 0.1); height: 8px; border-radius: 4px; overflow: hidden; border: 1px solid #00BFFF;"><div style="background: #00FFFF; width: 60%; height: 100%; box-shadow: 0 0 5px #00FFFF;"></div></div> |
 </table>
 
 </div>
