@@ -5,15 +5,7 @@
 <!-- Animated SVG Header with 4-Pointed Stars -->
 <img src="assets/header.svg" width="100%" />
 
-<!-- ASCII Art Owl Constellation -->
-<pre style="color: #00FFFF; font-size: 10px; line-height: 1.2; text-shadow: 0 0 10px #00FFFF;">
-        ✦           ✦
-    ✦      ___      ✦
-          (o,o)
-    ✦     {`"'}     ✦
-          -"-"-
-        ✦       ✦
-</pre>
+
 
 <!-- Title Section -->
 <h1 style="font-size: 4em; font-weight: 700; background: linear-gradient(135deg, #00FFFF 0%, #00BFFF 50%, #4A9EFF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 20px 0; letter-spacing: 3px;">
