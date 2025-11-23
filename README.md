@@ -63,57 +63,18 @@
 
 <div style="background: linear-gradient(135deg, #E3F4FC 0%, #D4EBF8 100%); border-radius: 25px; padding: 20px; margin-bottom: 20px; border: 2px solid #8ECAE6; box-shadow: 0 8px 20px rgba(142, 202, 230, 0.3);">
 
-<div style="margin-bottom: 15px;">
-<div style="display: flex; justify-content: space-between; align-items: center; color: #1B5299; font-size: 0.95em; margin-bottom: 8px; font-weight: 500;">
-<span>🔧 <b>Hyprland</b></span>
-<span style="background: rgba(142, 202, 230, 0.3); padding: 4px 12px; border-radius: 12px; font-size: 0.85em;">Lv. 95</span>
-</div>
-<div style="background: rgba(255, 255, 255, 0.5); height: 12px; border-radius: 20px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);">
-<div style="background: linear-gradient(90deg, #8ECAE6, #B8E0F6); width: 95%; height: 100%; border-radius: 20px; box-shadow: 0 2px 8px rgba(142, 202, 230, 0.4); transition: width 0.3s ease;"></div>
-</div>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=default&hide_border=true&bg_color=E3F4FC00&title_color=1B5299&text_color=8ECAE6&langs_count=8&card_width=400" width="100%" />
+
 </div>
 
-<div style="margin-bottom: 15px;">
-<div style="display: flex; justify-content: space-between; align-items: center; color: #1B5299; font-size: 0.95em; margin-bottom: 8px; font-weight: 500;">
-<span>💻 <b>Neovim</b></span>
-<span style="background: rgba(142, 202, 230, 0.3); padding: 4px 12px; border-radius: 12px; font-size: 0.85em;">Lv. 90</span>
-</div>
-<div style="background: rgba(255, 255, 255, 0.5); height: 12px; border-radius: 20px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);">
-<div style="background: linear-gradient(90deg, #8ECAE6, #B8E0F6); width: 90%; height: 100%; border-radius: 20px; box-shadow: 0 2px 8px rgba(142, 202, 230, 0.4); transition: width 0.3s ease;"></div>
-</div>
-</div>
-
-<div style="margin-bottom: 15px;">
-<div style="display: flex; justify-content: space-between; align-items: center; color: #1B5299; font-size: 0.95em; margin-bottom: 8px; font-weight: 500;">
-<span>🎨 <b>Glassmorphism</b></span>
-<span style="background: rgba(184, 224, 246, 0.5); padding: 4px 12px; border-radius: 12px; font-size: 0.85em; font-weight: bold;">✨ Master</span>
-</div>
-<div style="background: rgba(255, 255, 255, 0.5); height: 12px; border-radius: 20px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);">
-<div style="background: linear-gradient(90deg, #8ECAE6, #B8E0F6, #8ECAE6); width: 99%; height: 100%; border-radius: 20px; box-shadow: 0 2px 8px rgba(142, 202, 230, 0.6); transition: width 0.3s ease;"></div>
-</div>
-</div>
-
-<div style="margin-bottom: 15px;">
-<div style="display: flex; justify-content: space-between; align-items: center; color: #1B5299; font-size: 0.95em; margin-bottom: 8px; font-weight: 500;">
-<span>🐍 <b>Python</b></span>
-<span style="background: rgba(142, 202, 230, 0.3); padding: 4px 12px; border-radius: 12px; font-size: 0.85em;">Lv. 90</span>
-</div>
-<div style="background: rgba(255, 255, 255, 0.5); height: 12px; border-radius: 20px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);">
-<div style="background: linear-gradient(90deg, #8ECAE6, #B8E0F6); width: 90%; height: 100%; border-radius: 20px; box-shadow: 0 2px 8px rgba(142, 202, 230, 0.4); transition: width 0.3s ease;"></div>
-</div>
-</div>
-
-<div style="margin-bottom: 0;">
-<div style="display: flex; justify-content: space-between; align-items: center; color: #1B5299; font-size: 0.95em; margin-bottom: 8px; font-weight: 500;">
-<span>🦀 <b>Rust</b></span>
-<span style="background: rgba(142, 202, 230, 0.3); padding: 4px 12px; border-radius: 12px; font-size: 0.85em;">Lv. 60</span>
-</div>
-<div style="background: rgba(255, 255, 255, 0.5); height: 12px; border-radius: 20px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);">
-<div style="background: linear-gradient(90deg, #8ECAE6, #B8E0F6); width: 60%; height: 100%; border-radius: 20px; box-shadow: 0 2px 8px rgba(142, 202, 230, 0.4); transition: width 0.3s ease;"></div>
-</div>
+<div style="margin-top: 15px; text-align: center; color: #8ECAE6; font-size: 0.85em;">
+✨ Atualizado automaticamente baseado nos repositórios
 </div>
 
 </div>
+
 
 
 </td>
