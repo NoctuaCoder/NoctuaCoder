@@ -254,7 +254,7 @@ Comprehensive UI component library:
 
 ## 🏆 Achievements Constellation
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=darkhub&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15&title_color=00FFFF&icon_color=00BFFF&text_color=00BFFF)
+<img src="assets/achievements-constellation.svg" width="100%" alt="Achievements Constellation" />
 
 ### 📊 Contribution Graph
 
