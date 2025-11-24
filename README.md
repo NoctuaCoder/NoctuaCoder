@@ -197,7 +197,7 @@ Cyberpunk terminal experience with:
 <tr>
 <td width="50%" valign="top">
 
-### 🎨 [Noctua Profile](https://noctuacoder.github.io/NoctuaCoder/Noctua-profile.html)
+### 🎨 [Noctua Profile](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Portfolio-00BFFF?style=flat-square"/>
 
@@ -209,7 +209,7 @@ Interactive celestial portfolio with:
 
 **Tech Stack:** `HTML` `CSS` `JavaScript` `SVG`
 
-<a href="https://noctuacoder.github.io/NoctuaCoder/Noctua-profile.html">
+<a href="https://noctuacoder.github.io/NoctuaCoder/portfolio.html">
   <img src="https://img.shields.io/badge/Live_Demo-4A9EFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
 </a>
 
