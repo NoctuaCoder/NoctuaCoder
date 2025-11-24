@@ -12,18 +12,19 @@
         rel="stylesheet">
     <style>
         :root {
-            --bg: #050505;
+            --bg: #02040a;
+            /* Darker Blue-Black */
             --card-bg: rgba(255, 255, 255, 0.03);
-            --card-border: rgba(255, 255, 255, 0.05);
-            --card-hover: rgba(255, 255, 255, 0.08);
+            --card-border: rgba(0, 255, 255, 0.1);
+            --card-hover: rgba(0, 255, 255, 0.08);
             --text-main: #ffffff;
-            --text-muted: #888888;
-            --accent-1: #00f2ea;
+            --text-muted: #a0b0c0;
+            --accent-1: #00FFFF;
             /* Electric Cyan */
-            --accent-2: #ff0050;
-            /* Neon Red/Pink */
-            --accent-3: #7000ff;
-            /* Deep Purple */
+            --accent-2: #00BFFF;
+            /* Deep Sky Blue */
+            --accent-3: #1E90FF;
+            /* Dodger Blue */
         }
 
         * {
@@ -51,7 +52,7 @@
             height: 100%;
             pointer-events: none;
             z-index: 999;
-            opacity: 0.05;
+            opacity: 0.04;
             background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48ZmlsdGVyIGlkPSJub2lzZSI+PGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuNjUiIG51bU9jdGF2ZXM9IjMiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbm9pc2UpIiBvcGFjaXR5PSIxIi8+PC9zdmc+');
         }
 
@@ -62,7 +63,7 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            z-index: -1;
+            z-index: -2;
             background: var(--bg);
             overflow: hidden;
         }
@@ -113,6 +114,73 @@
             }
         }
 
+        /* Stars Container */
+        .stars-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* 4-Pointed Star */
+        .star-4p {
+            position: absolute;
+            animation: twinkle 3s ease-in-out infinite, floatStar 6s ease-in-out infinite;
+        }
+
+        .star-4p::before,
+        .star-4p::after {
+            content: '';
+            position: absolute;
+            background: linear-gradient(45deg, #ffffff, var(--accent-1));
+            box-shadow: 0 0 8px var(--accent-1), 0 0 15px var(--accent-2);
+        }
+
+        .star-4p::before {
+            width: 100%;
+            height: 1px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        .star-4p::after {
+            width: 1px;
+            height: 100%;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+
+        @keyframes twinkle {
+
+            0%,
+            100% {
+                opacity: 0.3;
+                transform: scale(0.8) rotate(0deg);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.2) rotate(180deg);
+            }
+        }
+
+        @keyframes floatStar {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
         /* Custom Cursor */
         .cursor-dot,
         .cursor-outline {
@@ -128,20 +196,21 @@
         .cursor-dot {
             width: 8px;
             height: 8px;
-            background-color: white;
+            background-color: var(--accent-1);
+            box-shadow: 0 0 10px var(--accent-1);
         }
 
         .cursor-outline {
             width: 40px;
             height: 40px;
-            border: 1px solid rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(0, 255, 255, 0.3);
             transition: width 0.2s, height 0.2s, background-color 0.2s;
         }
 
         body:hover .cursor-outline {
             width: 50px;
             height: 50px;
-            background-color: rgba(255, 255, 255, 0.05);
+            background-color: rgba(0, 255, 255, 0.03);
         }
 
         /* Layout */
@@ -149,6 +218,8 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 40px 20px;
+            position: relative;
+            z-index: 10;
         }
 
         /* Header */
@@ -165,6 +236,8 @@
             font-size: 24px;
             font-weight: 700;
             letter-spacing: -0.5px;
+            color: var(--accent-1);
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
         }
 
         .status {
@@ -180,9 +253,9 @@
         .status-dot {
             width: 8px;
             height: 8px;
-            background-color: #00ff88;
+            background-color: var(--accent-1);
             border-radius: 50%;
-            box-shadow: 0 0 10px #00ff88;
+            box-shadow: 0 0 10px var(--accent-1);
             animation: pulse 2s infinite;
         }
 
@@ -211,7 +284,7 @@
             font-weight: 400;
             line-height: 1.1;
             margin-bottom: 30px;
-            background: linear-gradient(to right, #fff, #aaa);
+            background: linear-gradient(to right, #fff, #b0e0ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -220,6 +293,7 @@
             font-style: italic;
             color: var(--accent-1);
             -webkit-text-fill-color: var(--accent-1);
+            text-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
         }
 
         .hero p {
@@ -255,8 +329,8 @@
         .bento-item:hover {
             background: var(--card-hover);
             transform: translateY(-5px);
-            border-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            border-color: var(--accent-1);
+            box-shadow: 0 20px 40px rgba(0, 255, 255, 0.1);
         }
 
         /* Grid Areas */
@@ -303,27 +377,13 @@
             font-family: 'Playfair Display', serif;
             font-size: 32px;
             margin-bottom: 10px;
+            color: #fff;
         }
 
         .card-desc {
             color: var(--text-muted);
             font-size: 14px;
             line-height: 1.5;
-        }
-
-        .project-img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 12px;
-            margin-top: 20px;
-            opacity: 0.8;
-            transition: 0.3s;
-        }
-
-        .bento-item:hover .project-img {
-            opacity: 1;
-            transform: scale(1.02);
         }
 
         /* Profile Specifics */
@@ -333,6 +393,7 @@
             border-radius: 50%;
             margin-bottom: 20px;
             border: 2px solid var(--accent-1);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
         }
 
         /* Social Links */
@@ -358,6 +419,7 @@
         .social-list a:hover {
             color: var(--accent-1);
             transform: translateX(5px);
+            text-shadow: 0 0 10px var(--accent-1);
         }
 
         /* Skills Tags */
@@ -370,10 +432,11 @@
 
         .skill-tag {
             padding: 6px 12px;
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(0, 255, 255, 0.05);
             border-radius: 20px;
             font-size: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            color: var(--accent-1);
         }
 
         /* Responsive */
@@ -411,6 +474,9 @@
         <div class="aurora-blob blob-3"></div>
     </div>
 
+    <!-- Stars Container -->
+    <div class="stars-container" id="starsContainer"></div>
+
     <!-- Custom Cursor -->
     <div class="cursor-dot" id="cursor-dot"></div>
     <div class="cursor-outline" id="cursor-outline"></div>
@@ -425,7 +491,7 @@
         </header>
 
         <section class="hero">
-            <h1>Crafting <span>Digital</span><br>Experiences.</h1>
+            <h1>Crafting <span>Celestial</span><br>Experiences.</h1>
             <p>I build aesthetic, functional, and immersive web interfaces. Specializing in glassmorphism, celestial
                 themes, and modern UI/UX.</p>
         </section>
@@ -469,7 +535,7 @@
                 <p class="card-desc">Premium glassmorphism dotfiles for Hyprland. 10+ menu styles, 8 themes, and
                     automated installer.</p>
                 <div
-                    style="width: 100%; height: 200px; background: linear-gradient(45deg, #ff0050, #7000ff); border-radius: 12px; margin-top: 20px; display: flex; align-items: center; justify-content: center; font-size: 40px;">
+                    style="width: 100%; height: 200px; background: linear-gradient(45deg, #00BFFF, #1E90FF); border-radius: 12px; margin-top: 20px; display: flex; align-items: center; justify-content: center; font-size: 40px; box-shadow: 0 10px 30px rgba(0, 191, 255, 0.3);">
                     ✨</div>
             </div>
 
@@ -480,7 +546,7 @@
                 <h2 class="card-title">SpectraHypr</h2>
                 <p class="card-desc">Aetherial Glow aesthetic with futuristic vibes.</p>
                 <div
-                    style="width: 100%; height: 120px; background: linear-gradient(45deg, #00f2ea, #7000ff); border-radius: 12px; margin-top: 20px;">
+                    style="width: 100%; height: 120px; background: linear-gradient(45deg, #00FFFF, #00BFFF); border-radius: 12px; margin-top: 20px; box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);">
                 </div>
             </div>
 
@@ -529,13 +595,41 @@
                 const x = e.clientX - rect.left;
                 const y = e.clientY - rect.top;
 
-                item.style.background = `radial-gradient(800px circle at ${x}px ${y}px, rgba(255,255,255,0.1), rgba(255,255,255,0.03))`;
+                item.style.background = `radial-gradient(800px circle at ${x}px ${y}px, rgba(0, 255, 255, 0.08), rgba(255,255,255,0.03))`;
             });
 
             item.addEventListener('mouseleave', () => {
                 item.style.background = 'var(--card-bg)';
             });
         });
+
+        // Generate 50+ 4-pointed stars
+        const starsContainer = document.getElementById('starsContainer');
+        const starCount = 50;
+
+        for (let i = 0; i < starCount; i++) {
+            const star = document.createElement('div');
+            star.className = 'star-4p';
+
+            // Random position
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+
+            // Random size
+            const size = 10 + Math.random() * 20;
+            star.style.width = size + 'px';
+            star.style.height = size + 'px';
+
+            // Random animation delay
+            star.style.animationDelay = Math.random() * 5 + 's';
+
+            // Random animation duration
+            const twinkleDuration = 2 + Math.random() * 3;
+            const floatDuration = 4 + Math.random() * 4;
+            star.style.animation = `twinkle ${twinkleDuration}s ease-in-out infinite, floatStar ${floatDuration}s ease-in-out infinite`;
+
+            starsContainer.appendChild(star);
+        }
     </script>
 </body>
 
