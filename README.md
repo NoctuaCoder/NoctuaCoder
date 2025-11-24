@@ -176,7 +176,7 @@ Premium glassmorphism collection for Hyprland featuring:
 </td>
 <td width="50%" valign="top">
 
-### 💎 [Matrix Owl Terminal](https://noctuacoder.github.io/NoctuaCoder/matrix-owl.html)
+### 💎 [Matrix Owl Terminal](https://github.com/NoctuaCoder/matrix-owl)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Interactive-00BFFF?style=flat-square"/>
 
@@ -188,7 +188,7 @@ Cyberpunk terminal experience with:
 
 **Tech Stack:** `HTML` `CSS` `JavaScript` `Canvas`
 
-<a href="https://noctuacoder.github.io/NoctuaCoder/matrix-owl.html">
+<a href="https://noctuacoder.github.io/matrix-owl/">
   <img src="https://img.shields.io/badge/Live_Demo-00BFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
 </a>
 
