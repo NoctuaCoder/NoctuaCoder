@@ -197,7 +197,7 @@ Cyberpunk terminal experience with:
 <tr>
 <td width="50%" valign="top">
 
-### 🎨 [Stellar Profile](https://noctuacoder.github.io/NoctuaCoder/Noctua-profile.html)
+### 🎨 [Noctua Profile](https://noctuacoder.github.io/NoctuaCoder/Noctua-profile.html)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Portfolio-00BFFF?style=flat-square"/>
 
