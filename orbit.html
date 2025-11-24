@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoctuaCoder | Orbit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #050505;
+            --planet-color: #00FFFF;
+            --orbit-color: rgba(0, 255, 255, 0.1);
+            --text-color: #ffffff;
+            --accent-color: #00BFFF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Outfit', sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Starfield Background */
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background-image: 
+                radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0)),
+                radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+                radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)),
+                radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+                radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0));
+            background-repeat: repeat;
+            background-size: 200px 200px;
+            opacity: 0.5;
+            animation: twinkle 5s infinite;
+        }
+
+        @keyframes twinkle {
+            0% { opacity: 0.5; }
+            50% { opacity: 0.8; }
+            100% { opacity: 0.5; }
+        }
+
+        /* Solar System Container */
+        .solar-system {
+            position: relative;
+            width: 350px;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Central Planet (Profile) */
+        .sun {
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle at 30% 30%, #00FFFF, #00BFFF, #00008B);
+            border-radius: 50%;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.6), 0 0 60px rgba(0, 191, 255, 0.3);
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: pulse 4s ease-in-out infinite;
+            text-decoration: none;
+        }
+
+        .sun-content {
+            text-align: center;
+        }
+
+        .sun i {
+            font-size: 40px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 30px rgba(0, 255, 255, 0.6); }
+            50% { transform: scale(1.05); box-shadow: 0 0 50px rgba(0, 255, 255, 0.8); }
+            100% { transform: scale(1); box-shadow: 0 0 30px rgba(0, 255, 255, 0.6); }
+        }
+
+        /* Orbits */
+        .orbit {
+            position: absolute;
+            border: 1px solid var(--orbit-color);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .orbit-1 {
+            width: 200px;
+            height: 200px;
+            animation: rotate 20s linear infinite;
+        }
+
+        .orbit-2 {
+            width: 320px;
+            height: 320px;
+            animation: rotate 30s linear infinite reverse;
+        }
+
+        @keyframes rotate {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        /* Satellites (Links) */
+        .satellite {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50px;
+            height: 50px;
+            background: rgba(10, 14, 39, 0.8);
+            border: 1px solid var(--accent-color);
+            backdrop-filter: blur(5px);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--planet-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+        }
+
+        .satellite:hover {
+            background: var(--planet-color);
+            color: #000;
+            box-shadow: 0 0 20px var(--planet-color);
+            transform: scale(1.2);
+        }
+
+        /* Positioning Satellites on Orbit 1 */
+        .orbit-1 .sat-1 { transform: translate(-50%, -50%) rotate(0deg) translate(100px) rotate(0deg); animation: counter-rotate 20s linear infinite; }
+        .orbit-1 .sat-2 { transform: translate(-50%, -50%) rotate(120deg) translate(100px) rotate(-120deg); animation: counter-rotate 20s linear infinite reverse; /* Fix logic below */ }
+        .orbit-1 .sat-3 { transform: translate(-50%, -50%) rotate(240deg) translate(100px) rotate(-240deg); }
+
+        /* Positioning Satellites on Orbit 2 */
+        .orbit-2 .sat-4 { transform: translate(-50%, -50%) rotate(60deg) translate(160px) rotate(-60deg); }
+        .orbit-2 .sat-5 { transform: translate(-50%, -50%) rotate(180deg) translate(160px) rotate(-180deg); }
+        .orbit-2 .sat-6 { transform: translate(-50%, -50%) rotate(300deg) translate(160px) rotate(-300deg); }
+
+        /* Correct Counter Rotation Logic */
+        /* We need to apply the counter-rotation to the element itself to keep icon upright */
+        .satellite-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+        }
+        
+        /* Orbit 1 Wrappers */
+        .orbit-1 .pos-1 { transform: rotate(0deg) translate(100px); }
+        .orbit-1 .pos-2 { transform: rotate(120deg) translate(100px); }
+        .orbit-1 .pos-3 { transform: rotate(240deg) translate(100px); }
+
+        /* Orbit 2 Wrappers */
+        .orbit-2 .pos-4 { transform: rotate(45deg) translate(160px); }
+        .orbit-2 .pos-5 { transform: rotate(135deg) translate(160px); }
+        .orbit-2 .pos-6 { transform: rotate(225deg) translate(160px); }
+        .orbit-2 .pos-7 { transform: rotate(315deg) translate(160px); }
+
+        /* Counter rotate the icons inside */
+        .orbit-1 .satellite { animation: counter-rotate 20s linear infinite; }
+        .orbit-2 .satellite { animation: counter-rotate 30s linear infinite reverse; }
+
+        @keyframes counter-rotate {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(-360deg); } /* Opposite to orbit */
+        }
+
+        /* Labels */
+        .label {
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 10px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+            color: var(--text-color);
+            text-shadow: 0 0 5px #000;
+        }
+
+        .satellite:hover .label {
+            opacity: 1;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            font-size: 12px;
+            opacity: 0.6;
+        }
+        
+        .profile-name {
+            position: absolute;
+            top: 15%;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #fff, #00FFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="stars"></div>
+    
+    <div class="profile-name">NoctuaCoder</div>
+
+    <div class="solar-system">
+        <!-- Central Sun -->
+        <a href="portfolio.html" class="sun">
+            <div class="sun-content">
+                <i class="fas fa-owl"></i>
+            </div>
+        </a>
+
+        <!-- Inner Orbit -->
+        <div class="orbit orbit-1">
+            <div class="satellite-wrapper pos-1">
+                <a href="https://github.com/NoctuaCoder" class="satellite" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span class="label">GitHub</span>
+                </a>
+            </div>
+            <div class="satellite-wrapper pos-2">
+                <a href="https://www.linkedin.com/" class="satellite" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span class="label">LinkedIn</span>
+                </a>
+            </div>
+            <div class="satellite-wrapper pos-3">
+                <a href="mailto:38922657+NoctuaCoder@users.noreply.github.com" class="satellite">
+                    <i class="fas fa-envelope"></i>
+                    <span class="label">Email</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Outer Orbit -->
+        <div class="orbit orbit-2">
+            <div class="satellite-wrapper pos-4">
+                <a href="portfolio.html" class="satellite">
+                    <i class="fas fa-laptop-code"></i>
+                    <span class="label">Portfolio</span>
+                </a>
+            </div>
+            <div class="satellite-wrapper pos-5">
+                <a href="https://noctuacoder.github.io/matrix-owl/" class="satellite" target="_blank">
+                    <i class="fas fa-terminal"></i>
+                    <span class="label">Matrix</span>
+                </a>
+            </div>
+            <div class="satellite-wrapper pos-6">
+                <a href="https://github.com/NoctuaCoder/stellar-dots" class="satellite" target="_blank">
+                    <i class="fas fa-star"></i>
+                    <span class="label">Dots</span>
+                </a>
+            </div>
+             <div class="satellite-wrapper pos-7">
+                <a href="https://github.com/NoctuaCoder/midnight-dots" class="satellite" target="_blank">
+                    <i class="fas fa-moon"></i>
+                    <span class="label">Midnight</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 NoctuaCoder<br>
+        Tap a planet to explore
+    </div>
+
+</body>
+</html>
