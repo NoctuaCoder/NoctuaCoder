@@ -297,7 +297,7 @@ Aetherial Glow dotfiles for Hyprland:
 <td align="center" width="25%">
 
 ### 💎 Email
-<a href="mailto:your@email.com">
+<a href="mailto:38922657+NoctuaCoder@users.noreply.github.com">
   <img src="https://img.shields.io/badge/Contact_Me-00BFFF?style=for-the-badge&logo=gmail&logoColor=0A0E27"/>
 </a>
 

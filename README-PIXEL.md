@@ -151,7 +151,7 @@
 ```
 
 [![GitHub](https://img.shields.io/badge/[A]_GitHub-023047?style=for-the-badge&logo=github&logoColor=8ECAE6)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/[B]_Email-023047?style=for-the-badge&logo=gmail&logoColor=8ECAE6)](mailto:your@email.com)
+[![Email](https://img.shields.io/badge/[B]_Email-023047?style=for-the-badge&logo=gmail&logoColor=8ECAE6)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 [![Portfolio](https://img.shields.io/badge/[C]_Portfolio-023047?style=for-the-badge&logo=firefox&logoColor=8ECAE6)](https://github.com/NoctuaCoder)
 
 <br/><br/>
