@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoctuaCoder | Digital Alchemist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #050505;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.05);
+            --card-hover: rgba(255, 255, 255, 0.08);
+            --text-main: #ffffff;
+            --text-muted: #888888;
+            --accent-1: #00f2ea;
+            /* Electric Cyan */
+            --accent-2: #ff0050;
+            /* Neon Red/Pink */
+            --accent-3: #7000ff;
+            /* Deep Purple */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            cursor: none;
+            /* Custom cursor */
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* Noise Texture Overlay */
+        .noise {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 999;
+            opacity: 0.05;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48ZmlsdGVyIGlkPSJub2lzZSI+PGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuNjUiIG51bU9jdGF2ZXM9IjMiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWx0ZXI9InVybCgjbm9pc2UpIiBvcGFjaXR5PSIxIi8+PC9zdmc+');
+        }
+
+        /* Aurora Background */
+        .aurora-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            background: var(--bg);
+            overflow: hidden;
+        }
+
+        .aurora-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.4;
+            animation: float 20s infinite alternate;
+        }
+
+        .blob-1 {
+            top: -10%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: var(--accent-3);
+            animation-delay: 0s;
+        }
+
+        .blob-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 60vw;
+            height: 60vw;
+            background: var(--accent-1);
+            animation-delay: -5s;
+        }
+
+        .blob-3 {
+            top: 40%;
+            left: 40%;
+            width: 40vw;
+            height: 40vw;
+            background: var(--accent-2);
+            animation-delay: -10s;
+            opacity: 0.2;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(50px, 50px) scale(1.1);
+            }
+        }
+
+        /* Custom Cursor */
+        .cursor-dot,
+        .cursor-outline {
+            position: fixed;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            z-index: 9999;
+            pointer-events: none;
+        }
+
+        .cursor-dot {
+            width: 8px;
+            height: 8px;
+            background-color: white;
+        }
+
+        .cursor-outline {
+            width: 40px;
+            height: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: width 0.2s, height 0.2s, background-color 0.2s;
+        }
+
+        body:hover .cursor-outline {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 80px;
+            padding-top: 20px;
+        }
+
+        .brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .status {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #00ff88;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00ff88;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-bottom: 100px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(40px, 8vw, 100px);
+            font-weight: 400;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            background: linear-gradient(to right, #fff, #aaa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero h1 span {
+            font-style: italic;
+            color: var(--accent-1);
+            -webkit-text-fill-color: var(--accent-1);
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--text-muted);
+            max-width: 500px;
+            line-height: 1.6;
+        }
+
+        /* Bento Grid */
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, minmax(200px, auto));
+            gap: 20px;
+            margin-bottom: 100px;
+        }
+
+        .bento-item {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 30px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            backdrop-filter: blur(20px);
+        }
+
+        .bento-item:hover {
+            background: var(--card-hover);
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Grid Areas */
+        .item-profile {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .item-stats {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+
+        .item-social {
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+
+        .item-project-1 {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .item-project-2 {
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+
+        .item-skills {
+            grid-column: span 1;
+            grid-row: span 2;
+        }
+
+        /* Card Content */
+        .card-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .card-desc {
+            color: var(--text-muted);
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .project-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-top: 20px;
+            opacity: 0.8;
+            transition: 0.3s;
+        }
+
+        .bento-item:hover .project-img {
+            opacity: 1;
+            transform: scale(1.02);
+        }
+
+        /* Profile Specifics */
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 2px solid var(--accent-1);
+        }
+
+        /* Social Links */
+        .social-list {
+            list-style: none;
+            margin-top: auto;
+        }
+
+        .social-list li {
+            margin-bottom: 15px;
+        }
+
+        .social-list a {
+            color: var(--text-main);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .social-list a:hover {
+            color: var(--accent-1);
+            transform: translateX(5px);
+        }
+
+        /* Skills Tags */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: auto;
+        }
+
+        .skill-tag {
+            padding: 6px 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            font-size: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .bento-grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+
+            .item-profile,
+            .item-stats,
+            .item-social,
+            .item-project-1,
+            .item-project-2,
+            .item-skills {
+                grid-column: span 1;
+                grid-row: auto;
+            }
+
+            .hero h1 {
+                font-size: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Noise Overlay -->
+    <div class="noise"></div>
+
+    <!-- Aurora Background -->
+    <div class="aurora-bg">
+        <div class="aurora-blob blob-1"></div>
+        <div class="aurora-blob blob-2"></div>
+        <div class="aurora-blob blob-3"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <div class="container">
+        <header>
+            <div class="brand">NoctuaCoder</div>
+            <div class="status">
+                <div class="status-dot"></div>
+                Available for work
+            </div>
+        </header>
+
+        <section class="hero">
+            <h1>Crafting <span>Digital</span><br>Experiences.</h1>
+            <p>I build aesthetic, functional, and immersive web interfaces. Specializing in glassmorphism, celestial
+                themes, and modern UI/UX.</p>
+        </section>
+
+        <section class="bento-grid">
+            <!-- Profile Card -->
+            <div class="bento-item item-profile">
+                <div>
+                    <img src="https://github.com/NoctuaCoder.png" alt="Profile" class="avatar">
+                    <div class="card-label">About Me</div>
+                    <h2 class="card-title">Alana</h2>
+                    <p class="card-desc">Passionate developer driven by creativity. I turn complex problems into
+                        beautiful, simple, and intuitive designs. My code is my art.</p>
+                </div>
+            </div>
+
+            <!-- Stats Card -->
+            <div class="bento-item item-stats">
+                <div class="card-label">Experience</div>
+                <h2 class="card-title">3+ Years</h2>
+                <p class="card-desc">Building web & dotfiles</p>
+            </div>
+
+            <!-- Social Card -->
+            <div class="bento-item item-social">
+                <div class="card-label">Connect</div>
+                <h2 class="card-title">Socials</h2>
+                <ul class="social-list">
+                    <li><a href="https://github.com/NoctuaCoder">GitHub ↗</a></li>
+                    <li><a href="mailto:38922657+NoctuaCoder@users.noreply.github.com">Email ↗</a></li>
+                    <li><a href="#">LinkedIn ↗</a></li>
+                    <li><a href="#">Twitter ↗</a></li>
+                </ul>
+            </div>
+
+            <!-- Project 1: Stellar Dots -->
+            <div class="bento-item item-project-1"
+                onclick="window.open('https://github.com/NoctuaCoder/stellar-dots', '_blank')">
+                <div class="card-label">Featured Project</div>
+                <h2 class="card-title">Stellar Dots</h2>
+                <p class="card-desc">Premium glassmorphism dotfiles for Hyprland. 10+ menu styles, 8 themes, and
+                    automated installer.</p>
+                <div
+                    style="width: 100%; height: 200px; background: linear-gradient(45deg, #ff0050, #7000ff); border-radius: 12px; margin-top: 20px; display: flex; align-items: center; justify-content: center; font-size: 40px;">
+                    ✨</div>
+            </div>
+
+            <!-- Project 2: SpectraHypr -->
+            <div class="bento-item item-project-2"
+                onclick="window.open('https://github.com/NoctuaCoder/SpectraHypr', '_blank')">
+                <div class="card-label">Dotfiles</div>
+                <h2 class="card-title">SpectraHypr</h2>
+                <p class="card-desc">Aetherial Glow aesthetic with futuristic vibes.</p>
+                <div
+                    style="width: 100%; height: 120px; background: linear-gradient(45deg, #00f2ea, #7000ff); border-radius: 12px; margin-top: 20px;">
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="bento-item item-skills">
+                <div class="card-label">Expertise</div>
+                <h2 class="card-title">Skills</h2>
+                <div class="skills-container">
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Hyprland</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">UI Design</span>
+                    <span class="skill-tag">Shell</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Custom Cursor Logic
+        const cursorDot = document.getElementById("cursor-dot");
+        const cursorOutline = document.getElementById("cursor-outline");
+
+        window.addEventListener("mousemove", function (e) {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        // Add magnetic effect to bento items
+        const items = document.querySelectorAll('.bento-item');
+
+        items.forEach(item => {
+            item.addEventListener('mousemove', (e) => {
+                const rect = item.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+
+                item.style.background = `radial-gradient(800px circle at ${x}px ${y}px, rgba(255,255,255,0.1), rgba(255,255,255,0.03))`;
+            });
+
+            item.addEventListener('mouseleave', () => {
+                item.style.background = 'var(--card-bg)';
+            });
+        });
+    </script>
+</body>
+
+</html>
