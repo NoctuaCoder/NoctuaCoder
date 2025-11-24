@@ -18,39 +18,111 @@
   
   <!-- Animated 4-Pointed Stars -->
   <g filter="url(#glow)">
-    <!-- Star 1 -->
+    <!-- Star 1 - Grande -->
     <g transform="translate(100, 50)">
       <animateTransform attributeName="transform" type="rotate" from="0 100 50" to="360 100 50" dur="4s" repeatCount="indefinite"/>
       <rect x="-2" y="-10" width="4" height="20" fill="#00FFFF" opacity="0.8"/>
       <rect x="-10" y="-2" width="20" height="4" fill="#00FFFF" opacity="0.8"/>
     </g>
     
-    <!-- Star 2 -->
+    <!-- Star 2 - Média -->
     <g transform="translate(300, 150)">
       <animateTransform attributeName="transform" type="rotate" from="0 300 150" to="360 300 150" dur="6s" repeatCount="indefinite"/>
       <rect x="-1.5" y="-7" width="3" height="14" fill="#00BFFF" opacity="0.6"/>
       <rect x="-7" y="-1.5" width="14" height="3" fill="#00BFFF" opacity="0.6"/>
     </g>
     
-    <!-- Star 3 -->
+    <!-- Star 3 - Grande -->
     <g transform="translate(500, 80)">
       <animateTransform attributeName="transform" type="rotate" from="0 500 80" to="360 500 80" dur="5s" repeatCount="indefinite"/>
       <rect x="-2" y="-8" width="4" height="16" fill="#4A9EFF" opacity="0.7"/>
       <rect x="-8" y="-2" width="16" height="4" fill="#4A9EFF" opacity="0.7"/>
     </g>
     
-    <!-- Star 4 -->
+    <!-- Star 4 - Grande -->
     <g transform="translate(700, 120)">
       <animateTransform attributeName="transform" type="rotate" from="0 700 120" to="360 700 120" dur="7s" repeatCount="indefinite"/>
       <rect x="-2" y="-8" width="4" height="16" fill="#00FFFF" opacity="0.8"/>
       <rect x="-8" y="-2" width="16" height="4" fill="#00FFFF" opacity="0.8"/>
     </g>
     
-    <!-- Star 5 -->
+    <!-- Star 5 - Média -->
     <g transform="translate(900, 60)">
       <animateTransform attributeName="transform" type="rotate" from="0 900 60" to="360 900 60" dur="5.5s" repeatCount="indefinite"/>
       <rect x="-1.5" y="-7" width="3" height="14" fill="#00BFFF" opacity="0.6"/>
       <rect x="-7" y="-1.5" width="14" height="3" fill="#00BFFF" opacity="0.6"/>
+    </g>
+    
+    <!-- NOVAS ESTRELINHAS DE 4 PONTAS! -->
+    
+    <!-- Star 6 - Pequena -->
+    <g transform="translate(200, 100)">
+      <animateTransform attributeName="transform" type="rotate" from="0 200 100" to="360 200 100" dur="8s" repeatCount="indefinite"/>
+      <rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.5"/>
+      <rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Star 7 - Pequena -->
+    <g transform="translate(400, 40)">
+      <animateTransform attributeName="transform" type="rotate" from="0 400 40" to="360 400 40" dur="6.5s" repeatCount="indefinite"/>
+      <rect x="-1" y="-4" width="2" height="8" fill="#00BFFF" opacity="0.4"/>
+      <rect x="-4" y="-1" width="8" height="2" fill="#00BFFF" opacity="0.4"/>
+    </g>
+    
+    <!-- Star 8 - Pequena -->
+    <g transform="translate(600, 160)">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 160" to="360 600 160" dur="7.5s" repeatCount="indefinite"/>
+      <rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.5"/>
+      <rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Star 9 - Pequena -->
+    <g transform="translate(800, 80)">
+      <animateTransform attributeName="transform" type="rotate" from="0 800 80" to="360 800 80" dur="9s" repeatCount="indefinite"/>
+      <rect x="-1" y="-4" width="2" height="8" fill="#00FFFF" opacity="0.4"/>
+      <rect x="-4" y="-1" width="8" height="2" fill="#00FFFF" opacity="0.4"/>
+    </g>
+    
+    <!-- Star 10 - Pequena -->
+    <g transform="translate(150, 170)">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 170" to="360 150 170" dur="5.8s" repeatCount="indefinite"/>
+      <rect x="-1" y="-4" width="2" height="8" fill="#00BFFF" opacity="0.5"/>
+      <rect x="-4" y="-1" width="8" height="2" fill="#00BFFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Star 11 - Pequena -->
+    <g transform="translate(450, 130)">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 130" to="360 450 130" dur="6.8s" repeatCount="indefinite"/>
+      <rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.4"/>
+      <rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.4"/>
+    </g>
+    
+    <!-- Star 12 - Pequena -->
+    <g transform="translate(750, 30)">
+      <animateTransform attributeName="transform" type="rotate" from="0 750 30" to="360 750 30" dur="7.2s" repeatCount="indefinite"/>
+      <rect x="-1" y="-4" width="2" height="8" fill="#00FFFF" opacity="0.5"/>
+      <rect x="-4" y="-1" width="8" height="2" fill="#00FFFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Star 13 - Pequena -->
+    <g transform="translate(250, 25)">
+      <animateTransform attributeName="transform" type="rotate" from="0 250 25" to="360 250 25" dur="8.5s" repeatCount="indefinite"/>
+      <rect x="-1" y="-4" width="2" height="8" fill="#00BFFF" opacity="0.4"/>
+      <rect x="-4" y="-1" width="8" height="2" fill="#00BFFF" opacity="0.4"/>
+    </g>
+    
+    <!-- Star 14 - Pequena -->
+    <g transform="translate(550, 175)">
+      <animateTransform attributeName="transform" type="rotate" from="0 550 175" to="360 550 175" dur="6.2s" repeatCount="indefinite"/>
+      <rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.5"/>
+      <rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.5"/>
+    </g>
+    
+    <!-- Star 15 - Pequena -->
+    <g transform="translate(850, 140)">
+      <animateTransform attributeName="transform" type="rotate" from="0 850 140" to="360 850 140" dur="7.8s" repeatCount="indefinite"/>
+      <rect x="-1" y="-4" width="2" height="8" fill="#00FFFF" opacity="0.4"/>
+      <rect x="-4" y="-1" width="8" height="2" fill="#00FFFF" opacity="0.4"/>
     </g>
   </g>
   
@@ -59,18 +131,4 @@
   <line x1="300" y1="150" x2="500" y2="80" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
   <line x1="500" y1="80" x2="700" y2="120" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
   <line x1="700" y1="120" x2="900" y2="60" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
-  
-  <!-- Small twinkling stars -->
-  <circle cx="200" cy="100" r="2" fill="#00FFFF" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="400" cy="40" r="1.5" fill="#00BFFF" opacity="0.4">
-    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="600" cy="160" r="2" fill="#4A9EFF" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="800" cy="80" r="1.5" fill="#00FFFF" opacity="0.4">
-    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
 </svg>
