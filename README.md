@@ -234,6 +234,29 @@ Aetherial Glow dotfiles for Hyprland:
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌙 [Midnight Dots](https://github.com/NoctuaCoder/midnight-dots)
+
+<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dotfiles-00BFFF?style=flat-square"/>
+
+Cyberpunk purple-pink dotfiles for Hyprland:
+- 🦉 Coding by night aesthetic
+- 💜 Purple & Pink gradient theme
+- 🚀 Robust installer & backups
+- ✨ Custom scripts & utilities
+
+**Tech Stack:** `Hyprland` `Waybar` `Rofi` `Bash`
+
+<a href="https://github.com/NoctuaCoder/midnight-dots">
+  <img src="https://img.shields.io/badge/View_Project-FF69B4?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 <br/>
