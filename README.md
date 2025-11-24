@@ -254,7 +254,7 @@ Comprehensive UI component library:
 
 ## 🏆 Achievements Constellation
 
-<img src="assets/achievements-constellation.svg" width="100%" alt="Achievements Constellation" />
+<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/assets/achievements-constellation.svg" width="100%" alt="Achievements Constellation" />
 
 ### 📊 Contribution Graph
 
