@@ -216,19 +216,21 @@ Interactive celestial portfolio with:
 </td>
 <td width="50%" valign="top">
 
-### 🌈 Design System
+### 🌌 [SpectraHypr](https://github.com/NoctuaCoder/SpectraHypr)
 
-<img src="https://img.shields.io/badge/Status-In_Progress-4A9EFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Library-00BFFF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dotfiles-00BFFF?style=flat-square"/>
 
-Comprehensive UI component library:
-- 🎨 Modern aesthetics
-- ♿ Accessible design
-- 📱 Responsive components
-- 🎭 Dark mode support
+Aetherial Glow dotfiles for Hyprland:
+- 🌟 Futuristic ethereal aesthetic
+- 💜 Purple, cyan & pink palette
+- ✨ Advanced blur & animations
+- 🚀 Automated installer
 
-**Tech Stack:** `React` `TypeScript` `Tailwind` `Storybook`
+**Tech Stack:** `Hyprland` `Waybar` `Rofi` `Shell`
 
-<img src="https://img.shields.io/badge/Coming_Soon-00FFFF?style=for-the-badge"/>
+<a href="https://github.com/NoctuaCoder/SpectraHypr">
+  \<img src="https://img.shields.io/badge/View_Project-4A9EFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
+</a>
 
 </td>
 </tr>
