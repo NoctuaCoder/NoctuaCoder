@@ -256,7 +256,7 @@ Aetherial Glow dotfiles for Hyprland:
 
 ## 🏆 Achievements Constellation
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=radical&no-frame=true&no-bg=true&column=4&row=2&margin-w=15&margin-h=15&title_color=00FFFF&icon_color=00BFFF&text_color=E0FFFF&border_color=4A9EFF)
+![Trophies](https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=algolia&no-frame=true&no-bg=true&column=4&row=2&margin-w=15&margin-h=15)
 
 ### 📊 Contribution Graph
 
