@@ -5,7 +5,7 @@
       <stop offset="100%" style="stop-color:#00BFFF;stop-opacity:1" />
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -16,119 +16,92 @@
   <!-- Background -->
   <rect width="100%" height="100%" fill="transparent"/>
   
-  <!-- Animated 4-Pointed Stars -->
+  <!-- Animated 4-Pointed Stars - TEMPESTADE DE ESTRELAS! -->
   <g filter="url(#glow)">
-    <!-- Star 1 - Grande -->
+    <!-- Estrelas Grandes (5) -->
     <g transform="translate(100, 50)">
       <animateTransform attributeName="transform" type="rotate" from="0 100 50" to="360 100 50" dur="4s" repeatCount="indefinite"/>
       <rect x="-2" y="-10" width="4" height="20" fill="#00FFFF" opacity="0.8"/>
       <rect x="-10" y="-2" width="20" height="4" fill="#00FFFF" opacity="0.8"/>
     </g>
     
-    <!-- Star 2 - Média -->
     <g transform="translate(300, 150)">
       <animateTransform attributeName="transform" type="rotate" from="0 300 150" to="360 300 150" dur="6s" repeatCount="indefinite"/>
-      <rect x="-1.5" y="-7" width="3" height="14" fill="#00BFFF" opacity="0.6"/>
-      <rect x="-7" y="-1.5" width="14" height="3" fill="#00BFFF" opacity="0.6"/>
+      <rect x="-1.5" y="-7" width="3" height="14" fill="#00BFFF" opacity="0.7"/>
+      <rect x="-7" y="-1.5" width="14" height="3" fill="#00BFFF" opacity="0.7"/>
     </g>
     
-    <!-- Star 3 - Grande -->
     <g transform="translate(500, 80)">
       <animateTransform attributeName="transform" type="rotate" from="0 500 80" to="360 500 80" dur="5s" repeatCount="indefinite"/>
-      <rect x="-2" y="-8" width="4" height="16" fill="#4A9EFF" opacity="0.7"/>
-      <rect x="-8" y="-2" width="16" height="4" fill="#4A9EFF" opacity="0.7"/>
+      <rect x="-2" y="-8" width="4" height="16" fill="#4A9EFF" opacity="0.8"/>
+      <rect x="-8" y="-2" width="16" height="4" fill="#4A9EFF" opacity="0.8"/>
     </g>
     
-    <!-- Star 4 - Grande -->
     <g transform="translate(700, 120)">
       <animateTransform attributeName="transform" type="rotate" from="0 700 120" to="360 700 120" dur="7s" repeatCount="indefinite"/>
       <rect x="-2" y="-8" width="4" height="16" fill="#00FFFF" opacity="0.8"/>
       <rect x="-8" y="-2" width="16" height="4" fill="#00FFFF" opacity="0.8"/>
     </g>
     
-    <!-- Star 5 - Média -->
     <g transform="translate(900, 60)">
       <animateTransform attributeName="transform" type="rotate" from="0 900 60" to="360 900 60" dur="5.5s" repeatCount="indefinite"/>
-      <rect x="-1.5" y="-7" width="3" height="14" fill="#00BFFF" opacity="0.6"/>
-      <rect x="-7" y="-1.5" width="14" height="3" fill="#00BFFF" opacity="0.6"/>
+      <rect x="-1.5" y="-7" width="3" height="14" fill="#00BFFF" opacity="0.7"/>
+      <rect x="-7" y="-1.5" width="14" height="3" fill="#00BFFF" opacity="0.7"/>
     </g>
     
-    <!-- NOVAS ESTRELINHAS DE 4 PONTAS! -->
+    <!-- Estrelas Médias (15) -->
+    <g transform="translate(200, 100)"><animateTransform attributeName="transform" type="rotate" from="0 200 100" to="360 200 100" dur="8s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.6"/></g>
+    <g transform="translate(400, 40)"><animateTransform attributeName="transform" type="rotate" from="0 400 40" to="360 400 40" dur="6.5s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00BFFF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#00BFFF" opacity="0.5"/></g>
+    <g transform="translate(600, 160)"><animateTransform attributeName="transform" type="rotate" from="0 600 160" to="360 600 160" dur="7.5s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.6"/></g>
+    <g transform="translate(800, 80)"><animateTransform attributeName="transform" type="rotate" from="0 800 80" to="360 800 80" dur="9s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.5"/></g>
+    <g transform="translate(150, 170)"><animateTransform attributeName="transform" type="rotate" from="0 150 170" to="360 150 170" dur="5.8s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00BFFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#00BFDF" opacity="0.6"/></g>
+    <g transform="translate(450, 130)"><animateTransform attributeName="transform" type="rotate" from="0 450 130" to="360 450 130" dur="6.8s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.5"/></g>
+    <g transform="translate(750, 30)"><animateTransform attributeName="transform" type="rotate" from="0 750 30" to="360 750 30" dur="7.2s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.6"/></g>
+    <g transform="translate(250, 25)"><animateTransform attributeName="transform" type="rotate" from="0 250 25" to="360 250 25" dur="8.5s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00BFDF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#00BFDF" opacity="0.5"/></g>
+    <g transform="translate(550, 175)"><animateTransform attributeName="transform" type="rotate" from="0 550 175" to="360 550 175" dur="6.2s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.6"/></g>
+    <g transform="translate(850, 140)"><animateTransform attributeName="transform" type="rotate" from="0 850 140" to="360 850 140" dur="7.8s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.5"/></g>
+    <g transform="translate(350, 95)"><animateTransform attributeName="transform" type="rotate" from="0 350 95" to="360 350 95" dur="6.3s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00BFDF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#00BFDF" opacity="0.6"/></g>
+    <g transform="translate(650, 55)"><animateTransform attributeName="transform" type="rotate" from="0 650 55" to="360 650 55" dur="7.7s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.5"/></g>
+    <g transform="translate(180, 120)"><animateTransform attributeName="transform" type="rotate" from="0 180 120" to="360 180 120" dur="8.2s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.6"/></g>
+    <g transform="translate(520, 145)"><animateTransform attributeName="transform" type="rotate" from="0 520 145" to="360 520 145" dur="5.9s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#00BFDF" opacity="0.5"/><rect x="-5" y="-1" width="10" height="2" fill="#00BFDF" opacity="0.5"/></g>
+    <g transform="translate(920, 110)"><animateTransform attributeName="transform" type="rotate" from="0 920 110" to="360 920 110" dur="6.7s" repeatCount="indefinite"/><rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.6"/><rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.6"/></g>
     
-    <!-- Star 6 - Pequena -->
-    <g transform="translate(200, 100)">
-      <animateTransform attributeName="transform" type="rotate" from="0 200 100" to="360 200 100" dur="8s" repeatCount="indefinite"/>
-      <rect x="-1" y="-5" width="2" height="10" fill="#00FFFF" opacity="0.5"/>
-      <rect x="-5" y="-1" width="10" height="2" fill="#00FFFF" opacity="0.5"/>
-    </g>
-    
-    <!-- Star 7 - Pequena -->
-    <g transform="translate(400, 40)">
-      <animateTransform attributeName="transform" type="rotate" from="0 400 40" to="360 400 40" dur="6.5s" repeatCount="indefinite"/>
-      <rect x="-1" y="-4" width="2" height="8" fill="#00BFFF" opacity="0.4"/>
-      <rect x="-4" y="-1" width="8" height="2" fill="#00BFFF" opacity="0.4"/>
-    </g>
-    
-    <!-- Star 8 - Pequena -->
-    <g transform="translate(600, 160)">
-      <animateTransform attributeName="transform" type="rotate" from="0 600 160" to="360 600 160" dur="7.5s" repeatCount="indefinite"/>
-      <rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.5"/>
-      <rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.5"/>
-    </g>
-    
-    <!-- Star 9 - Pequena -->
-    <g transform="translate(800, 80)">
-      <animateTransform attributeName="transform" type="rotate" from="0 800 80" to="360 800 80" dur="9s" repeatCount="indefinite"/>
-      <rect x="-1" y="-4" width="2" height="8" fill="#00FFFF" opacity="0.4"/>
-      <rect x="-4" y="-1" width="8" height="2" fill="#00FFFF" opacity="0.4"/>
-    </g>
-    
-    <!-- Star 10 - Pequena -->
-    <g transform="translate(150, 170)">
-      <animateTransform attributeName="transform" type="rotate" from="0 150 170" to="360 150 170" dur="5.8s" repeatCount="indefinite"/>
-      <rect x="-1" y="-4" width="2" height="8" fill="#00BFFF" opacity="0.5"/>
-      <rect x="-4" y="-1" width="8" height="2" fill="#00BFFF" opacity="0.5"/>
-    </g>
-    
-    <!-- Star 11 - Pequena -->
-    <g transform="translate(450, 130)">
-      <animateTransform attributeName="transform" type="rotate" from="0 450 130" to="360 450 130" dur="6.8s" repeatCount="indefinite"/>
-      <rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.4"/>
-      <rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.4"/>
-    </g>
-    
-    <!-- Star 12 - Pequena -->
-    <g transform="translate(750, 30)">
-      <animateTransform attributeName="transform" type="rotate" from="0 750 30" to="360 750 30" dur="7.2s" repeatCount="indefinite"/>
-      <rect x="-1" y="-4" width="2" height="8" fill="#00FFFF" opacity="0.5"/>
-      <rect x="-4" y="-1" width="8" height="2" fill="#00FFFF" opacity="0.5"/>
-    </g>
-    
-    <!-- Star 13 - Pequena -->
-    <g transform="translate(250, 25)">
-      <animateTransform attributeName="transform" type="rotate" from="0 250 25" to="360 250 25" dur="8.5s" repeatCount="indefinite"/>
-      <rect x="-1" y="-4" width="2" height="8" fill="#00BFFF" opacity="0.4"/>
-      <rect x="-4" y="-1" width="8" height="2" fill="#00BFFF" opacity="0.4"/>
-    </g>
-    
-    <!-- Star 14 - Pequena -->
-    <g transform="translate(550, 175)">
-      <animateTransform attributeName="transform" type="rotate" from="0 550 175" to="360 550 175" dur="6.2s" repeatCount="indefinite"/>
-      <rect x="-1" y="-5" width="2" height="10" fill="#4A9EFF" opacity="0.5"/>
-      <rect x="-5" y="-1" width="10" height="2" fill="#4A9EFF" opacity="0.5"/>
-    </g>
-    
-    <!-- Star 15 - Pequena -->
-    <g transform="translate(850, 140)">
-      <animateTransform attributeName="transform" type="rotate" from="0 850 140" to="360 850 140" dur="7.8s" repeatCount="indefinite"/>
-      <rect x="-1" y="-4" width="2" height="8" fill="#00FFFF" opacity="0.4"/>
-      <rect x="-4" y="-1" width="8" height="2" fill="#00FFFF" opacity="0.4"/>
-    </g>
+    <!-- Estrelas Pequenas (30+) -->
+    <g transform="translate(50, 80)"><animateTransform attributeName="transform" type="rotate" from="0 50 80" to="360 50 80" dur="9.5s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.4"/></g>
+    <g transform="translate(120, 35)"><animateTransform attributeName="transform" type="rotate" from="0 120 35" to="360 120 35" dur="10s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.3"/></g>
+    <g transform="translate(220, 65)"><animateTransform attributeName="transform" type="rotate" from="0 220 65" to="360 220 65" dur="8.8s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.4"/></g>
+    <g transform="translate(280, 140)"><animateTransform attributeName="transform" type="rotate" from="0 280 140" to="360 280 140" dur="9.2s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.3"/></g>
+    <g transform="translate(370, 180)"><animateTransform attributeName="transform" type="rotate" from="0 370 180" to="360 370 180" dur="10.5s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.4"/></g>
+    <g transform="translate(420, 90)"><animateTransform attributeName="transform" type="rotate" from="0 420 90" to="360 420 90" dur="8.3s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.3"/></g>
+    <g transform="translate(480, 15)"><animateTransform attributeName="transform" type="rotate" from="0 480 15" to="360 480 15" dur="9.8s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.4"/></g>
+    <g transform="translate(580, 110)"><animateTransform attributeName="transform" type="rotate" from="0 580 110" to="360 580 110" dur="7.9s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.3"/></g>
+    <g transform="translate(630, 185)"><animateTransform attributeName="transform" type="rotate" from="0 630 185" to="360 630 185" dur="10.2s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.4"/></g>
+    <g transform="translate(720, 45)"><animateTransform attributeName="transform" type="rotate" from="0 720 45" to="360 720 45" dur="8.6s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.3"/></g>
+    <g transform="translate(770, 165)"><animateTransform attributeName="transform" type="rotate" from="0 770 165" to="360 770 165" dur="9.4s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.4"/></g>
+    <g transform="translate(820, 20)"><animateTransform attributeName="transform" type="rotate" from="0 820 20" to="360 820 20" dur="10.8s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.3"/></g>
+    <g transform="translate(880, 95)"><animateTransform attributeName="transform" type="rotate" from="0 880 95" to="360 880 95" dur="8.1s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.4"/></g>
+    <g transform="translate(950, 150)"><animateTransform attributeName="transform" type="rotate" from="0 950 150" to="360 950 150" dur="9.7s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.3"/></g>
+    <g transform="translate(75, 145)"><animateTransform attributeName="transform" type="rotate" from="0 75 145" to="360 75 145" dur="10.3s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.4"/></g>
+    <g transform="translate(160, 55)"><animateTransform attributeName="transform" type="rotate" from="0 160 55" to="360 160 55" dur="8.9s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.3"/></g>
+    <g transform="translate(310, 190)"><animateTransform attributeName="transform" type="rotate" from="0 310 190" to="360 310 190" dur="9.1s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.4"/></g>
+    <g transform="translate(390, 70)"><animateTransform attributeName="transform" type="rotate" from="0 390 70" to="360 390 70" dur="10.6s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.3"/></g>
+    <g transform="translate(470, 155)"><animateTransform attributeName="transform" type="rotate" from="0 470 155" to="360 470 155" dur="8.4s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.4"/></g>
+    <g transform="translate(540, 25)"><animateTransform attributeName="transform" type="rotate" from="0 540 25" to="360 540 25" dur="9.9s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.3"/></g>
+    <g transform="translate(610, 125)"><animateTransform attributeName="transform" type="rotate" from="0 610 125" to="360 610 125" dur="10.1s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.4"/></g>
+    <g transform="translate(680, 195)"><animateTransform attributeName="transform" type="rotate" from="0 680 195" to="360 680 195" dur="8.7s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.3"/></g>
+    <g transform="translate(740, 85)"><animateTransform attributeName="transform" type="rotate" from="0 740 85" to="360 740 85" dur="9.6s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.4"/></g>
+    <g transform="translate(810, 135)"><animateTransform attributeName="transform" type="rotate" from="0 810 135" to="360 810 135" dur="10.4s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.3"/></g>
+    <g transform="translate(890, 50)"><animateTransform attributeName="transform" type="rotate" from="0 890 50" to="360 890 50" dur="8.5s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.4"/></g>
+    <g transform="translate(960, 175)"><animateTransform attributeName="transform" type="rotate" from="0 960 175" to="360 960 175" dur="9.3s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.3"/></g>
+    <g transform="translate(30, 115)"><animateTransform attributeName="transform" type="rotate" from="0 30 115" to="360 30 115" dur="10.7s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.4"/></g>
+    <g transform="translate(990, 90)"><animateTransform attributeName="transform" type="rotate" from="0 990 90" to="360 990 90" dur="8.2s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00FFFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00FFFF" opacity="0.3"/></g>
+    <g transform="translate(330, 10)"><animateTransform attributeName="transform" type="rotate" from="0 330 10" to="360 330 10" dur="9s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#00BFDF" opacity="0.4"/><rect x="-3" y="-0.5" width="6" height="1" fill="#00BFDF" opacity="0.4"/></g>
+    <g transform="translate(670, 15)"><animateTransform attributeName="transform" type="rotate" from="0 670 15" to="360 670 15" dur="10.9s" repeatCount="indefinite"/><rect x="-0.5" y="-3" width="1" height="6" fill="#4A9EFF" opacity="0.3"/><rect x="-3" y="-0.5" width="6" height="1" fill="#4A9EFF" opacity="0.3"/></g>
   </g>
   
   <!-- Constellation Lines -->
-  <line x1="100" y1="50" x2="300" y2="150" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
-  <line x1="300" y1="150" x2="500" y2="80" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
-  <line x1="500" y1="80" x2="700" y2="120" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
-  <line x1="700" y1="120" x2="900" y2="60" stroke="#00BFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="100" y1="50" x2="300" y2="150" stroke="#00BFFF" stroke-width="1" opacity="0.2"/>
+  <line x1="300" y1="150" x2="500" y2="80" stroke="#00BFFF" stroke-width="1" opacity="0.2"/>
+  <line x1="500" y1="80" x2="700" y2="120" stroke="#00BFFF" stroke-width="1" opacity="0.2"/>
+  <line x1="700" y1="120" x2="900" y2="60" stroke="#00BFFF" stroke-width="1" opacity="0.2"/>
 </svg>
