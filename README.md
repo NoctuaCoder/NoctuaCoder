@@ -36,21 +36,23 @@
 
 ```yaml
 name: Alana
-role: Full Stack Developer
+role: Frontend Developer & UI/UX Designer
 location: Brazil 🇧🇷
 timezone: GMT-3
-motto: "Code by night, dream by day"
+motto: "Converting starlight into source code"
+specialties: [Glassmorphism, Interactive UIs, Modern CSS]
 
 currently:
   - Building Stellar Dots v2.0
-  - Exploring glassmorphism design
-  - Creating beautiful UIs
+  - Crafting premium dashboards
+  - Exploring advanced animations
   
-interests:
-  - UI/UX Design
-  - System Customization
-  - Open Source
-  - Astronomy & Stars ✨
+focus:
+  - UI/UX Design & Prototyping
+  - Frontend Development (React, Vanilla JS)
+  - Glassmorphism & Modern Aesthetics
+  - System Customization & Dotfiles
+  - Open Source Contributions
 ```
 
 </td>
@@ -255,6 +257,24 @@ Cyberpunk purple-pink dotfiles for Hyprland:
 
 </td>
 <td width="50%" valign="top">
+
+### 🌌 [Noctua Command Center](https://github.com/NoctuaCoder/noctua-command-center)
+
+<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dashboard-00BFFF?style=flat-square"/>
+
+Celestial productivity dashboard with:
+- 🎨 Interactive constellation background
+- 💎 Glassmorphism UI components
+- ⏱️ Pomodoro timer & widgets
+- 💻 Mini terminal interface
+- 🎵 Music player with visualizer
+
+**Tech Stack:** `JavaScript` `HTML5` `CSS3` `Canvas API`
+
+<a href="https://github.com/NoctuaCoder/noctua-command-center">
+  <img src="https://img.shields.io/badge/View_Project-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
+</a>
+
 </td>
 </tr>
 </table>
@@ -302,34 +322,39 @@ Cyberpunk purple-pink dotfiles for Hyprland:
 
 <br/>
 
-<!-- Social Constellation -->
+## 🌌 Connect Across the Stars
+
 <div align="center">
 
-## 🌌 Connect Across the Stars
+### 💫 Interessada em criar experiências UI/UX incríveis?
+
+**Vamos conversar sobre projetos, colaborações ou oportunidades!**
+
+</div>
 
 <table>
 <tr>
 <td align="center" width="25%">
 
+### 📧 Email
+<a href="mailto:noctuacoder@proton.me">
+  <img src="https://img.shields.io/badge/noctuacoder@proton.me-00FFFF?style=for-the-badge&logo=protonmail&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td align="center" width="25%">
+
+### 💼 LinkedIn
+<a href="https://linkedin.com/in/noctuacoder">
+  <img src="https://img.shields.io/badge/NoctuaCoder-00BFFF?style=for-the-badge&logo=linkedin&logoColor=0A0E27"/>
+</a>
+
+</td>
+<td align="center" width="25%">
+
 ### ⭐ GitHub
 <a href="https://github.com/NoctuaCoder">
-  <img src="https://img.shields.io/badge/NoctuaCoder-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
-</a>
-
-</td>
-<td align="center" width="25%">
-
-### 💎 Email
-<a href="mailto:38922657+NoctuaCoder@users.noreply.github.com">
-  <img src="https://img.shields.io/badge/Contact_Me-00BFFF?style=for-the-badge&logo=gmail&logoColor=0A0E27"/>
-</a>
-
-</td>
-<td align="center" width="25%">
-
-### ✨ Instagram
-<a href="https://instagram.com/yourusername">
-  <img src="https://img.shields.io/badge/@yourusername-4A9EFF?style=for-the-badge&logo=instagram&logoColor=0A0E27"/>
+  <img src="https://img.shields.io/badge/NoctuaCoder-4A9EFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
 </a>
 
 </td>
@@ -344,7 +369,9 @@ Cyberpunk purple-pink dotfiles for Hyprland:
 </tr>
 </table>
 
-</div>
+<sub style="color: #00BFFF; opacity: 0.9;">
+💡 <strong>Open to:</strong> Frontend positions • UI/UX projects • Open source collaborations • Freelance work
+</sub>
 
 <br/><br/>
 
