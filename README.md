@@ -229,7 +229,7 @@ Aetherial Glow dotfiles for Hyprland:
 **Tech Stack:** `Hyprland` `Waybar` `Rofi` `Shell`
 
 <a href="https://github.com/NoctuaCoder/SpectraHypr">
-  \<img src="https://img.shields.io/badge/View_Project-4A9EFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
+  <img src="https://img.shields.io/badge/View_Project-4A9EFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
 </a>
 
 </td>
