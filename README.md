@@ -313,7 +313,7 @@ Aetherial Glow dotfiles for Hyprland:
 <td align="center" width="25%">
 
 ### 🌟 Portfolio
-<a href="https://noctuacoder.github.io/NoctuaCoder/Noctua-profile.html">
+<a href="https://noctuacoder.github.io/NoctuaCoder/portfolio.html">
   <img src="https://img.shields.io/badge/View_Portfolio-00FFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
 </a>
 
