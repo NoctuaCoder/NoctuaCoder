@@ -1,0 +1,74 @@
+<svg width="600" height="450" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: 'JetBrains Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+      font-size: 14px;
+      font-weight: 500;
+      fill: url(#gradient);
+      white-space: pre;
+    }
+    .key {
+      font-weight: 700;
+    }
+  </style>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF" />
+      <stop offset="50%" stop-color="#00BFFF" />
+      <stop offset="100%" stop-color="#BD00FF" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#0A0E27" rx="10" fill-opacity="0" />
+  
+  <text x="20" y="30" class="text">
+    <tspan class="key">name:</tspan> Alana
+  </text>
+  <text x="20" y="55" class="text">
+    <tspan class="key">role:</tspan> Frontend Developer &amp; UI/UX Designer
+  </text>
+  <text x="20" y="80" class="text">
+    <tspan class="key">location:</tspan> Brazil 🇧🇷
+  </text>
+  <text x="20" y="105" class="text">
+    <tspan class="key">timezone:</tspan> GMT-3
+  </text>
+  <text x="20" y="130" class="text">
+    <tspan class="key">motto:</tspan> "Converting starlight into source code"
+  </text>
+  <text x="20" y="155" class="text">
+    <tspan class="key">specialties:</tspan> [Glassmorphism, Interactive UIs, Modern CSS]
+  </text>
+
+  <text x="20" y="195" class="text">
+    <tspan class="key">currently:</tspan>
+  </text>
+  <text x="40" y="220" class="text">
+    - Building Stellar Dots v2.0
+  </text>
+  <text x="40" y="245" class="text">
+    - Crafting premium dashboards
+  </text>
+  <text x="40" y="270" class="text">
+    - Exploring advanced animations
+  </text>
+  
+  <text x="20" y="310" class="text">
+    <tspan class="key">focus:</tspan>
+  </text>
+  <text x="40" y="335" class="text">
+    - UI/UX Design &amp; Prototyping
+  </text>
+  <text x="40" y="360" class="text">
+    - Frontend Development (React, Vanilla JS)
+  </text>
+  <text x="40" y="385" class="text">
+    - Glassmorphism &amp; Modern Aesthetics
+  </text>
+  <text x="40" y="410" class="text">
+    - System Customization &amp; Dotfiles
+  </text>
+  <text x="40" y="435" class="text">
+    - Open Source Contributions
+  </text>
+</svg>
