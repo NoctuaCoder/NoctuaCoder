@@ -271,8 +271,8 @@ Celestial productivity dashboard with:
 
 **Tech Stack:** `JavaScript` `HTML5` `CSS3` `Canvas API`
 
-<a href="https://github.com/NoctuaCoder/noctua-command-center">
-  <img src="https://img.shields.io/badge/View_Project-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
+<a href="https://noctuacoder.github.io/noctua-command-center/">
+  <img src="https://img.shields.io/badge/Live_Demo-00FFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
 </a>
 
 </td>
