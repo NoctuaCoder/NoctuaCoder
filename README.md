@@ -13,7 +13,7 @@
 </h1>
 
 <p style="font-size: 1.3em; color: #00BFFF; margin-bottom: 30px;">
-  ✨ <em>Crafting stellar experiences by night</em> ✨
+  <em>Crafting stellar experiences by night</em>
 </p>
 
 <!-- Animated Divider -->
@@ -30,7 +30,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🌟 About Me
+### About Me
 
 
 
@@ -58,7 +58,7 @@ focus:
 </td>
 <td width="50%" valign="top">
 
-### 💫 Quick Stats
+### Quick Stats
 
 <div align="center">
 
@@ -92,13 +92,13 @@ focus:
 <!-- Skills Constellation -->
 <div align="center">
 
-## 🌌 Skills Constellation
+## Skills Constellation
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-### ⭐ Languages
+### Languages
 
 ![Shell](https://img.shields.io/badge/Shell_Script-★★★★★-00FFFF?style=for-the-badge&logo=gnu-bash&logoColor=00FFFF&labelColor=0A0E27)
 ![Python](https://img.shields.io/badge/Python-★★★★☆-00BFFF?style=for-the-badge&logo=python&logoColor=00BFFF&labelColor=0A0E27)
@@ -108,7 +108,7 @@ focus:
 </td>
 <td width="33%" align="center">
 
-### 💎 Frontend
+### Frontend
 
 ![HTML5](https://img.shields.io/badge/HTML5-00FFFF?style=for-the-badge&logo=html5&logoColor=00FFFF&labelColor=0A0E27)
 ![CSS3](https://img.shields.io/badge/CSS3-00BFFF?style=for-the-badge&logo=css3&logoColor=00BFFF&labelColor=0A0E27)
@@ -118,7 +118,7 @@ focus:
 </td>
 <td width="33%" align="center">
 
-### 🎨 Design
+### Design
 
 ![Figma](https://img.shields.io/badge/Figma-00FFFF?style=for-the-badge&logo=figma&logoColor=00FFFF&labelColor=0A0E27)
 ![UI/UX](https://img.shields.io/badge/UI/UX-00BFFF?style=for-the-badge&logo=adobe&logoColor=00BFFF&labelColor=0A0E27)
@@ -151,7 +151,7 @@ focus:
 <!-- Featured Projects Galaxy -->
 <div align="center">
 
-## 🌠 Featured Projects Galaxy
+## Featured Projects
 
 </div>
 
@@ -159,15 +159,15 @@ focus:
 <tr>
 <td width="50%" valign="top">
 
-### 🌟 [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)
+### [Stellar Dots](https://github.com/NoctuaCoder/stellar-dots)
 
 <img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dotfiles-00BFFF?style=flat-square"/>
 
 Premium glassmorphism collection for Hyprland featuring:
-- ✨ 10+ beautiful menus
-- 🎨 8 stunning themes  
-- ⚡ 30+ utility scripts
-- 💎 Modern UI/UX design
+- 10+ beautiful menus
+- 8 stunning themes  
+- 30+ utility scripts
+- Modern UI/UX design
 
 **Tech Stack:** `Shell` `CSS` `Hyprland` `Rofi` `Waybar`
 
@@ -178,15 +178,15 @@ Premium glassmorphism collection for Hyprland featuring:
 </td>
 <td width="50%" valign="top">
 
-### 💎 [Matrix Owl Terminal](https://github.com/NoctuaCoder/matrix-owl)
+### [Matrix Owl Terminal](https://github.com/NoctuaCoder/matrix-owl)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Interactive-00BFFF?style=flat-square"/>
 
 Cyberpunk terminal experience with:
-- 🌊 Matrix rain effect in blue
-- 🦉 ASCII owl art
-- ✨ Glitch animations
-- 💫 Terminal interface
+- Matrix rain effect in blue
+- ASCII owl art
+- Glitch animations
+- Terminal interface
 
 **Tech Stack:** `HTML` `CSS` `JavaScript` `Canvas`
 
@@ -199,15 +199,15 @@ Cyberpunk terminal experience with:
 <tr>
 <td width="50%" valign="top">
 
-### 🎨 [Noctua Profile](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
+### [Noctua Profile](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Portfolio-00BFFF?style=flat-square"/>
 
 Interactive celestial portfolio with:
-- ⭐ Animated 4-pointed stars
-- 🌌 Parallax effects
-- 💫 Glassmorphism UI
-- ✨ Smooth animations
+- Animated 4-pointed stars
+- Parallax effects
+- Glassmorphism UI
+- Smooth animations
 
 **Tech Stack:** `HTML` `CSS` `JavaScript` `SVG`
 
@@ -218,15 +218,15 @@ Interactive celestial portfolio with:
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [Noctua Assistant](https://github.com/NoctuaCoder/noctua-assistant)
+### [Noctua Assistant](https://github.com/NoctuaCoder/noctua-assistant)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Chatbot-00BFFF?style=flat-square"/>
 
 Interactive portfolio chatbot with AI-like responses:
-- 💬 Natural language understanding
-- 🎨 Glassmorphism UI
-- ⭐ Particle background
-- 🌙 Dark/Light themes
+- Natural language understanding
+- Glassmorphism UI
+- Particle background
+- Dark/Light themes
 
 **Tech Stack:** `JavaScript` `HTML` `CSS` `Canvas API`
 
@@ -239,15 +239,15 @@ Interactive portfolio chatbot with AI-like responses:
 <tr>
 <td width="50%" valign="top">
 
-### ⚛️ [Stellar Task Manager](https://github.com/NoctuaCoder/stellar-task-manager)
+### [Stellar Task Manager](https://github.com/NoctuaCoder/stellar-task-manager)
 
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-React_App-00BFFF?style=flat-square"/>
 
 Beautiful task manager built with React:
-- ⚛️ React Hooks (useState, useEffect)
-- 💾 LocalStorage persistence
-- 🎨 Glassmorphism design
-- 📊 Real-time statistics
+- React Hooks (useState, useEffect)
+- LocalStorage persistence
+- Glassmorphism design
+- Real-time statistics
 
 **Tech Stack:** `React` `JavaScript` `CSS` `LocalStorage`
 
@@ -258,16 +258,16 @@ Beautiful task manager built with React:
 </td>
 <td width="50%" valign="top">
 
-### 🌌 [Noctua Command Center](https://github.com/NoctuaCoder/noctua-command-center)
+### [Noctua Command Center](https://github.com/NoctuaCoder/noctua-command-center)
 
 <img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dashboard-00BFFF?style=flat-square"/>
 
 Celestial productivity dashboard with:
-- 🎨 Interactive constellation background
-- 💎 Glassmorphism UI components
-- ⏱️ Pomodoro timer & widgets
-- 💻 Mini terminal interface
-- 🎵 Music player with visualizer
+- Interactive constellation background
+- Glassmorphism UI components
+- Pomodoro timer & widgets
+- Mini terminal interface
+- Music player with visualizer
 
 **Tech Stack:** `JavaScript` `HTML5` `CSS3` `Canvas API`
 
@@ -297,11 +297,11 @@ Celestial productivity dashboard with:
 <!-- GitHub Activity & Trophies -->
 <div align="center">
 
-## 🏆 Achievements Constellation
+## Achievements
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=NoctuaCoder&theme=algolia&no-frame=true&no-bg=true&column=4&row=2&margin-w=15&margin-h=15)
 
-### 📊 Contribution Graph
+### Contribution Graph
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&theme=react-dark&hide_border=true&bg_color=0A0E27&color=00FFFF&line=00BFFF&point=4A9EFF&area=true&area_color=00BFFF)
 
@@ -322,13 +322,13 @@ Celestial productivity dashboard with:
 
 <br/>
 
-## 🌌 Connect Across the Stars
+## Connect
 
 <div align="center">
 
-### 💫 Interested in creating amazing UI/UX experiences?
+### Interested in creating amazing UI/UX experiences?
 
-**Let's talk about projects, collaborations, or opportunities!**
+**Let's talk about projects, collaborations, or opportunities.**
 
 </div>
 
@@ -336,7 +336,7 @@ Celestial productivity dashboard with:
 <tr>
 <td align="center" width="25%">
 
-### 📧 Email
+### Email
 <a href="mailto:noctuacoder@proton.me">
   <img src="https://img.shields.io/badge/noctuacoder@proton.me-00FFFF?style=for-the-badge&logo=protonmail&logoColor=0A0E27"/>
 </a>
@@ -344,7 +344,7 @@ Celestial productivity dashboard with:
 </td>
 <td align="center" width="25%">
 
-### 💼 LinkedIn
+### LinkedIn
 <a href="https://linkedin.com/in/noctuacoder">
   <img src="https://img.shields.io/badge/NoctuaCoder-00BFFF?style=for-the-badge&logo=linkedin&logoColor=0A0E27"/>
 </a>
@@ -352,7 +352,7 @@ Celestial productivity dashboard with:
 </td>
 <td align="center" width="25%">
 
-### ⭐ GitHub
+### GitHub
 <a href="https://github.com/NoctuaCoder">
   <img src="https://img.shields.io/badge/NoctuaCoder-4A9EFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
 </a>
@@ -360,7 +360,7 @@ Celestial productivity dashboard with:
 </td>
 <td align="center" width="25%">
 
-### 🌟 Portfolio
+### Portfolio
 <a href="https://noctuacoder.github.io/NoctuaCoder/portfolio.html">
   <img src="https://img.shields.io/badge/View_Portfolio-00FFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
 </a>
@@ -370,7 +370,7 @@ Celestial productivity dashboard with:
 </table>
 
 <sub style="color: #00BFFF; opacity: 0.9;">
-💡 <strong>Open to:</strong> Frontend positions • UI/UX projects • Open source collaborations • Freelance work
+<strong>Open to:</strong> Frontend positions • UI/UX projects • Open source collaborations • Freelance work
 </sub>
 
 <br/><br/>
@@ -389,7 +389,7 @@ Celestial productivity dashboard with:
 </pre>
 
 <sub style="color: #00BFFF; opacity: 0.8;">
-  ✨ Crafted with passion under the stars • © 2025 NoctuaCoder 🦉
+  Crafted with passion under the stars • © 2025 NoctuaCoder
 </sub>
 
 <br/>
