@@ -187,10 +187,10 @@ Premium glassmorphism collection for Hyprland featuring:
 <img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Interactive-00BFFF?style=flat-square"/>
 
 Cyberpunk terminal experience with:
-- Matrix rain effect in blue
-- ASCII owl art
-- Glitch animations
-- Terminal interface
+- **Hacker Mode** & Draggable Windows
+- Realistic BIOS Boot Sequence
+- Matrix rain effect & Glitch UI
+- Interactive shell commands
 
 **Tech Stack:** `HTML` `CSS` `JavaScript` `Canvas`
 
@@ -228,9 +228,9 @@ Interactive celestial portfolio with:
 
 Interactive portfolio chatbot with AI-like responses:
 - Natural language understanding
-- Glassmorphism UI
-- Particle background
-- Dark/Light themes
+- **Sound Effects** (Typing, Notifications)
+- Fun Easter Eggs (Jokes, Quotes)
+- Glassmorphism UI & Particles
 
 **Tech Stack:** `JavaScript` `HTML` `CSS` `Canvas API`
 
