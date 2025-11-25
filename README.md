@@ -64,7 +64,7 @@ focus:
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=NoctuaCoder&theme=dark&hide_border=true&background=0A0E27&ring=00FFFF&fire=00BFFF&currStreakLabel=00FFFF&sideLabels=00BFFF&currStreakNum=00FFFF&sideNums=00BFFF&dates=4A9EFF" alt="Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=dark&hide_border=true&background=0A0E27&ring=00FFFF&fire=00BFFF&currStreakLabel=00FFFF&sideLabels=00BFFF&currStreakNum=00FFFF&sideNums=00BFFF&dates=4A9EFF" alt="Streak Stats" />
 
 </td>
 </tr>
