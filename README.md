@@ -60,7 +60,7 @@ focus:
 
 ### Quick Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=transparent&hide_border=true&title_color=00FFFF&icon_color=00BFFF&text_color=00BFFF&bg_color=0A0E27&cache_seconds=1800)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&hide_border=true&title_color=00FFFF&icon_color=00BFFF&text_color=00BFFF&bg_color=0A0E27&cache_seconds=1800&v=1)
 
 ![Streak Stats](https://streak-stats.demolab.com?user=NoctuaCoder&theme=dark&hide_border=true&background=0A0E27&ring=00FFFF&fire=00BFFF&currStreakLabel=00FFFF&sideLabels=00BFFF&currStreakNum=00FFFF&sideNums=00BFFF&dates=4A9EFF)
 
