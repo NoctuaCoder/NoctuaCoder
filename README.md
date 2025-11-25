@@ -218,6 +218,42 @@ Interactive celestial portfolio with:
 </td>
 <td width="50%" valign="top">
 
+### 🤖 [Noctua Assistant](https://github.com/NoctuaCoder/noctua-assistant)
+
+<img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Chatbot-00BFFF?style=flat-square"/>
+
+Interactive portfolio chatbot with AI-like responses:
+- 💬 Natural language understanding
+- 🎨 Glassmorphism UI
+- ⭐ Particle background
+- 🌙 Dark/Light themes
+
+**Tech Stack:** `JavaScript` `HTML` `CSS` `Canvas API`
+
+<a href="https://noctuacoder.github.io/noctua-assistant/">
+  <img src="https://img.shields.io/badge/Live_Demo-4A9EFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚛️ [Stellar Task Manager](https://github.com/NoctuaCoder/stellar-task-manager)
+
+<img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-React_App-00BFFF?style=flat-square"/>
+
+Beautiful task manager built with React:
+- ⚛️ React Hooks (useState, useEffect)
+- 💾 LocalStorage persistence
+- 🎨 Glassmorphism design
+- 📊 Real-time statistics
+
+**Tech Stack:** `React` `JavaScript` `CSS` `LocalStorage`
+
+<a href="https://noctuacoder.github.io/stellar-task-manager/">
+  <img src="https://img.shields.io/badge/Live_Demo-00BFFF?style=for-the-badge&logo=react&logoColor=0A0E27"/>
+</a>
 
 </td>
 <td width="50%" valign="top">
