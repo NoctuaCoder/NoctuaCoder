@@ -218,42 +218,6 @@ Interactive celestial portfolio with:
 </td>
 <td width="50%" valign="top">
 
-### 🌌 [SpectraHypr](https://github.com/NoctuaCoder/SpectraHypr)
-
-<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dotfiles-00BFFF?style=flat-square"/>
-
-Aetherial Glow dotfiles for Hyprland:
-- 🌟 Futuristic ethereal aesthetic
-- 💜 Purple, cyan & pink palette
-- ✨ Advanced blur & animations
-- 🚀 Automated installer
-
-**Tech Stack:** `Hyprland` `Waybar` `Rofi` `Shell`
-
-<a href="https://github.com/NoctuaCoder/SpectraHypr">
-  <img src="https://img.shields.io/badge/View_Project-4A9EFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌙 [Midnight Dots](https://github.com/NoctuaCoder/midnight-dots)
-
-<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dotfiles-00BFFF?style=flat-square"/>
-
-Cyberpunk purple-pink dotfiles for Hyprland:
-- 🦉 Coding by night aesthetic
-- 💜 Purple & Pink gradient theme
-- 🚀 Robust installer & backups
-- ✨ Custom scripts & utilities
-
-**Tech Stack:** `Hyprland` `Waybar` `Rofi` `Bash`
-
-<a href="https://github.com/NoctuaCoder/midnight-dots">
-  <img src="https://img.shields.io/badge/View_Project-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
-</a>
 
 </td>
 <td width="50%" valign="top">
