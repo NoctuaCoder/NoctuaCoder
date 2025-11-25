@@ -34,7 +34,26 @@
 
 
 
-<img src="assets/about.svg" alt="About Me" width="100%">
+```yaml
+name: Alana
+role: Frontend Developer & UI/UX Designer
+location: Brazil 🇧🇷
+timezone: GMT-3
+motto: "Converting starlight into source code"
+specialties: [Glassmorphism, Interactive UIs, Modern CSS]
+
+currently:
+  - Building Stellar Dots v2.0
+  - Crafting premium dashboards
+  - Exploring advanced animations
+  
+focus:
+  - UI/UX Design & Prototyping
+  - Frontend Development (React, Vanilla JS)
+  - Glassmorphism & Modern Aesthetics
+  - System Customization & Dotfiles
+  - Open Source Contributions
+```
 
 </td>
 <td width="50%" valign="top">
