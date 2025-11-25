@@ -252,7 +252,7 @@ Cyberpunk purple-pink dotfiles for Hyprland:
 **Tech Stack:** `Hyprland` `Waybar` `Rofi` `Bash`
 
 <a href="https://github.com/NoctuaCoder/midnight-dots">
-  <img src="https://img.shields.io/badge/View_Project-FF69B4?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/View_Project-00FFFF?style=for-the-badge&logo=github&logoColor=0A0E27"/>
 </a>
 
 </td>
