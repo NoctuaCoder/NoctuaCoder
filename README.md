@@ -79,11 +79,15 @@ focus:
 <!-- Constellation Divider -->
 <div align="center">
 
+<h3>
+
 ```
-    ✦         ✦         ✦         ✦         ✦
-      ·   ·   ·   ·   ·   ·   ·   ·   ·
-    ✦         ✦         ✦         ✦         ✦
+         ✦              ✦              ✦              ✦              ✦
+            ·      ·      ·      ·      ·      ·      ·      ·      ·
+         ✦              ✦              ✦              ✦              ✦
 ```
+
+</h3>
 
 </div>
 
@@ -138,11 +142,15 @@ focus:
 <!-- Constellation Divider -->
 <div align="center">
 
+<h3>
+
 ```
-    ✦         ✦         ✦         ✦         ✦
-      ·   ·   ·   ·   ·   ·   ·   ·   ·
-    ✦         ✦         ✦         ✦         ✦
+         ✦              ✦              ✦              ✦              ✦
+            ·      ·      ·      ·      ·      ·      ·      ·      ·
+         ✦              ✦              ✦              ✦              ✦
 ```
+
+</h3>
 
 </div>
 
@@ -284,11 +292,15 @@ Celestial productivity dashboard with:
 <!-- Constellation Divider -->
 <div align="center">
 
+<h3>
+
 ```
-    ✦         ✦         ✦         ✦         ✦
-      ·   ·   ·   ·   ·   ·   ·   ·   ·
-    ✦         ✦         ✦         ✦         ✦
+         ✦              ✦              ✦              ✦              ✦
+            ·      ·      ·      ·      ·      ·      ·      ·      ·
+         ✦              ✦              ✦              ✦              ✦
 ```
+
+</h3>
 
 </div>
 
@@ -312,11 +324,15 @@ Celestial productivity dashboard with:
 <!-- Constellation Divider -->
 <div align="center">
 
+<h3>
+
 ```
-    ✦         ✦         ✦         ✦         ✦
-      ·   ·   ·   ·   ·   ·   ·   ·   ·
-    ✦         ✦         ✦         ✦         ✦
+         ✦              ✦              ✦              ✦              ✦
+            ·      ·      ·      ·      ·      ·      ·      ·      ·
+         ✦              ✦              ✦              ✦              ✦
 ```
+
+</h3>
 
 </div>
 
