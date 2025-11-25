@@ -326,9 +326,9 @@ Celestial productivity dashboard with:
 
 <div align="center">
 
-### 💫 Interessada em criar experiências UI/UX incríveis?
+### 💫 Interested in creating amazing UI/UX experiences?
 
-**Vamos conversar sobre projetos, colaborações ou oportunidades!**
+**Let's talk about projects, collaborations, or opportunities!**
 
 </div>
 
