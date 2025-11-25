@@ -79,7 +79,11 @@ focus:
 <!-- Constellation Divider -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/assets/divider.png" width="80%" alt="Celestial Divider"/>
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
 
 </div>
 
@@ -134,7 +138,11 @@ focus:
 <!-- Constellation Divider -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/assets/divider.png" width="80%" alt="Celestial Divider"/>
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
 
 </div>
 
@@ -276,7 +284,11 @@ Celestial productivity dashboard with:
 <!-- Constellation Divider -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/assets/divider.png" width="80%" alt="Celestial Divider"/>
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
 
 </div>
 
@@ -300,7 +312,11 @@ Celestial productivity dashboard with:
 <!-- Constellation Divider -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/main/assets/divider.png" width="80%" alt="Celestial Divider"/>
+```
+    ✦         ✦         ✦         ✦         ✦
+      ·   ·   ·   ·   ·   ·   ·   ·   ·
+    ✦         ✦         ✦         ✦         ✦
+```
 
 </div>
 
