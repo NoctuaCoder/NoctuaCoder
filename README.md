@@ -79,15 +79,11 @@ focus:
 <!-- Constellation Divider -->
 <div align="center">
 
-<h3>
-
-```
+<pre style="color: #00BFFF; font-size: 8px; line-height: 1.2; opacity: 0.6;">
     ✦       ✦       ✦       ✦       ✦       ✦       ✦
       ·   ·   ·   ·   ·   ·   ·   ·   ·   ·   ·
     ✦       ✦       ✦       ✦       ✦       ✦       ✦
-```
-
-</h3>
+</pre>
 
 </div>
 
