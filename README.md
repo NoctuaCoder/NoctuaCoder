@@ -260,16 +260,16 @@ Beautiful task manager built with React:
 
 ### [Noctua Command Center](https://github.com/NoctuaCoder/noctua-command-center)
 
-<img src="https://img.shields.io/badge/Status-Active-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dashboard-00BFFF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Status-Live-00FFFF?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Dashboard-00BFFF?style=flat-square"/>
 
-Celestial productivity dashboard with:
-- Interactive constellation background
-- Glassmorphism UI components
-- Pomodoro timer & widgets
-- Mini terminal interface
-- Music player with visualizer
+Premium SaaS dashboard with celestial aesthetics:
+- **Vibrant celestial glow effects** on cards
+- Dynamic gradient animations (6 color variants)
+- Real-time analytics & charts
+- Glassmorphism UI with blur effects
+- Responsive grid layout
 
-**Tech Stack:** `JavaScript` `HTML5` `CSS3` `Canvas API`
+**Tech Stack:** `JavaScript` `HTML5` `CSS3` `Modern Gradients`
 
 <a href="https://noctuacoder.github.io/noctua-command-center/">
   <img src="https://img.shields.io/badge/Live_Demo-00FFFF?style=for-the-badge&logo=firefox&logoColor=0A0E27"/>
