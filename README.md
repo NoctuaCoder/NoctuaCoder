@@ -2,11 +2,11 @@
 
 <div align="center">
 
-![Celestial Header](./celestial-header.svg)
-
 ![Coding](https://img.shields.io/badge/Code-Python%20%7C%20TypeScript%20%7C%20Rust-blue?style=for-the-badge)
 ![AI](https://img.shields.io/badge/AI-LLMs%20%7C%20Agents%20%7C%20Automation-blueviolet?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Building%20the%20Future-success?style=for-the-badge)
+
+**Building the future of autonomous AI development**
 
 [🌐 View Live Portfolio](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
 
