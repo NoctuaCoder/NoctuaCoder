@@ -8,6 +8,8 @@
 
 **Building the future of autonomous AI development**
 
+[🌐 View Live Portfolio](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
+
 </div>
 
 ---
