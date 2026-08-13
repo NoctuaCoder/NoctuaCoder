@@ -2,58 +2,62 @@
 
 ![Noctua Prime Header](./assets/noctua_prime_header.svg)
 
-# 👾 SYSTEM INITIALIZED: NOCTUA PRIME 👾
+# 🌌 CELESTIAL DASHBOARD: NOCTUA PRIME 🌌
 
-[![Level](https://img.shields.io/badge/Level-99-cba6f7?style=for-the-badge&logo=gameloft&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
-[![Class](https://img.shields.io/badge/Class-Arch_Mage-89b4fa?style=for-the-badge&logo=dungeonsanddragons&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
-[![HP](https://img.shields.io/badge/HP-100%2F100-a6e3a1?style=for-the-badge&logo=heartbeat&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
+**Digital Alchemist | Sovereign Systems Architect | Local Intelligence Specialist**
 
-**"A wise owl once said: '01101000 01101111 01101111 01110100'."**
+*"Crafting uncompromising Linux environments and autonomous local intelligence under the starlit sky."*
 
 </div>
 
 ---
 
-## 🕹️ CHOOSE YOUR QUEST
+## 🔭 PROJECT CONSTELLATIONS
+
+The core pillars of the Noctua ecosystem, designed for complete ownership and aesthetic excellence.
 
 <div align="center">
 
-| Quest | Reward | Status |
+| Constellation | Purpose | Status |
 |---|---|---|
-| 🌌 **Noctua-Niri** | Ultimate UI/UX Mastery | `COMPLETED` |
-| 🤖 **ArbiterAI** | Autonomous Local Intelligence | `ACTIVE` |
-| 🦀 **Voidkitty-LLM** | Sovereign Inference | `LEVELING` |
-| 🔐 **Noctua-Material** | Fluid Login Aesthetics | `COMPLETED` |
+| 🌌 **noctua-niri** | Ultimate Niri compositor suite with Quickshell UI & Native Services | `SOVEREIGN` |
+| 🤖 **ArbiterAI** | Docker-isolated autonomous local code agent runtime | `ACTIVE` |
+| 🦀 **voidkitty-llm** | Local LLM management and GGUF inference engine | `STABLE` |
+| 🔐 **noctua-material** | Mobile-inspired Material You SDDM login environment | `STABLE` |
 
 </div>
 
 ---
 
-## 🛠️ CHARACTER STATS
+## 🛠️ CORE COMPETENCIES
 
-**STR (Infrastructure):** Docker, Linux, Niri, Shell Scripting.  
-**INT (Logic):** Python, TypeScript, Rust, AI Orchestration.  
-**DEX (Visuals):** QML, Tailwind CSS, Glassmorphism, Pixel Art.  
-**LUK (Open Source):** Finding the perfect config in one try.
+**Sovereign Infrastructure**  
+Specializing in ephemeral Docker sandboxing, Linux kernel-level customization, and Niri-first tiling compositor architectures.
+
+**Local Intelligence**  
+Orchestrating autonomous agents with Ollama and custom Python frameworks to ensure zero cloud dependency and maximum privacy.
+
+**Visual Alchemy**  
+Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready' interfaces that bridge the gap between beauty and performance.
 
 ---
 
-## 🎒 INVENTORY
+## 🎒 TECHNICAL ARSENAL
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![QML](https://img.shields.io/badge/-QML-41B883?style=flat-square&logo=qt&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![QML](https://img.shields.io/badge/-QML-41B883?style=for-the-badge&logo=qt&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Ollama](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 </div>
 
 ---
 
-## 📈 XP PROGRESS
+## 📈 SYSTEM TELEMETRY
 
 <div align="center">
 
@@ -66,8 +70,9 @@
 
 <div align="center">
 
-### 💾 SAVE GAME?
+### 📡 CONTACT FREQUENCY
 
-[**[ YES ]**](mailto:38922657+NoctuaCoder@users.noreply.github.com) &nbsp;&nbsp;&nbsp;&nbsp; [**[ NO ]**](https://github.com/NoctuaCoder)
+[![GitHub](https://img.shields.io/badge/GitHub-@NoctuaCoder-89b4fa?style=for-the-badge&logo=github&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
+[![Email](https://img.shields.io/badge/Email-Contact-cba6f7?style=for-the-badge&logo=gmail&logoColor=1e1e2e)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 </div>
