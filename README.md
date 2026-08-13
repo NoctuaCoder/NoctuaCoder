@@ -1,6 +1,6 @@
 <div align="center">
 
-![Noctua Pixel Banner](./assets/noctua_pixel_banner.png)
+![Noctua Prime Header](./assets/noctua_prime_header.svg)
 
 # 👾 SYSTEM INITIALIZED: NOCTUA PRIME 👾
 

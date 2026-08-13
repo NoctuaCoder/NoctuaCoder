@@ -1,0 +1,94 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Filters for Glow and Blur -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glass-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" />
+    </filter>
+    
+    <!-- Catppuccin Mocha Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e" />
+      <stop offset="100%" stop-color="#11111b" />
+    </linearGradient>
+    
+    <radialGradient id="aurora-mauve" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cba6f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#cba6f7" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="aurora-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#89b4fa" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#89b4fa" stop-opacity="0" />
+    </radialGradient>
+
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(20px, -20px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-400px); }
+        100% { transform: translateY(400px); }
+      }
+      @keyframes star-twinkle {
+        0%, 100% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      @keyframes owl-glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #89b4fa); }
+        50% { filter: drop-shadow(0 0 15px #cba6f7); }
+      }
+      .aurora { animation: float 15s infinite alternate ease-in-out; }
+      .star { animation: star-twinkle 3s infinite ease-in-out; }
+      .owl-logo { animation: owl-glow 4s infinite ease-in-out; }
+      .scan-line { animation: scan 8s infinite linear; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg-grad)" />
+  
+  <!-- Aurora Blobs -->
+  <circle class="aurora" cx="200" cy="100" r="300" fill="url(#aurora-mauve)" style="animation-delay: 0s;" />
+  <circle class="aurora" cx="1000" cy="300" r="350" fill="url(#aurora-blue)" style="animation-delay: -5s;" />
+  
+  <!-- Stars -->
+  <g class="star" style="animation-delay: 0.5s;"><path d="M150 50 L152 45 L150 40 L148 45 Z" fill="white" /></g>
+  <g class="star" style="animation-delay: 1.2s;"><path d="M400 150 L403 145 L400 140 L397 145 Z" fill="#89b4fa" /></g>
+  <g class="star" style="animation-delay: 2.1s;"><path d="M850 80 L853 75 L850 70 L847 75 Z" fill="#cba6f7" /></g>
+  <g class="star" style="animation-delay: 0.8s;"><path d="M1050 200 L1053 195 L1050 190 L1047 195 Z" fill="white" /></g>
+  <g class="star" style="animation-delay: 1.5s;"><path d="M200 300 L203 295 L200 290 L197 295 Z" fill="#fab387" /></g>
+
+  <!-- Glass Panel -->
+  <rect x="300" y="100" width="600" height="200" rx="24" fill="white" fill-opacity="0.03" stroke="white" stroke-opacity="0.1" style="backdrop-filter: blur(10px);" />
+  
+  <!-- Scan Line -->
+  <rect class="scan-line" width="1200" height="2" fill="white" fill-opacity="0.05" />
+
+  <!-- Owl Logo (Stylized) -->
+  <g class="owl-logo" transform="translate(560, 130)">
+    <path d="M40 0 C60 0 80 20 80 40 C80 60 60 80 40 80 C20 80 0 60 0 40 C0 20 20 0 40 0 Z" fill="none" stroke="#89b4fa" stroke-width="2" />
+    <circle cx="25" cy="35" r="5" fill="#cba6f7" />
+    <circle cx="55" cy="35" r="5" fill="#cba6f7" />
+    <path d="M35 55 Q40 60 45 55" stroke="#89b4fa" stroke-width="2" fill="none" />
+    <path d="M10 20 L0 10 M70 20 L80 10" stroke="#89b4fa" stroke-width="2" />
+  </g>
+
+  <!-- Text -->
+  <text x="600" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="white" style="letter-spacing: 8px;">NOCTUA CODER</text>
+  <text x="600" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#a6adc8" style="letter-spacing: 2px; opacity: 0.8;">SOVEREIGN PRIME v2.0 // DIGITAL ALCHEMIST</text>
+
+  <!-- Status Indicator -->
+  <g transform="translate(540, 340)">
+    <circle cx="0" cy="0" r="4" fill="#a6e3a1" style="animation: pulse 2s infinite;" />
+    <text x="12" y="4" font-family="Arial, sans-serif" font-size="10" fill="#a6e3a1" style="letter-spacing: 1px;">SYSTEM ONLINE</text>
+  </g>
+</svg>
