@@ -1,15 +1,32 @@
 <svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Celestial Night Palette -->
-    <linearGradient id="sky-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0A1026" /> <!-- Deep Space -->
-      <stop offset="100%" stop-color="#142B52" /> <!-- Midnight Blue -->
-    </linearGradient>
-    
-    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
+    <!-- Celestial Night Palette from User Snippet -->
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#0d1a3a"/>
+      <stop offset="45%" stop-color="#0a1330"/>
+      <stop offset="100%" stop-color="#040613"/>
+    </radialGradient>
+
+    <radialGradient id="nebula1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d4a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2d4a8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4c3d8f" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4c3d8f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e5a8a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1e5a8a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blurL"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="blurM"><feGaussianBlur stdDeviation="1.2"/></filter>
 
     <style>
       @keyframes shooting-star {
@@ -19,81 +36,84 @@
         100% { transform: translate(-500px, 500px); opacity: 0; }
       }
       @keyframes nebula-pulse {
-        0%, 100% { opacity: 0.3; transform: scale(1); }
-        50% { opacity: 0.5; transform: scale(1.05); }
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.1); }
       }
-      @keyframes gold-pulse {
-        0%, 100% { opacity: 0.4; transform: scale(0.9); }
-        50% { opacity: 1; transform: scale(1.1); }
+      @keyframes star-twinkle {
+        0%, 100% { opacity: 0.3; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
       }
-      @keyframes draw-line {
-        0% { stroke-dashoffset: 1000; }
-        100% { stroke-dashoffset: 0; }
-      }
-      .shooting { animation: shooting-star 7s infinite linear; }
-      .nebula { animation: nebula-pulse 15s infinite alternate ease-in-out; }
-      .constellation-star { animation: gold-pulse 4s infinite ease-in-out; }
-      .constellation-line { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw-line 10s forwards ease-out; opacity: 0.3; }
-      .title-text { font-family: 'Georgia', serif; font-style: italic; letter-spacing: 10px; text-transform: uppercase; }
-      .sub-text { font-family: 'Arial', sans-serif; letter-spacing: 4px; text-transform: uppercase; font-weight: 300; }
+      .shooting { animation: shooting-star 8s infinite linear; }
+      .nebula-anim { animation: nebula-pulse 20s infinite alternate ease-in-out; }
+      .star-anim { animation: star-twinkle 4s infinite ease-in-out; }
     </style>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="400" fill="url(#sky-grad)" />
-  
-  <!-- Nebula Clouds -->
-  <ellipse class="nebula" cx="300" cy="400" rx="500" ry="150" fill="#254A7A" fill-opacity="0.2" />
-  <ellipse class="nebula" cx="900" cy="380" rx="600" ry="180" fill="#142B52" fill-opacity="0.3" style="animation-delay: -5s;" />
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Nebula clouds adapted from user snippet -->
+  <circle class="nebula-anim" cx="200" cy="100" r="260" fill="url(#nebula1)" filter="url(#blurL)"/>
+  <circle class="nebula-anim" cx="1000" cy="300" r="300" fill="url(#nebula2)" filter="url(#blurL)" style="animation-delay: -5s;"/>
+  <circle class="nebula-anim" cx="600" cy="350" r="240" fill="url(#nebula3)" filter="url(#blurL)" style="animation-delay: -10s;"/>
+
+  <!-- Background stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="100" cy="50" r="1"/><circle cx="300" cy="80" r="0.8"/><circle cx="500" cy="40" r="1.2"/>
+    <circle cx="800" cy="60" r="0.9"/><circle cx="1100" cy="100" r="1.1"/><circle cx="200" cy="300" r="1"/>
+    <circle cx="900" cy="350" r="0.8"/><circle cx="50" cy="380" r="1.2"/><circle cx="1150" cy="250" r="0.7"/>
+  </g>
 
   <!-- Shooting Stars -->
-  <line class="shooting" x1="1100" y1="0" x2="1000" y2="100" stroke="#F8F6EE" stroke-width="1" stroke-linecap="round" style="animation-delay: 1s;" />
-  <line class="shooting" x1="400" y1="-50" x2="300" y2="50" stroke="#D4B06A" stroke-width="0.8" stroke-linecap="round" style="animation-delay: 4.5s;" />
+  <line class="shooting" x1="1100" y1="0" x2="1000" y2="100" stroke="#cfe0ff" stroke-width="1" stroke-linecap="round" style="animation-delay: 2s;" />
+  <line class="shooting" x1="500" y1="-50" x2="400" y2="50" stroke="#4c3d8f" stroke-width="0.8" stroke-linecap="round" style="animation-delay: 5s;" />
 
-  <!-- Background Stars -->
-  <circle cx="200" cy="100" r="0.8" fill="white" opacity="0.5" />
-  <circle cx="800" cy="50" r="0.5" fill="white" opacity="0.3" />
-  <circle cx="1050" cy="300" r="0.7" fill="white" opacity="0.4" />
-  <circle cx="50" cy="350" r="0.6" fill="white" opacity="0.2" />
-
-  <!-- Aquarius Constellation (Stylized) -->
-  <g transform="translate(100, 80)" stroke="#D4B06A" stroke-width="0.5">
-    <!-- Stars -->
-    <circle class="constellation-star" cx="50" cy="20" r="2.5" fill="#D4B06A" filter="url(#gold-glow)" /> <!-- Sadalmelik -->
-    <circle class="constellation-star" cx="120" cy="50" r="2" fill="#D4B06A" style="animation-delay: 0.5s;" />
-    <circle class="constellation-star" cx="180" cy="40" r="2.5" fill="#D4B06A" filter="url(#gold-glow)" style="animation-delay: 1s;" /> <!-- Sadalsuud -->
-    <circle class="constellation-star" cx="240" cy="90" r="2" fill="#D4B06A" style="animation-delay: 1.5s;" />
-    <circle class="constellation-star" cx="280" cy="150" r="3" fill="#D4B06A" filter="url(#gold-glow)" style="animation-delay: 2s;" /> <!-- Skat -->
-    <circle class="constellation-star" cx="220" cy="180" r="2" fill="#D4B06A" style="animation-delay: 2.5s;" />
-    <circle class="constellation-star" cx="150" cy="220" r="2.5" fill="#D4B06A" filter="url(#gold-glow)" style="animation-delay: 3s;" /> <!-- Sadachbia -->
-    
-    <!-- Lines -->
-    <path class="constellation-line" d="M50 20 L120 50 L180 40 L240 90 L280 150 L220 180 L150 220" fill="none" />
+  <!-- ============ AQUARIUS CONSTELLATION (Adapted from user snippet) ============ -->
+  <g transform="translate(50, 50) scale(0.6)" stroke="#cfe0ff" stroke-width="1.5" fill="none" opacity="0.85">
+    <path d="M 470 110 L 520 60 L 560 90 L 610 55 L 600 115 L 555 140 L 500 150 Z" />
+    <path d="M 500 150 L 470 200 L 495 240 L 460 290 L 480 335 L 440 375 L 460 415 L 415 450" />
+    <path d="M 470 110 L 430 85 L 405 115" />
+  </g>
+  <g transform="translate(50, 50) scale(0.6)" fill="#f4f8ff">
+    <circle class="star-anim" cx="470" cy="110" r="4"/><circle class="star-anim" cx="520" cy="60" r="5"/><circle class="star-anim" cx="560" cy="90" r="4"/>
+    <circle class="star-anim" cx="610" cy="55" r="5.5"/><circle class="star-anim" cx="600" cy="115" r="4"/><circle class="star-anim" cx="555" cy="140" r="4.5"/>
+    <circle class="star-anim" cx="500" cy="150" r="5"/><circle class="star-anim" cx="430" cy="85" r="3.5"/><circle class="star-anim" cx="405" cy="115" r="3"/>
+    <circle class="star-anim" cx="470" cy="200" r="4"/><circle class="star-anim" cx="495" cy="240" r="3.5"/><circle class="star-anim" cx="460" cy="290" r="4.5"/>
+    <circle class="star-anim" cx="480" cy="335" r="3.5"/><circle class="star-anim" cx="440" cy="375" r="4"/><circle class="star-anim" cx="460" cy="415" r="3"/>
+    <circle class="star-anim" cx="415" cy="450" r="5.5"/>
   </g>
 
-  <!-- Right Side Constellation Accent -->
-  <g transform="translate(900, 200) rotate(15)" stroke="#D4B06A" stroke-width="0.5" opacity="0.4">
-    <circle class="constellation-star" cx="0" cy="0" r="2" fill="#D4B06A" />
-    <circle class="constellation-star" cx="50" cy="30" r="1.5" fill="#D4B06A" />
-    <circle class="constellation-star" cx="30" cy="80" r="2" fill="#D4B06A" />
-    <path d="M0 0 L50 30 L30 80" fill="none" />
-  </g>
-
-  <!-- Central Glass Identity -->
+  <!-- ============ TYPOGRAPHY & IDENTITY ============ -->
   <g transform="translate(600, 200)">
-    <!-- Decorative Gold Lines -->
-    <line x1="-250" y1="-60" x2="250" y2="-60" stroke="#D4B06A" stroke-width="0.5" opacity="0.3" />
-    <line x1="-250" y1="60" x2="250" y2="60" stroke="#D4B06A" stroke-width="0.5" opacity="0.3" />
-    <circle cx="0" y1="-60" r="3" fill="#D4B06A" filter="url(#gold-glow)" />
-    
-    <text text-anchor="middle" class="title-text" font-size="58" fill="#F8F6EE" filter="url(#gold-glow)">Noctua Coder</text>
-    <text y="40" text-anchor="middle" class="sub-text" font-size="12" fill="#D4B06A">Digital Alchemist • Sovereign Systems • Aquarius Soul</text>
+    <!-- top divider -->
+    <g transform="translate(0,-60)">
+      <line x1="-160" y1="0" x2="-18" y2="0" stroke="#e8ecf7" stroke-width="1" opacity="0.8"/>
+      <line x1="18" y1="0" x2="160" y2="0" stroke="#e8ecf7" stroke-width="1" opacity="0.8"/>
+      <path d="M0,-9 L3,-3 L9,0 L3,3 L0,9 L-3,3 L-9,0 L-3,-3 Z" fill="#f4f4ff"/>
+    </g>
+
+    <text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+          font-size="64" letter-spacing="12" fill="#f6f6fc" font-weight="600">
+      NOCTUA CODER
+    </text>
+
+    <text y="40" text-anchor="middle" font-family="Georgia, serif"
+          font-size="14" letter-spacing="8" fill="#a9b6d8" font-style="italic">
+      DIGITAL ALCHEMIST · SOVEREIGN SYSTEMS
+    </text>
+
+    <!-- small crescent moon accent -->
+    <g transform="translate(0,75)">
+      <path d="M -6 -8 A 8 8 0 1 0 -6 8 A 6.4 6.4 0 1 1 -6 -8 Z" fill="#e9edfb" opacity="0.85"/>
+    </g>
   </g>
 
-  <!-- Corner Gold Accents -->
-  <path d="M40 40 L80 40 M40 40 L40 80" stroke="#D4B06A" stroke-width="1" stroke-opacity="0.5" fill="none" />
-  <path d="M1160 40 L1120 40 M1160 40 L1160 80" stroke="#D4B06A" stroke-width="1" stroke-opacity="0.5" fill="none" />
-  <path d="M40 360 L80 360 M40 360 L40 320" stroke="#D4B06A" stroke-width="1" stroke-opacity="0.5" fill="none" />
-  <path d="M1160 360 L1120 360 M1160 360 L1160 320" stroke="#D4B06A" stroke-width="1" stroke-opacity="0.5" fill="none" />
+  <!-- Status Indicator (Bottom Right) -->
+  <g transform="translate(1050, 360)">
+    <circle cx="0" cy="0" r="4" fill="#cfe0ff">
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="12" y="4" font-family="Georgia, serif" font-size="10" fill="#7c88ad" style="letter-spacing: 2px;">AQUARIUS SOUL</text>
+  </g>
 
 </svg>
