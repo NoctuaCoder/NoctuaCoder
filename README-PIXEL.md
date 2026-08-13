@@ -1,178 +1,73 @@
 <div align="center">
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║   ███╗   ██╗ ██████╗  ██████╗████████╗██╗   ██╗ █████╗       ║
-║   ████╗  ██║██╔═══██╗██╔════╝╚══██╔══╝██║   ██║██╔══██╗      ║
-║   ██╔██╗ ██║██║   ██║██║        ██║   ██║   ██║███████║      ║
-║   ██║╚██╗██║██║   ██║██║        ██║   ██║   ██║██╔══██║      ║
-║   ██║ ╚████║╚██████╔╝╚██████╗   ██║   ╚██████╔╝██║  ██║      ║
-║   ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝      ║
-║                                                               ║
-║              ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ ▄▄▄▄▄▄         ║
-║             █       █       █      ██       █   ▄  █         ║
-║             █       █   ▄   █  ▄    █    ▄▄▄█  █ █ █         ║
-║             █     ▄▄█  █ █  █ █ █   █   █▄▄▄█   █▄▄█▄        ║
-║             █    █  █  █▄█  █ █▄█   █    ▄▄▄█    ▄▄  █       ║
-║             █    █▄▄█       █       █   █▄▄▄█   █  █ █       ║
-║             █▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄█▄▄▄█  █▄█       ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+![Noctua Pixel Banner](./assets/noctua_pixel_banner.png)
 
-<br/>
+# 👾 SYSTEM INITIALIZED: NOCTUA PRIME 👾
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  💾 LOADING PROFILE DATA...                                 │
-│  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%             │
-└─────────────────────────────────────────────────────────────┘
-```
+[![Level](https://img.shields.io/badge/Level-99-cba6f7?style=for-the-badge&logo=gameloft&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
+[![Class](https://img.shields.io/badge/Class-Arch_Mage-89b4fa?style=for-the-badge&logo=dungeonsanddragons&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
+[![HP](https://img.shields.io/badge/HP-100%2F100-a6e3a1?style=for-the-badge&logo=heartbeat&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
+
+**"A wise owl once said: '01101000 01101111 01101111 01110100'."**
 
 </div>
 
 ---
 
-<br/>
+## 🕹️ CHOOSE YOUR QUEST
 
 <div align="center">
 
-## ⚔️ CHARACTER STATS
-
-```
-╔════════════════════════════════════════════════════════════╗
-║                                                            ║
-║  👤 NAME: NoctuaCoder          🌍 LOCATION: Brazil 🇧🇷    ║
-║  💼 CLASS: Full Stack Dev      ⏰ TIMEZONE: GMT-3         ║
-║  ⭐ LEVEL: ∞                   🎯 XP: 999,999             ║
-║                                                            ║
-║  ┌──────────────────────────────────────────────────────┐ ║
-║  │ 📊 SKILL TREE                                        │ ║
-║  ├──────────────────────────────────────────────────────┤ ║
-║  │                                                      │ ║
-║  │  🔧 LANGUAGES                                        │ ║
-║  │  ├─ Shell      ████████████████████░░ 95%           │ ║
-║  │  ├─ Python     ███████████████████░░░ 90%           │ ║
-║  │  ├─ JavaScript ██████████████████░░░░ 85%           │ ║
-║  │  └─ Rust       ████████████░░░░░░░░░░ 60%           │ ║
-║  │                                                      │ ║
-║  │  🛠️ TOOLS                                            │ ║
-║  │  ├─ Hyprland   ████████████████████░░ 95%           │ ║
-║  │  ├─ Neovim     ███████████████████░░░ 90%           │ ║
-║  │  ├─ Git        ████████████████████░░ 95%           │ ║
-║  │  └─ Docker     ██████████████░░░░░░░░ 70%           │ ║
-║  │                                                      │ ║
-║  │  🎨 DESIGN                                           │ ║
-║  │  ├─ Figma      ███████████████░░░░░░░ 75%           │ ║
-║  │  ├─ Glassmor.. █████████████████████░ 99%           │ ║
-║  │  └─ UI/UX      ████████████████████░░ 90%           │ ║
-║  │                                                      │ ║
-║  └──────────────────────────────────────────────────────┘ ║
-║                                                            ║
-╚════════════════════════════════════════════════════════════╝
-```
+| Quest | Reward | Status |
+|---|---|---|
+| 🌌 **Noctua-Niri** | Ultimate UI/UX Mastery | `COMPLETED` |
+| 🤖 **ArbiterAI** | Autonomous Local Intelligence | `ACTIVE` |
+| 🦀 **Voidkitty-LLM** | Sovereign Inference | `LEVELING` |
+| 🔐 **Noctua-Material** | Fluid Login Aesthetics | `COMPLETED` |
 
 </div>
 
-<br/>
+---
+
+## 🛠️ CHARACTER STATS
+
+**STR (Infrastructure):** Docker, Linux, Niri, Shell Scripting.  
+**INT (Logic):** Python, TypeScript, Rust, AI Orchestration.  
+**DEX (Visuals):** QML, Tailwind CSS, Glassmorphism, Pixel Art.  
+**LUK (Open Source):** Finding the perfect config in one try.
 
 ---
 
-<br/>
+## 🎒 INVENTORY
 
 <div align="center">
 
-## 🎮 ACTIVE QUEST
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║  🌟 STELLAR DOTS v2.0                                     ║
-║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║                                                           ║
-║  📦 LOOT COLLECTED:                                       ║
-║  ├─ 🎨 10 Glassmorphism Menus                            ║
-║  ├─ 🌈 8 Premium Themes                                  ║
-║  ├─ ⚡ 30+ Utility Scripts                               ║
-║  └─ 🛡️ Security Features                                 ║
-║                                                           ║
-║  🏆 ACHIEVEMENTS:                                         ║
-║  ├─ ⭐ 100+ Stars Unlocked                               ║
-║  ├─ 🍴 50+ Forks Achieved                                ║
-║  └─ 👥 Active Community Built                            ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-[![View Quest](https://img.shields.io/badge/🎮_VIEW_QUEST-8ECAE6?style=for-the-badge&labelColor=023047)](https://github.com/NoctuaCoder/stellar-dots)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![QML](https://img.shields.io/badge/-QML-41B883?style=flat-square&logo=qt&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Ollama](https://img.shields.io/badge/-Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
 </div>
 
-<br/>
-
 ---
 
-<br/>
+## 📈 XP PROGRESS
 
 <div align="center">
 
-## 📊 BATTLE STATISTICS
-
-<img src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=023047&title_color=8ECAE6&text_color=FDF0D5&icon_color=219EBC&count_private=true&include_all_commits=true" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NoctuaCoder&theme=tokyonight&hide_border=true&background=023047&ring=8ECAE6&fire=219EBC&currStreakLabel=FDF0D5" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=89b4fa&text_color=cdd6f4&icon_color=cba6f7&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=89b4fa&text_color=cdd6f4" />
 
 </div>
 
-<br/>
-
 ---
-
-<br/>
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│  🎯 INVENTORY                                           │
-│  ├─ 💻 Linux Mastery                                    │
-│  ├─ 🎨 Design Skills                                    │
-│  ├─ ⚡ Automation Magic                                 │
-│  └─ 🌟 Open Source Spirit                               │
-│                                                         │
-│  💬 CONTACT MENU                                        │
-│  ├─ [A] GitHub                                          │
-│  ├─ [B] Email                                           │
-│  └─ [C] Portfolio                                       │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+### 💾 SAVE GAME?
 
-[![GitHub](https://img.shields.io/badge/[A]_GitHub-023047?style=for-the-badge&logo=github&logoColor=8ECAE6)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/[B]_Email-023047?style=for-the-badge&logo=gmail&logoColor=8ECAE6)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
-[![Portfolio](https://img.shields.io/badge/[C]_Portfolio-023047?style=for-the-badge&logo=firefox&logoColor=8ECAE6)](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
-
-<br/><br/>
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║  "In the realm of code, every bug is a boss battle,      ║
-║   and every commit is a victory."                        ║
-║                                                           ║
-║                    - NoctuaCoder, 2025                    ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-<br/>
-
-```
-▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-█ GAME SAVED • THANKS FOR PLAYING • © 2025 NOCTUACODER █
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-```
+[**[ YES ]**](mailto:38922657+NoctuaCoder@users.noreply.github.com) &nbsp;&nbsp;&nbsp;&nbsp; [**[ NO ]**](https://github.com/NoctuaCoder)
 
 </div>
