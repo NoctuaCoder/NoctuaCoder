@@ -2,11 +2,11 @@
 
 ![Noctua Prime Header](./assets/noctua_prime_header.svg)
 
-# 🌌 CELESTIAL DASHBOARD: NOCTUA PRIME 🌌
+# 🌌 CELESTIAL NIGHT: NOCTUA PRIME 🌌
 
-**Digital Alchemist | Sovereign Systems Architect | Local Intelligence Specialist**
+**Digital Alchemist | Sovereign Systems Architect | Aquarius Soul**
 
-*"Crafting uncompromising Linux environments and autonomous local intelligence under the starlit sky."*
+*"Under the eternal flow of the Aquarius constellation, crafting sovereign systems with starlight and logic."*
 
 </div>
 
@@ -46,12 +46,12 @@ Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready'
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![QML](https://img.shields.io/badge/-QML-41B883?style=for-the-badge&logo=qt&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Ollama](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-142B52?style=for-the-badge&logo=python&logoColor=D4B06A)
+![TypeScript](https://img.shields.io/badge/-TypeScript-142B52?style=for-the-badge&logo=typescript&logoColor=D4B06A)
+![Rust](https://img.shields.io/badge/-Rust-142B52?style=for-the-badge&logo=rust&logoColor=D4B06A)
+![QML](https://img.shields.io/badge/-QML-142B52?style=for-the-badge&logo=qt&logoColor=D4B06A)
+![Docker](https://img.shields.io/badge/-Docker-142B52?style=for-the-badge&logo=docker&logoColor=D4B06A)
+![Ollama](https://img.shields.io/badge/-Ollama-142B52?style=for-the-badge&logo=ollama&logoColor=D4B06A)
 
 </div>
 
@@ -61,8 +61,8 @@ Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready'
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=89b4fa&text_color=cdd6f4&icon_color=cba6f7&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=89b4fa&text_color=cdd6f4" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A1026&title_color=D4B06A&text_color=F8F6EE&icon_color=254A7A&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A1026&title_color=D4B06A&text_color=F8F6EE" />
 
 </div>
 
@@ -72,7 +72,7 @@ Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready'
 
 ### 📡 CONTACT FREQUENCY
 
-[![GitHub](https://img.shields.io/badge/GitHub-@NoctuaCoder-89b4fa?style=for-the-badge&logo=github&logoColor=1e1e2e)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Email-Contact-cba6f7?style=for-the-badge&logo=gmail&logoColor=1e1e2e)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@NoctuaCoder-142B52?style=for-the-badge&logo=github&logoColor=D4B06A)](https://github.com/NoctuaCoder)
+[![Email](https://img.shields.io/badge/Email-Contact-142B52?style=for-the-badge&logo=gmail&logoColor=D4B06A)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 </div>
