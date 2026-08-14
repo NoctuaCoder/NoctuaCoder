@@ -78,6 +78,12 @@ Development of QML and web interfaces with attention to visual hierarchy, access
 
 ## GitHub activity
 
+<div align="center">
+
+![GitHub statistics](https://github-readme-stats-sigma-five.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1B42&title_color=C9BFFF&text_color=A99FD6&icon_color=6D5ACD)
+
+</div>
+
 The profile contribution graph is provided directly by GitHub. For project activity, releases, issues, and the most recent commits, visit the repositories below:
 
 | Activity hub | Link |

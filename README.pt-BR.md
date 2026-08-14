@@ -78,6 +78,12 @@ Construção de interfaces em QML e tecnologias web, com atenção a hierarquia 
 
 ## Atividade no GitHub
 
+<div align="center">
+
+![Estatísticas do GitHub](https://github-readme-stats-sigma-five.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1B42&title_color=C9BFFF&text_color=A99FD6&icon_color=6D5ACD)
+
+</div>
+
 O gráfico de contribuições do perfil é fornecido diretamente pelo GitHub. Para acompanhar commits, issues, releases e a atividade recente dos projetos, use os repositórios abaixo:
 
 | Central de atividade | Link |
