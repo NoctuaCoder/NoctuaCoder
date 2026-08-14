@@ -2,13 +2,13 @@
 
 ![Noctua Prime Header](./assets/noctua_prime_header.svg?v=6)
 
-# NoctuaCoder
+# Noctua Lab
 
-### Software engineering for Linux, local infrastructure, and artificial intelligence tools
+### Compiling the night.
 
 [English](./README.md) · [Português do Brasil](./README.pt-BR.md)
 
-I build local systems, automations, and interfaces focused on **autonomy, privacy, reproducibility, and usability**. My work combines software development, Linux environment design, and practical exploration of locally executed AI agents.
+Experiments, tools, and systems built around **Linux, local AI, and software autonomy**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
 [![Contact](https://img.shields.io/badge/Contact-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
@@ -17,13 +17,9 @@ I build local systems, automations, and interfaces focused on **autonomy, privac
 
 ---
 
-## Professional profile
+## What I build
 
-My focus is building tools that give people more control over their computing environments. I work at the intersection of **infrastructure, automation, local artificial intelligence, and interface design**, prioritizing understandable code, operational isolation, and consistent user experiences.
-
-> **Working principle:** local technology should be useful, observable, and genuinely owned by the person running it.
-
-## Core pillars
+Noctua Lab is a personal open-source workspace for building and testing software around Linux desktops, local language models, developer tooling, and interface systems. The goal is simple: make the work visible through repositories, documentation, demos, and code that people can inspect and run.
 
 <div align="center">
 
@@ -31,28 +27,29 @@ My focus is building tools that give people more control over their computing en
 
 </div>
 
-## Featured projects
+## Project map
 
-| Project | What it solves | Technology and focus |
+| Area | Project | Role in the ecosystem |
 |---|---|---|
-| [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | A complete Niri environment with dotfiles, native services, and a cohesive visual layer. | QML, Quickshell, Linux, desktop automation |
-| [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | Local and isolated execution of coding agents with an emphasis on operational safety and autonomy. | Python, Docker, AI agents, sandboxing |
-| [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | Management and inference tooling for local models in GGUF format. | Rust, llama.cpp, GGUF, local LLMs |
-| [**noctua-material**](https://github.com/NoctuaCoder/noctua-material) | A Material You-inspired SDDM theme focused on login states and visual consistency. | QML, SDDM, design systems |
+| **Linux desktop** | [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | The main desktop environment experiment: Niri dotfiles, QML components, Quickshell integration, theming, and installation workflows. |
+| **Local AI infrastructure** | [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | A local runtime for coding agents that plans tasks, uses tools, integrates with Git, and executes work inside ephemeral Docker sandboxes. |
+| **LLM tooling** | [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | A Rust-based tool for pulling GGUF models, managing llama-server processes, and serving local models through a web UI and API. |
+| **Desktop design** | [**noctua-material**](https://github.com/NoctuaCoder/noctua-material) | A Material-inspired SDDM theme focused on login states, desktop presentation, and QML styling. |
 
-## Areas of practice
+## Current focus
 
-### Local infrastructure and Linux
+The priority is depth rather than quantity: make the existing projects easier to install, easier to understand, and easier to evaluate.
 
-Linux environment configuration, desktop composition, native services, containers, and automation for reproducible workflows. The goal is to turn a workstation into a reliable, controllable platform for everyday work.
+For `noctua-niri`, that means clearer screenshots, installation guidance, configuration examples, and a practical roadmap. For `ArbiterAI`, it means making the sandbox boundaries, execution flow, and project architecture easy to inspect. The other projects support the same ecosystem from the LLM and interface sides.
 
-### Local artificial intelligence
+## Evidence over adjectives
 
-Research and development of tools for running models and agents locally, reducing unnecessary external dependencies while keeping data, costs, and behavior under the user’s control.
-
-### Product engineering and interfaces
-
-Development of QML and web interfaces with attention to visual hierarchy, accessibility, interaction states, and the relationship between aesthetics and function.
+| Project | Concrete surface to explore |
+|---|---|
+| **noctua-niri** | QML and Quickshell components, Niri configuration, visual previews, and installation scripts. |
+| **ArbiterAI** | Docker sandbox, local Ollama workflow, tool execution, Git integration, and project structure. |
+| **voidkitty-llm** | GGUF model pulling, quantization selection, hot model serving, multi-model mode, and OpenAI-compatible API. |
+| **noctua-material** | SDDM theme structure, login states, visual components, and installation instructions. |
 
 ## Technical stack
 
@@ -67,16 +64,7 @@ Development of QML and web interfaces with attention to visual hierarchy, access
 
 </div>
 
-## How I work
-
-| Principle | Practical application |
-|---|---|
-| **Autonomy** | Preference for local tools and architectures that reduce unnecessary dependencies. |
-| **Security** | Process isolation, containers, and clear boundaries between components. |
-| **Maintainability** | Simple structures, concise documentation, and explicit technical decisions. |
-| **Experience** | Coherent interfaces, visible feedback, and attention to everyday use. |
-
-## GitHub activity
+## Activity hubs
 
 <div align="center">
 
@@ -84,11 +72,11 @@ Development of QML and web interfaces with attention to visual hierarchy, access
 
 </div>
 
-The cards above point to the main activity hubs of the profile. GitHub’s native contribution graph remains available on the [main profile](https://github.com/NoctuaCoder), while commits, releases, and issues are tracked in each project repository.
+The native contribution graph is available on the [main profile](https://github.com/NoctuaCoder). Commits, releases, issues, installation notes, and implementation details live in each project repository.
 
 ## Contact
 
-If you are interested in Linux, local infrastructure, AI agents, developer tools, or thoughtful interfaces, feel free to explore the projects and start a discussion in the relevant repository.
+If you are interested in Linux desktops, local AI, Rust tooling, coding agents, or QML interfaces, explore the projects and open a discussion in the repository that matches your interest.
 
 <div align="center">
 
