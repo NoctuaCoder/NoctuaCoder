@@ -27,7 +27,7 @@ Meu foco está na criação de ferramentas que dão ao usuário mais controle so
 
 <div align="center">
 
-![Pilares centrais: autonomia, privacidade, reprodutibilidade e experiência](./assets/core-pillars-topics.svg?v=1)
+![Pilares centrais: autonomia, privacidade, reprodutibilidade e experiência](./assets/core-pillars-topics.svg?v=2)
 
 </div>
 

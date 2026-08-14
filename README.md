@@ -27,7 +27,7 @@ My focus is building tools that give people more control over their computing en
 
 <div align="center">
 
-![Core pillars: autonomy, privacy, reproducibility, and experience](./assets/core-pillars-topics.svg?v=1)
+![Core pillars: autonomy, privacy, reproducibility, and experience](./assets/core-pillars-topics-en.svg?v=1)
 
 </div>
 
