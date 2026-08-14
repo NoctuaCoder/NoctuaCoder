@@ -83,6 +83,28 @@
     <circle class="star-anim" cx="415" cy="450" r="5.5"/>
   </g>
 
+  <!-- Bright accent stars and extra sparkles -->
+  <g>
+    <circle cx="130" cy="180" r="8" fill="url(#starGlow)"/><circle cx="130" cy="180" r="2" fill="#fff"/>
+    <circle cx="940" cy="150" r="9" fill="url(#starGlow)"/><circle cx="940" cy="150" r="2.2" fill="#fff"/>
+    <circle cx="90" cy="340" r="8" fill="url(#starGlow)"/><circle cx="90" cy="340" r="2" fill="#fff"/>
+    <circle cx="990" cy="360" r="9" fill="url(#starGlow)"/><circle cx="990" cy="360" r="2.2" fill="#fff"/>
+  </g>
+  <g fill="#ffe9a8">
+    <path class="twinkle" transform="translate(310,180) scale(0.9)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle3" transform="translate(680,130) scale(0.7)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle2" transform="translate(220,330) scale(0.8)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle4" transform="translate(760,330) scale(0.9)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle" transform="translate(600,240) scale(0.6)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle2" transform="translate(340,300) scale(0.7)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+  </g>
+  <g transform="translate(150,110)" class="twinkle3">
+    <circle r="3" fill="none" stroke="#dbe4ff" stroke-width="1"/>
+    <path d="M 5 -4 A 5 5 0 1 0 5 6 A 4 4 0 1 1 5 -4 Z" fill="#fdf6e3" transform="translate(-2,-1) scale(0.8)"/>
+  </g>
+  <g transform="translate(920,370)" class="twinkle">
+    <path d="M 4 -3 A 4 4 0 1 0 4 5 A 3.2 3.2 0 1 1 4 -3 Z" fill="#fdf6e3"/>
+  </g>
   <!-- ============ TYPOGRAPHY & IDENTITY ============ -->
   <g transform="translate(600, 200)">
     <!-- top divider -->
