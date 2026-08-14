@@ -64,6 +64,14 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
 
 </div>
 
+| Área | Tecnologias |
+|---|---|
+| **Linguagens** | Python · Rust · TypeScript · Bash |
+| **Sistemas** | Linux · Wayland · Niri · Docker |
+| **IA** | llama.cpp · GGUF · LLMs locais · Agentes de código |
+| **Interface** | QML · Quickshell · Electron |
+| **Ferramentas** | Git · GitHub Actions · Neovim |
+
 ## Centrais de atividade
 
 <div align="center">

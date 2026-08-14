@@ -64,6 +64,14 @@ For `noctua-niri`, that means clearer screenshots, installation guidance, config
 
 </div>
 
+| Area | Technologies |
+|---|---|
+| **Languages** | Python · Rust · TypeScript · Bash |
+| **Systems** | Linux · Wayland · Niri · Docker |
+| **AI** | llama.cpp · GGUF · Local LLMs · Coding agents |
+| **UI** | QML · Quickshell · Electron |
+| **Tooling** | Git · GitHub Actions · Neovim |
+
 ## Activity hubs
 
 <div align="center">
