@@ -2,47 +2,49 @@
 
 ![Noctua Prime Header](./assets/noctua_prime_header.svg?v=6)
 
-# 🌌 CELESTIAL NIGHT: NOCTUA PRIME 🌌
+# NoctuaCoder
 
-**Digital Alchemist | Sovereign Systems Architect | Aquarius Soul**
+### Engenharia de software para Linux, infraestrutura local e ferramentas de inteligência artificial
 
-*"Under the eternal flow of the Aquarius constellation, crafting sovereign systems with starlight and logic."*
+Construo sistemas locais, automações e interfaces com foco em **autonomia, privacidade, reprodutibilidade e experiência de uso**. Meu trabalho combina desenvolvimento de software, personalização de ambientes Linux e exploração prática de agentes de IA executados localmente.
+
+[![GitHub](https://img.shields.io/badge/GitHub-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
+[![Email](https://img.shields.io/badge/Contato-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 </div>
 
 ---
 
-## 🔭 PROJECT CONSTELLATIONS
+## Perfil profissional
 
-The core pillars of the Noctua ecosystem, designed for complete ownership and aesthetic excellence.
+Meu foco está na criação de ferramentas que dão ao usuário mais controle sobre o próprio ambiente computacional. Desenvolvo soluções que aproximam **infraestrutura, automação, inteligência artificial local e design de interfaces**, priorizando código compreensível, isolamento operacional e uma experiência consistente.
 
-<div align="center">
+> **Princípio de trabalho:** tecnologia local deve ser útil, observável e realmente pertencente a quem a executa.
 
-| Constellation | Purpose | Status |
+## Projetos em destaque
+
+| Projeto | O que resolve | Tecnologias e foco |
 |---|---|---|
-| 🌌 [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | Ultimate Niri suite with Quickshell UI & Native Services | `SOVEREIGN` |
-| 🤖 [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | Docker-isolated autonomous local code agent runtime | `ACTIVE` |
-| 🦀 [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | Local LLM management and GGUF inference engine | `STABLE` |
-| 🔐 [**noctua-material**](https://github.com/NoctuaCoder/noctua-material) | Mobile-inspired Material You SDDM login environment | `STABLE` |
+| [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | Ambiente completo para Niri, com dotfiles, serviços nativos e uma camada visual coesa. | QML, Quickshell, Linux, automação de desktop |
+| [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | Execução local e isolada de agentes de código, com foco em segurança operacional e autonomia. | Python, Docker, agentes de IA, sandboxing |
+| [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | Gerenciamento e inferência de modelos locais em formato GGUF. | Rust, llama.cpp, GGUF, LLMs locais |
+| [**noctua-material**](https://github.com/NoctuaCoder/noctua-material) | Tema SDDM inspirado em Material You, com atenção a estados de login e consistência visual. | QML, SDDM, design de sistemas |
 
-</div>
+## Áreas de atuação
 
----
+### Infraestrutura local e Linux
 
-## 🛠️ CORE COMPETENCIES
+Configuração de ambientes Linux, composição de desktops, serviços nativos, contêineres e automações voltadas a fluxos de trabalho reproduzíveis. O objetivo é transformar a estação de trabalho em uma plataforma confiável, controlável e adequada ao uso diário.
 
-**Sovereign Infrastructure**  
-Specializing in ephemeral Docker sandboxing, Linux kernel-level customization, and Niri-first tiling compositor architectures.
+### Inteligência artificial local
 
-**Local Intelligence**  
-Orchestrating autonomous agents with Ollama and custom Python frameworks to ensure zero cloud dependency and maximum privacy.
+Experimentação e desenvolvimento de ferramentas para executar modelos e agentes localmente, reduzindo dependências externas e mantendo dados, custos e comportamento sob controle do usuário.
 
-**Visual Alchemy**  
-Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready' interfaces that bridge the gap between beauty and performance.
+### Engenharia de produto e interfaces
 
----
+Construção de interfaces em QML e tecnologias web, com atenção a hierarquia visual, acessibilidade, estados de interação e integração entre estética e funcionalidade.
 
-## 🎒 TECHNICAL ARSENAL
+## Arsenal técnico
 
 <div align="center">
 
@@ -55,30 +57,33 @@ Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready'
 
 </div>
 
----
+## Como trabalho
 
-## 📈 SYSTEM TELEMETRY
+| Critério | Aplicação prática |
+|---|---|
+| **Autonomia** | Preferência por ferramentas locais e arquiteturas que reduzam dependências desnecessárias. |
+| **Segurança** | Isolamento de processos, contêineres e separação clara entre componentes. |
+| **Manutenibilidade** | Estruturas simples, documentação objetiva e decisões técnicas explícitas. |
+| **Experiência** | Interfaces coerentes, feedback visual e atenção aos detalhes de uso cotidiano. |
+
+## Atividade no GitHub
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0A1026&title_color=D4B06A&text_color=F8F6EE&icon_color=254A7A&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A1026&title_color=D4B06A&text_color=F8F6EE" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1A1533&title_color=F6E7B2&text_color=E8E6F2&icon_color=6D5ACD&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=tokyonight&hide_border=true&bg_color=1A1533&title_color=F6E7B2&text_color=E8E6F2" />
 
 </div>
 
----
+## Contato
+
+Se você se interessa por Linux, infraestrutura local, agentes de IA, ferramentas para desenvolvedores ou interfaces bem construídas, fique à vontade para explorar os projetos e abrir uma discussão no repositório correspondente.
 
 <div align="center">
 
-### 📡 CONTACT FREQUENCY
+[![GitHub](https://img.shields.io/badge/Explorar_projetos-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
+[![Email](https://img.shields.io/badge/Enviar_mensagem-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
-[![GitHub](https://img.shields.io/badge/GitHub-@NoctuaCoder-0A1026?style=for-the-badge&logo=github&logoColor=D4B06A)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Email-Contact-0A1026?style=for-the-badge&logo=gmail&logoColor=D4B06A)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
-
-<br/>
-
-```
-CONSTELLATIONS · JAN 20 – FEB 18 · AIR SIGN
-```
+`LOCAL SYSTEMS · OPEN SOURCE · PRACTICAL AI`
 
 </div>
