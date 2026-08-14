@@ -23,6 +23,14 @@ Meu foco está na criação de ferramentas que dão ao usuário mais controle so
 
 > **Princípio de trabalho:** tecnologia local deve ser útil, observável e realmente pertencente a quem a executa.
 
+## Pilares centrais
+
+<div align="center">
+
+![Pilares centrais: autonomia, privacidade, reprodutibilidade e experiência](./assets/core-pillars-topics.svg?v=1)
+
+</div>
+
 ## Projetos em destaque
 
 | Projeto | O que resolve | Tecnologias e foco |
@@ -70,12 +78,14 @@ Construção de interfaces em QML e tecnologias web, com atenção a hierarquia 
 
 ## Atividade no GitHub
 
-<div align="center">
+O gráfico de contribuições do perfil é fornecido diretamente pelo GitHub. Para acompanhar commits, issues, releases e a atividade recente dos projetos, use os repositórios abaixo:
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1A1533&title_color=F6E7B2&text_color=E8E6F2&icon_color=6D5ACD&count_private=true&include_all_commits=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=tokyonight&hide_border=true&bg_color=1A1533&title_color=F6E7B2&text_color=E8E6F2" />
-
-</div>
+| Central de atividade | Link |
+|---|---|
+| Perfil principal e gráfico de contribuições | [github.com/NoctuaCoder](https://github.com/NoctuaCoder) |
+| Ambiente Linux e Niri | [noctua-niri](https://github.com/NoctuaCoder/noctua-niri) |
+| Agentes de código locais | [ArbiterAI](https://github.com/NoctuaCoder/ArbiterAI) |
+| Ferramentas para LLMs locais | [voidkitty-llm](https://github.com/NoctuaCoder/voidkitty-llm) |
 
 ## Contato
 
