@@ -1,0 +1,43 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141b3d"/>
+      <stop offset="100%" stop-color="#1e1440"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6d5acd"/>
+      <stop offset="100%" stop-color="#c76b9e"/>
+    </linearGradient>
+    <style>
+      .dot { animation: pulse 2.2s infinite ease-in-out; }
+      .dot2 { animation-delay: .3s; } .dot3 { animation-delay: .6s; } .dot4 { animation-delay: .9s; }
+      @keyframes pulse { 0%,100%{opacity:.5;} 50%{opacity:1;} }
+    </style>
+  </defs>
+
+  <!-- Row 1 -->
+  <g transform="translate(0,0)">
+    <rect width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
+    <circle class="dot" cx="28" cy="26" r="4" fill="#c9bfff"/>
+    <text x="46" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">PERFIL PRINCIPAL</text>
+    <text x="28" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">github.com/NoctuaCoder</text>
+
+    <rect x="440" width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
+    <circle class="dot dot2" cx="468" cy="26" r="4" fill="#c9bfff"/>
+    <text x="486" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">AMBIENTE LINUX E NIRI</text>
+    <text x="468" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">noctua-niri</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(0,96)">
+    <rect width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
+    <circle class="dot dot3" cx="28" cy="26" r="4" fill="#c9bfff"/>
+    <text x="46" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">AGENTES DE CÓDIGO LOCAIS</text>
+    <text x="28" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">ArbiterAI</text>
+
+    <rect x="440" width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
+    <circle class="dot dot4" cx="468" cy="26" r="4" fill="#c9bfff"/>
+    <text x="486" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">FERRAMENTAS PARA LLMs LOCAIS</text>
+    <text x="468" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">voidkitty-llm</text>
+  </g>
+</svg>

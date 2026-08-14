@@ -80,18 +80,11 @@ Development of QML and web interfaces with attention to visual hierarchy, access
 
 <div align="center">
 
-![GitHub statistics](https://github-readme-stats-sigma-five.vercel.app/api?username=NoctuaCoder&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1B42&title_color=C9BFFF&text_color=A99FD6&icon_color=6D5ACD)
+![Activity hubs: profile, Linux and Niri, local coding agents, and local LLM tooling](./assets/activity-hub-cards-en.svg?v=1)
 
 </div>
 
-The profile contribution graph is provided directly by GitHub. For project activity, releases, issues, and the most recent commits, visit the repositories below:
-
-| Activity hub | Link |
-|---|---|
-| Main profile and contribution graph | [github.com/NoctuaCoder](https://github.com/NoctuaCoder) |
-| Linux and Niri environment | [noctua-niri](https://github.com/NoctuaCoder/noctua-niri) |
-| Local coding agents | [ArbiterAI](https://github.com/NoctuaCoder/ArbiterAI) |
-| Local LLM tooling | [voidkitty-llm](https://github.com/NoctuaCoder/voidkitty-llm) |
+The cards above point to the main activity hubs of the profile. GitHub’s native contribution graph remains available on the [main profile](https://github.com/NoctuaCoder), while commits, releases, and issues are tracked in each project repository.
 
 ## Contact
 
