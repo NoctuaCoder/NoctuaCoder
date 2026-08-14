@@ -1,6 +1,6 @@
 <div align="center">
 
-![Noctua Prime Header](./assets/noctua_prime_header.svg?v=5)
+![Noctua Prime Header](./assets/noctua_prime_header.svg?v=6)
 
 # 🌌 CELESTIAL NIGHT: NOCTUA PRIME 🌌
 

@@ -1,158 +1,165 @@
-<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Celestial Night Palette from User Snippet -->
-    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
-      <stop offset="0%" stop-color="#0d1a3a"/>
-      <stop offset="45%" stop-color="#0a1330"/>
-      <stop offset="100%" stop-color="#040613"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e27"/>
+      <stop offset="50%" stop-color="#141b3d"/>
+      <stop offset="100%" stop-color="#0a0e27"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d5acd" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6d5acd" stop-opacity="0"/>
     </radialGradient>
-
-    <radialGradient id="nebula1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2d4a8a" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#2d4a8a" stop-opacity="0"/>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c76b9e" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#c76b9e" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="nebula2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4c3d8f" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#4c3d8f" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="nebula3" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1e5a8a" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#1e5a8a" stop-opacity="0"/>
-    </radialGradient>
-
     <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-
-    <filter id="blurL"><feGaussianBlur stdDeviation="45"/></filter>
-    <filter id="blurM"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8e6ff"/>
+      <stop offset="50%" stop-color="#c9bfff"/>
+      <stop offset="100%" stop-color="#e8e6ff"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="40"/></filter>
 
     <style>
-      @keyframes shooting-star {
-        0% { transform: translate(0, 0); opacity: 0; }
-        5% { opacity: 1; }
-        15% { transform: translate(-500px, 500px); opacity: 0; }
-        100% { transform: translate(-500px, 500px); opacity: 0; }
+      .tw { animation: tw 2.6s infinite ease-in-out; }
+      .tw2 { animation-delay: .7s; }
+      .tw3 { animation-delay: 1.4s; }
+      .tw4 { animation-delay: 2.1s; }
+      @keyframes tw { 0%,100%{opacity:.2;} 50%{opacity:1;} }
+
+      .nebula-drift { animation: drift 14s infinite ease-in-out; }
+      @keyframes drift {
+        0%,100% { transform: translate(0,0) scale(1); }
+        50% { transform: translate(20px,-10px) scale(1.08); }
       }
-      @keyframes nebula-pulse {
-        0%, 100% { opacity: 0.6; transform: scale(1); }
-        50% { opacity: 0.8; transform: scale(1.1); }
+
+      .constellation-line {
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        animation: draw 4s ease-out forwards infinite;
       }
-      @keyframes star-twinkle {
-        0%, 100% { opacity: 0.3; transform: scale(0.8); }
-        50% { opacity: 1; transform: scale(1.2); }
+      @keyframes draw {
+        0% { stroke-dashoffset: 400; }
+        45% { stroke-dashoffset: 0; }
+        85% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -400; }
       }
-      .shooting { animation: shooting-star 8s infinite linear; }
-      .nebula-anim { animation: nebula-pulse 20s infinite alternate ease-in-out; }
-      .star-anim { animation: star-twinkle 4s infinite ease-in-out; }
+
+      .const-star {
+        animation: constpulse 4s infinite ease-in-out;
+      }
+      @keyframes constpulse {
+        0%,100% { opacity: .5; r: 2; }
+        50% { opacity: 1; r: 3.2; }
+      }
+
+      .title-shimmer {
+        animation: shimmer 5s linear infinite;
+      }
+      @keyframes shimmer {
+        0% { fill: #e8e6ff; }
+        50% { fill: #c9bfff; }
+        100% { fill: #e8e6ff; }
+      }
+
+      .diamond-spin {
+        animation: dspin 8s linear infinite;
+        transform-origin: 600px 108px;
+      }
+      @keyframes dspin { to { transform: rotate(360deg); } }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="400" fill="url(#bg)"/>
+  <!-- background -->
+  <rect width="1200" height="300" fill="url(#sky)"/>
 
-  <!-- Nebula clouds adapted from user snippet -->
-  <circle class="nebula-anim" cx="200" cy="100" r="260" fill="url(#nebula1)" filter="url(#blurL)"/>
-  <circle class="nebula-anim" cx="1000" cy="300" r="300" fill="url(#nebula2)" filter="url(#blurL)" style="animation-delay: -5s;"/>
-  <circle class="nebula-anim" cx="600" cy="350" r="240" fill="url(#nebula3)" filter="url(#blurL)" style="animation-delay: -10s;"/>
-
-  <!-- Background stars -->
-  <g fill="#ffffff" opacity="0.6">
-    <circle cx="100" cy="50" r="1"/><circle cx="300" cy="80" r="0.8"/><circle cx="500" cy="40" r="1.2"/>
-    <circle cx="800" cy="60" r="0.9"/><circle cx="1100" cy="100" r="1.1"/><circle cx="200" cy="300" r="1"/>
-    <circle cx="900" cy="350" r="0.8"/><circle cx="50" cy="380" r="1.2"/><circle cx="1150" cy="250" r="0.7"/>
+  <!-- nebula glows -->
+  <g class="nebula-drift">
+    <circle cx="180" cy="60" r="150" fill="url(#glow1)" filter="url(#softBlur)"/>
   </g>
-
-  <!-- Shooting Stars -->
-  <line class="shooting" x1="1100" y1="0" x2="1000" y2="100" stroke="#cfe0ff" stroke-width="1" stroke-linecap="round" style="animation-delay: 2s;" />
-  <line class="shooting" x1="500" y1="-50" x2="400" y2="50" stroke="#4c3d8f" stroke-width="0.8" stroke-linecap="round" style="animation-delay: 5s;" />
-
-  <!-- ============ AQUARIUS CONSTELLATION (Adapted from user snippet) ============ -->
-  <g transform="translate(50, 50) scale(0.6)" stroke="#cfe0ff" stroke-width="1.5" fill="none" opacity="0.85">
-    <path d="M 470 110 L 520 60 L 560 90 L 610 55 L 600 115 L 555 140 L 500 150 Z" />
-    <path d="M 500 150 L 470 200 L 495 240 L 460 290 L 480 335 L 440 375 L 460 415 L 415 450" />
-    <path d="M 470 110 L 430 85 L 405 115" />
+  <g class="nebula-drift" style="animation-delay:-6s">
+    <circle cx="1020" cy="230" r="170" fill="url(#glow2)" filter="url(#softBlur)"/>
   </g>
-  <g transform="translate(50, 50) scale(0.6)" fill="#f4f8ff">
-    <circle class="star-anim" cx="470" cy="110" r="4"/><circle class="star-anim" cx="520" cy="60" r="5"/><circle class="star-anim" cx="560" cy="90" r="4"/>
-    <circle class="star-anim" cx="610" cy="55" r="5.5"/><circle class="star-anim" cx="600" cy="115" r="4"/><circle class="star-anim" cx="555" cy="140" r="4.5"/>
-    <circle class="star-anim" cx="500" cy="150" r="5"/><circle class="star-anim" cx="430" cy="85" r="3.5"/><circle class="star-anim" cx="405" cy="115" r="3"/>
-    <circle class="star-anim" cx="470" cy="200" r="4"/><circle class="star-anim" cx="495" cy="240" r="3.5"/><circle class="star-anim" cx="460" cy="290" r="4.5"/>
-    <circle class="star-anim" cx="480" cy="335" r="3.5"/><circle class="star-anim" cx="440" cy="375" r="4"/><circle class="star-anim" cx="460" cy="415" r="3"/>
-    <circle class="star-anim" cx="415" cy="450" r="5.5"/>
+  <g class="nebula-drift" style="animation-delay:-3s">
+    <circle cx="600" cy="250" r="130" fill="url(#glow1)" filter="url(#softBlur)" opacity="0.6"/>
   </g>
 
-  <!-- Bright accent stars and extra sparkles -->
-  <g>
-    <circle cx="130" cy="180" r="8" fill="url(#starGlow)"/><circle cx="130" cy="180" r="2" fill="#fff"/>
-    <circle cx="940" cy="150" r="9" fill="url(#starGlow)"/><circle cx="940" cy="150" r="2.2" fill="#fff"/>
-    <circle cx="90" cy="340" r="8" fill="url(#starGlow)"/><circle cx="90" cy="340" r="2" fill="#fff"/>
-    <circle cx="990" cy="360" r="9" fill="url(#starGlow)"/><circle cx="990" cy="360" r="2.2" fill="#fff"/>
+  <!-- background stars -->
+  <g fill="#ffffff">
+    <circle class="tw" cx="40" cy="40" r="1.2"/>
+    <circle class="tw2" cx="90" cy="90" r="1"/>
+    <circle class="tw3" cx="160" cy="30" r="1.4"/>
+    <circle class="tw4" cx="230" cy="70" r="1"/>
+    <circle class="tw" cx="300" cy="25" r="1.2"/>
+    <circle class="tw2" cx="900" cy="40" r="1.3"/>
+    <circle class="tw3" cx="960" cy="90" r="1"/>
+    <circle class="tw4" cx="1030" cy="30" r="1.4"/>
+    <circle class="tw" cx="1100" cy="70" r="1"/>
+    <circle class="tw2" cx="1160" cy="25" r="1.2"/>
+    <circle class="tw3" cx="60" cy="220" r="1.1"/>
+    <circle class="tw4" cx="140" cy="260" r="1"/>
+    <circle class="tw" cx="1080" cy="240" r="1.2"/>
+    <circle class="tw2" cx="1150" cy="200" r="1"/>
+    <circle class="tw3" cx="500" cy="30" r="1"/>
+    <circle class="tw4" cx="700" cy="35" r="1.2"/>
+    <circle class="tw" cx="400" cy="260" r="1"/>
+    <circle class="tw2" cx="800" cy="265" r="1.1"/>
   </g>
-  <g fill="#ffe9a8">
-    <path class="twinkle" transform="translate(310,180) scale(0.9)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
-    <path class="twinkle twinkle3" transform="translate(680,130) scale(0.7)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
-    <path class="twinkle twinkle2" transform="translate(220,330) scale(0.8)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
-    <path class="twinkle twinkle4" transform="translate(760,330) scale(0.9)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
-    <path class="twinkle" transform="translate(600,240) scale(0.6)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
-    <path class="twinkle twinkle2" transform="translate(340,300) scale(0.7)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
-  </g>
-  <g transform="translate(150,110)" class="twinkle3">
-    <circle r="3" fill="none" stroke="#dbe4ff" stroke-width="1"/>
-    <path d="M 5 -4 A 5 5 0 1 0 5 6 A 4 4 0 1 1 5 -4 Z" fill="#fdf6e3" transform="translate(-2,-1) scale(0.8)"/>
-  </g>
-  <g transform="translate(920,370)" class="twinkle">
-    <path d="M 4 -3 A 4 4 0 1 0 4 5 A 3.2 3.2 0 1 1 4 -3 Z" fill="#fdf6e3"/>
-  </g>
-  <!-- Hero stars inspired by celestial sword-and-star emblems -->
-  <g fill="#f6e7b2" stroke="#cfe0ff" stroke-width="1.2" filter="url(#blurM)">
-    <path d="M115 226l7 18 18 7-18 7-7 18-7-18-18-7 18-7z"/>
-    <path d="M1085 226l7 18 18 7-18 7-7 18-7-18-18-7 18-7z"/>
-    <path d="M210 92l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
-    <path d="M990 92l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
-  </g>
-  <!-- Decorative crossed swords -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
-    <g transform="translate(112,300) rotate(-18)">
-      <path d="M0 58L24-35" stroke="#dce8ff" stroke-width="5"/>
-      <path d="M24-35l7 17-13-4z" fill="#f6e7b2" stroke="#dce8ff" stroke-width="2"/>
-      <path d="M-12 54h35" stroke="#e7b86d" stroke-width="5"/>
-      <path d="M-1 54l-12 13m22-13 12 13" stroke="#e7b86d" stroke-width="3"/>
-      <path d="M-4 72h9" stroke="#dce8ff" stroke-width="4"/>
-    </g>
-    <g transform="translate(1088,300) rotate(18) scale(-1,1)">
-      <path d="M0 58L24-35" stroke="#dce8ff" stroke-width="5"/>
-      <path d="M24-35l7 17-13-4z" fill="#f6e7b2" stroke="#dce8ff" stroke-width="2"/>
-      <path d="M-12 54h35" stroke="#e7b86d" stroke-width="5"/>
-      <path d="M-1 54l-12 13m22-13 12 13" stroke="#e7b86d" stroke-width="3"/>
-      <path d="M-4 72h9" stroke="#dce8ff" stroke-width="4"/>
-    </g>
-  </g>
-  <!-- ============ TYPOGRAPHY & IDENTITY ============ -->
-  <g transform="translate(600, 200)">
-    <!-- top divider -->
-    <g transform="translate(0,-60)">
-      <line x1="-160" y1="0" x2="-18" y2="0" stroke="#e8ecf7" stroke-width="1" opacity="0.8"/>
-      <line x1="18" y1="0" x2="160" y2="0" stroke="#e8ecf7" stroke-width="1" opacity="0.8"/>
-      <path d="M0,-9 L3,-3 L9,0 L3,3 L0,9 L-3,3 L-9,0 L-3,-3 Z" fill="#f4f4ff"/>
-    </g>
 
-    <text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
-          font-size="64" letter-spacing="12" fill="#f6f6fc" font-weight="600">
-      NOCTUA CODER
-    </text>
+  <!-- bright accent stars -->
+  <circle class="tw3" cx="120" cy="150" r="6" fill="url(#starGlow)"/>
+  <circle class="tw3" cx="120" cy="150" r="1.4" fill="#fff"/>
+  <circle class="tw" cx="1070" cy="140" r="7" fill="url(#starGlow)"/>
+  <circle class="tw" cx="1070" cy="140" r="1.6" fill="#fff"/>
 
-    <text y="40" text-anchor="middle" font-family="Georgia, serif"
-          font-size="14" letter-spacing="8" fill="#a9b6d8" font-style="italic">
-      DIGITAL ALCHEMIST · SOVEREIGN SYSTEMS
-    </text>
-
-    <!-- small crescent moon accent -->
-    <g transform="translate(0,75)">
-      <path d="M -6 -8 A 8 8 0 1 0 -6 8 A 6.4 6.4 0 1 1 -6 -8 Z" fill="#e9edfb" opacity="0.85"/>
+  <!-- ============ AQUARIUS CONSTELLATION (left side, elegant) ============ -->
+  <g transform="translate(60,90)">
+    <path class="constellation-line" stroke="#c9bfff" stroke-width="1.2" fill="none" opacity="0.9"
+          d="M 0 60 L 25 30 L 55 45 L 85 15 L 78 55 L 45 68 L 15 78 Z" />
+    <path class="constellation-line" stroke="#c9bfff" stroke-width="1.2" fill="none" opacity="0.9" style="animation-delay:0.3s"
+          d="M 15 78 L 5 105 L 22 130 L 3 158" />
+    <g class="const-star" fill="#f4f2ff">
+      <circle cx="0" cy="60" r="2.4"/><circle cx="25" cy="30" r="2.8"/><circle cx="55" cy="45" r="2.2"/>
+      <circle cx="85" cy="15" r="3"/><circle cx="78" cy="55" r="2.2"/><circle cx="45" cy="68" r="2.4"/>
+      <circle cx="15" cy="78" r="2.8"/><circle cx="5" cy="105" r="2.2"/><circle cx="22" cy="130" r="2"/>
+      <circle cx="3" cy="158" r="3.2"/>
     </g>
   </g>
 
+  <!-- decorative diamond top divider -->
+  <g transform="translate(600,72)">
+    <line x1="-190" y1="0" x2="-22" y2="0" stroke="#cfc7f5" stroke-width="1" opacity="0.7"/>
+    <line x1="22" y1="0" x2="190" y2="0" stroke="#cfc7f5" stroke-width="1" opacity="0.7"/>
+    <g class="diamond-spin">
+      <path d="M0,-10 L3.4,-3.4 L10,0 L3.4,3.4 L0,10 L-3.4,3.4 L-10,0 L-3.4,-3.4 Z" fill="#f4f2ff"/>
+    </g>
+  </g>
 
+  <!-- TITLE -->
+  <text x="600" y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="52" font-weight="700" letter-spacing="10" class="title-shimmer">
+    NOCTUA CODER
+  </text>
+
+  <text x="600" y="164" text-anchor="middle" font-family="Georgia, serif"
+        font-size="14" letter-spacing="6" fill="#a99fd6">
+    DIGITAL ALCHEMIST · SOVEREIGN SYSTEMS
+  </text>
+
+  <!-- bottom fine line + tag -->
+  <line x1="450" y1="200" x2="750" y2="200" stroke="#544a8a" stroke-width="1" opacity="0.6"/>
+  <text x="600" y="222" text-anchor="middle" font-family="Georgia, serif"
+        font-size="11" letter-spacing="4" fill="#7c72ad">
+    ✦ AQUARIUS SOUL ✦
+  </text>
+
+  <!-- small crescent moon top right -->
+  <g transform="translate(1120,55)">
+    <circle r="18" fill="url(#starGlow)" opacity="0.4"/>
+    <path d="M 6 -10 A 10 10 0 1 0 6 10 A 8 8 0 1 1 6 -10 Z" fill="#f4f2ff" class="tw2"/>
+  </g>
 </svg>
