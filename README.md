@@ -4,47 +4,49 @@
 
 # NoctuaCoder
 
-### Engenharia de software para Linux, infraestrutura local e ferramentas de inteligência artificial
+### Software engineering for Linux, local infrastructure, and artificial intelligence tools
 
-Construo sistemas locais, automações e interfaces com foco em **autonomia, privacidade, reprodutibilidade e experiência de uso**. Meu trabalho combina desenvolvimento de software, personalização de ambientes Linux e exploração prática de agentes de IA executados localmente.
+[English](./README.md) · [Português do Brasil](./README.pt-BR.md)
+
+I build local systems, automations, and interfaces focused on **autonomy, privacy, reproducibility, and usability**. My work combines software development, Linux environment design, and practical exploration of locally executed AI agents.
 
 [![GitHub](https://img.shields.io/badge/GitHub-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Contato-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
+[![Contact](https://img.shields.io/badge/Contact-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 </div>
 
 ---
 
-## Perfil profissional
+## Professional profile
 
-Meu foco está na criação de ferramentas que dão ao usuário mais controle sobre o próprio ambiente computacional. Desenvolvo soluções que aproximam **infraestrutura, automação, inteligência artificial local e design de interfaces**, priorizando código compreensível, isolamento operacional e uma experiência consistente.
+My focus is building tools that give people more control over their computing environments. I work at the intersection of **infrastructure, automation, local artificial intelligence, and interface design**, prioritizing understandable code, operational isolation, and consistent user experiences.
 
-> **Princípio de trabalho:** tecnologia local deve ser útil, observável e realmente pertencente a quem a executa.
+> **Working principle:** local technology should be useful, observable, and genuinely owned by the person running it.
 
-## Projetos em destaque
+## Featured projects
 
-| Projeto | O que resolve | Tecnologias e foco |
+| Project | What it solves | Technology and focus |
 |---|---|---|
-| [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | Ambiente completo para Niri, com dotfiles, serviços nativos e uma camada visual coesa. | QML, Quickshell, Linux, automação de desktop |
-| [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | Execução local e isolada de agentes de código, com foco em segurança operacional e autonomia. | Python, Docker, agentes de IA, sandboxing |
-| [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | Gerenciamento e inferência de modelos locais em formato GGUF. | Rust, llama.cpp, GGUF, LLMs locais |
-| [**noctua-material**](https://github.com/NoctuaCoder/noctua-material) | Tema SDDM inspirado em Material You, com atenção a estados de login e consistência visual. | QML, SDDM, design de sistemas |
+| [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | A complete Niri environment with dotfiles, native services, and a cohesive visual layer. | QML, Quickshell, Linux, desktop automation |
+| [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | Local and isolated execution of coding agents with an emphasis on operational safety and autonomy. | Python, Docker, AI agents, sandboxing |
+| [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | Management and inference tooling for local models in GGUF format. | Rust, llama.cpp, GGUF, local LLMs |
+| [**noctua-material**](https://github.com/NoctuaCoder/noctua-material) | A Material You-inspired SDDM theme focused on login states and visual consistency. | QML, SDDM, design systems |
 
-## Áreas de atuação
+## Areas of practice
 
-### Infraestrutura local e Linux
+### Local infrastructure and Linux
 
-Configuração de ambientes Linux, composição de desktops, serviços nativos, contêineres e automações voltadas a fluxos de trabalho reproduzíveis. O objetivo é transformar a estação de trabalho em uma plataforma confiável, controlável e adequada ao uso diário.
+Linux environment configuration, desktop composition, native services, containers, and automation for reproducible workflows. The goal is to turn a workstation into a reliable, controllable platform for everyday work.
 
-### Inteligência artificial local
+### Local artificial intelligence
 
-Experimentação e desenvolvimento de ferramentas para executar modelos e agentes localmente, reduzindo dependências externas e mantendo dados, custos e comportamento sob controle do usuário.
+Research and development of tools for running models and agents locally, reducing unnecessary external dependencies while keeping data, costs, and behavior under the user’s control.
 
-### Engenharia de produto e interfaces
+### Product engineering and interfaces
 
-Construção de interfaces em QML e tecnologias web, com atenção a hierarquia visual, acessibilidade, estados de interação e integração entre estética e funcionalidade.
+Development of QML and web interfaces with attention to visual hierarchy, accessibility, interaction states, and the relationship between aesthetics and function.
 
-## Arsenal técnico
+## Technical stack
 
 <div align="center">
 
@@ -57,16 +59,16 @@ Construção de interfaces em QML e tecnologias web, com atenção a hierarquia 
 
 </div>
 
-## Como trabalho
+## How I work
 
-| Critério | Aplicação prática |
+| Principle | Practical application |
 |---|---|
-| **Autonomia** | Preferência por ferramentas locais e arquiteturas que reduzam dependências desnecessárias. |
-| **Segurança** | Isolamento de processos, contêineres e separação clara entre componentes. |
-| **Manutenibilidade** | Estruturas simples, documentação objetiva e decisões técnicas explícitas. |
-| **Experiência** | Interfaces coerentes, feedback visual e atenção aos detalhes de uso cotidiano. |
+| **Autonomy** | Preference for local tools and architectures that reduce unnecessary dependencies. |
+| **Security** | Process isolation, containers, and clear boundaries between components. |
+| **Maintainability** | Simple structures, concise documentation, and explicit technical decisions. |
+| **Experience** | Coherent interfaces, visible feedback, and attention to everyday use. |
 
-## Atividade no GitHub
+## GitHub activity
 
 <div align="center">
 
@@ -75,14 +77,14 @@ Construção de interfaces em QML e tecnologias web, com atenção a hierarquia 
 
 </div>
 
-## Contato
+## Contact
 
-Se você se interessa por Linux, infraestrutura local, agentes de IA, ferramentas para desenvolvedores ou interfaces bem construídas, fique à vontade para explorar os projetos e abrir uma discussão no repositório correspondente.
+If you are interested in Linux, local infrastructure, AI agents, developer tools, or thoughtful interfaces, feel free to explore the projects and start a discussion in the relevant repository.
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/Explorar_projetos-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
-[![Email](https://img.shields.io/badge/Enviar_mensagem-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
+[![Explore projects](https://img.shields.io/badge/Explore_projects-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
+[![Send a message](https://img.shields.io/badge/Send_a_message-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 `LOCAL SYSTEMS · OPEN SOURCE · PRACTICAL AI`
 
