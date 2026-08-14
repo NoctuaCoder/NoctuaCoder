@@ -46,12 +46,7 @@ Mastering QML, Tailwind CSS, and advanced Glassmorphism to create 'Reddit-ready'
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-0A1026?style=for-the-badge&logo=python&logoColor=D4B06A)
-![TypeScript](https://img.shields.io/badge/-TypeScript-0A1026?style=for-the-badge&logo=typescript&logoColor=D4B06A)
-![Rust](https://img.shields.io/badge/-Rust-0A1026?style=for-the-badge&logo=rust&logoColor=D4B06A)
-![QML](https://img.shields.io/badge/-QML-0A1026?style=for-the-badge&logo=qt&logoColor=D4B06A)
-![Docker](https://img.shields.io/badge/-Docker-0A1026?style=for-the-badge&logo=docker&logoColor=D4B06A)
-![Ollama](https://img.shields.io/badge/-Ollama-0A1026?style=for-the-badge&logo=ollama&logoColor=D4B06A)
+![Technical Arsenal — Custom Celestial Badges](./assets/technical-arsenal-custom.svg?v=1)
 
 </div>
 
