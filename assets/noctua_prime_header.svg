@@ -1,84 +1,141 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">NoctuaCoder — Bruxinha Celestial</title>
-  <desc id="desc">Uma bruxinha de capa roxa voa em uma vassoura sob uma lua crescente e um céu estrelado.</desc>
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#120d35"/><stop offset="0.52" stop-color="#27205c"/><stop offset="1" stop-color="#0a1738"/>
-    </linearGradient>
-    <radialGradient id="halo" cx="50%" cy="45%" r="55%"><stop stop-color="#8e72df" stop-opacity=".24"/><stop offset="1" stop-color="#6e5ac8" stop-opacity="0"/></radialGradient>
-    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3ce"/><stop offset="1" stop-color="#d7b7ff"/></linearGradient>
-    <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9d77ef"/><stop offset="1" stop-color="#4b2a98"/></linearGradient>
-    <linearGradient id="broom" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f3c173"/><stop offset="1" stop-color="#9a4b76"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <filter id="soft"><feGaussianBlur stdDeviation="24"/></filter>
+    <!-- Celestial Night Palette from User Snippet -->
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#0d1a3a"/>
+      <stop offset="45%" stop-color="#0a1330"/>
+      <stop offset="100%" stop-color="#040613"/>
+    </radialGradient>
+
+    <radialGradient id="nebula1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d4a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2d4a8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4c3d8f" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4c3d8f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e5a8a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1e5a8a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blurL"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="blurM"><feGaussianBlur stdDeviation="1.2"/></filter>
+
     <style>
-      .twinkle{transform-box:fill-box;transform-origin:center;animation:twinkle 3.8s ease-in-out infinite}
-      .float{animation:float 5s ease-in-out infinite}
-      @keyframes twinkle{0%,100%{opacity:.35;transform:scale(.72)}50%{opacity:1;transform:scale(1.18)}}
-      @keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-7px) rotate(1deg)}}
+      @keyframes shooting-star {
+        0% { transform: translate(0, 0); opacity: 0; }
+        5% { opacity: 1; }
+        15% { transform: translate(-500px, 500px); opacity: 0; }
+        100% { transform: translate(-500px, 500px); opacity: 0; }
+      }
+      @keyframes nebula-pulse {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.1); }
+      }
+      @keyframes star-twinkle {
+        0%, 100% { opacity: 0.3; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .shooting { animation: shooting-star 8s infinite linear; }
+      .nebula-anim { animation: nebula-pulse 20s infinite alternate ease-in-out; }
+      .star-anim { animation: star-twinkle 4s infinite ease-in-out; }
     </style>
   </defs>
 
-  <rect width="1200" height="400" rx="22" fill="url(#sky)"/>
-  <ellipse cx="650" cy="190" rx="410" ry="220" fill="url(#halo)" filter="url(#soft)"/>
-  <path d="M22 28h1156v344H22z" fill="none" stroke="#a995ef" stroke-opacity=".55"/>
-  <path d="M34 40h1132v320H34z" fill="none" stroke="#e3c8ff" stroke-opacity=".3"/>
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
 
-  <g fill="#f9e8b2">
-    <circle class="twinkle" cx="92" cy="86" r="2.5"/><circle class="twinkle" cx="178" cy="306" r="2" style="animation-delay:.8s"/>
-    <circle class="twinkle" cx="1042" cy="90" r="2.4" style="animation-delay:1.1s"/><circle class="twinkle" cx="1090" cy="295" r="2" style="animation-delay:1.8s"/>
-    <path class="twinkle" d="m288 74 4 10 10 4-10 4-4 10-4-10-10-4 10-4z" style="animation-delay:.4s"/>
-    <path class="twinkle" d="m954 258 3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="animation-delay:1.5s"/>
-    <path class="twinkle" d="m111 205 3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="animation-delay:2s"/>
-  </g>
-  <g fill="none" stroke="#8bb7ff" stroke-opacity=".35" stroke-width="1">
-    <path d="M90 130h95m-70 12h62m-42 12h80"/><path d="M922 135h125m-90 12h72m-44 12h100"/>
-  </g>
+  <!-- Nebula clouds adapted from user snippet -->
+  <circle class="nebula-anim" cx="200" cy="100" r="260" fill="url(#nebula1)" filter="url(#blurL)"/>
+  <circle class="nebula-anim" cx="1000" cy="300" r="300" fill="url(#nebula2)" filter="url(#blurL)" style="animation-delay: -5s;"/>
+  <circle class="nebula-anim" cx="600" cy="350" r="240" fill="url(#nebula3)" filter="url(#blurL)" style="animation-delay: -10s;"/>
 
-  <!-- crescent moon -->
-  <g filter="url(#glow)">
-    <circle cx="945" cy="116" r="74" fill="#d9c7ff" opacity=".12"/>
-    <path d="M958 48a66 66 0 1 0 0 132 58 58 0 1 1 0-132Z" fill="url(#moon)"/>
-    <circle cx="928" cy="88" r="5" fill="#a782cf" opacity=".3"/><circle cx="974" cy="137" r="7" fill="#a782cf" opacity=".25"/>
+  <!-- Background stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="100" cy="50" r="1"/><circle cx="300" cy="80" r="0.8"/><circle cx="500" cy="40" r="1.2"/>
+    <circle cx="800" cy="60" r="0.9"/><circle cx="1100" cy="100" r="1.1"/><circle cx="200" cy="300" r="1"/>
+    <circle cx="900" cy="350" r="0.8"/><circle cx="50" cy="380" r="1.2"/><circle cx="1150" cy="250" r="0.7"/>
   </g>
 
-  <!-- flying witch -->
-  <g class="float" transform="translate(0 2)">
-    <!-- magical trail -->
-    <path d="M210 258c-75 18-90 48-150 34 67 1 76-42 150-53" fill="none" stroke="#d8b9ff" stroke-width="3" stroke-linecap="round" opacity=".7"/>
-    <path d="M196 276c-46 25-82 17-112 4" fill="none" stroke="#8fd1ff" stroke-width="2" stroke-linecap="round" opacity=".6"/>
-    <!-- broom -->
-    <path d="M160 270c110-2 201-18 294-46" fill="none" stroke="#321d61" stroke-width="12" stroke-linecap="round"/>
-    <path d="M160 270c110-2 201-18 294-46" fill="none" stroke="url(#broom)" stroke-width="5" stroke-linecap="round"/>
-    <path d="M150 271c-23 15-31 34-22 51 13-16 27-22 42-21-17 15-18 30-8 42 18-23 35-34 49-34-9-15-18-27-33-38Z" fill="#c783bf" stroke="#5a327f" stroke-width="3"/>
-    <!-- cloak and body -->
-    <path d="M306 151c-32 8-56 34-62 75l-24 62c34 16 87 18 130 1l-24-67c17-22 12-58-20-71Z" fill="url(#robe)" stroke="#2d1b65" stroke-width="5"/>
-    <path d="M280 229c22 18 46 26 73 27" fill="none" stroke="#cba9ff" stroke-opacity=".6" stroke-width="4"/>
-    <path d="M251 285c28 7 61 6 94-2" fill="none" stroke="#e0c4ff" stroke-opacity=".55" stroke-width="3"/>
-    <!-- head and hair -->
-    <circle cx="301" cy="133" r="31" fill="#f8d8cf" stroke="#38206e" stroke-width="4"/>
-    <path d="M271 145c-24-25-17-67 25-77 42-10 70 18 65 57-2 20-11 34-25 45-2-19-10-29-22-40-9 23-24 37-43 44Z" fill="#4a277f" stroke="#281852" stroke-width="5"/>
-    <!-- witch hat -->
-    <path d="M268 93c25-45 50-69 78-80-2 24 5 40 23 53l-9 17c-26-7-57-6-92 10Z" fill="#6d43b4" stroke="#2b185d" stroke-width="5"/>
-    <path d="M244 92c39-16 87-14 135 2l-6 18c-45-9-88-8-134 5Z" fill="#3a206e" stroke="#251450" stroke-width="4"/>
-    <path d="M286 98h68" stroke="#f0bd75" stroke-width="6"/>
-    <!-- face, arm and wand -->
-    <path d="M289 132q10 7 20 0" fill="none" stroke="#4b286d" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="292" cy="124" r="2.5" fill="#4b286d"/><circle cx="312" cy="124" r="2.5" fill="#4b286d"/>
-    <path d="M271 180c-18 2-35 7-52 19" fill="none" stroke="#f8d8cf" stroke-width="12" stroke-linecap="round"/>
-    <path d="M219 199c-30-17-48-21-69-15" fill="none" stroke="#f8d8cf" stroke-width="9" stroke-linecap="round"/>
-    <path d="M151 184c-12-15-17-25-20-39" fill="none" stroke="#c88663" stroke-width="3" stroke-linecap="round"/>
-    <path d="m128 145 12-10m-12 10-14-4m14 4-3 14" stroke="#f9e8b2" stroke-width="3" stroke-linecap="round"/>
-    <!-- boots -->
-    <path d="M286 278c-8 18-20 26-36 30l25 6c16-5 25-14 30-28Z" fill="#2b1a5a"/>
-    <path d="M333 276c-1 18 6 29 20 37l-28-5c-9-9-11-20-8-34Z" fill="#2b1a5a"/>
+  <!-- Shooting Stars -->
+  <line class="shooting" x1="1100" y1="0" x2="1000" y2="100" stroke="#cfe0ff" stroke-width="1" stroke-linecap="round" style="animation-delay: 2s;" />
+  <line class="shooting" x1="500" y1="-50" x2="400" y2="50" stroke="#4c3d8f" stroke-width="0.8" stroke-linecap="round" style="animation-delay: 5s;" />
+
+  <!-- ============ AQUARIUS CONSTELLATION (Adapted from user snippet) ============ -->
+  <g transform="translate(50, 50) scale(0.6)" stroke="#cfe0ff" stroke-width="1.5" fill="none" opacity="0.85">
+    <path d="M 470 110 L 520 60 L 560 90 L 610 55 L 600 115 L 555 140 L 500 150 Z" />
+    <path d="M 500 150 L 470 200 L 495 240 L 460 290 L 480 335 L 440 375 L 460 415 L 415 450" />
+    <path d="M 470 110 L 430 85 L 405 115" />
+  </g>
+  <g transform="translate(50, 50) scale(0.6)" fill="#f4f8ff">
+    <circle class="star-anim" cx="470" cy="110" r="4"/><circle class="star-anim" cx="520" cy="60" r="5"/><circle class="star-anim" cx="560" cy="90" r="4"/>
+    <circle class="star-anim" cx="610" cy="55" r="5.5"/><circle class="star-anim" cx="600" cy="115" r="4"/><circle class="star-anim" cx="555" cy="140" r="4.5"/>
+    <circle class="star-anim" cx="500" cy="150" r="5"/><circle class="star-anim" cx="430" cy="85" r="3.5"/><circle class="star-anim" cx="405" cy="115" r="3"/>
+    <circle class="star-anim" cx="470" cy="200" r="4"/><circle class="star-anim" cx="495" cy="240" r="3.5"/><circle class="star-anim" cx="460" cy="290" r="4.5"/>
+    <circle class="star-anim" cx="480" cy="335" r="3.5"/><circle class="star-anim" cx="440" cy="375" r="4"/><circle class="star-anim" cx="460" cy="415" r="3"/>
+    <circle class="star-anim" cx="415" cy="450" r="5.5"/>
   </g>
 
-  <g text-anchor="middle">
-    <text x="655" y="245" fill="#fdf6e3" font-family="Georgia,serif" font-size="42" font-weight="bold" letter-spacing="8">NOCTUA NIGHT</text>
-    <text x="655" y="278" fill="#d5baff" font-family="Georgia,serif" font-size="15" font-style="italic" letter-spacing="5">A LITTLE MAGIC IN EVERY LINE</text>
-    <path d="M485 298h340" stroke="#cda9ff" stroke-opacity=".65"/>
-    <path d="m655 288 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill="#f9e8b2"/>
+  <!-- Bright accent stars and extra sparkles -->
+  <g>
+    <circle cx="130" cy="180" r="8" fill="url(#starGlow)"/><circle cx="130" cy="180" r="2" fill="#fff"/>
+    <circle cx="940" cy="150" r="9" fill="url(#starGlow)"/><circle cx="940" cy="150" r="2.2" fill="#fff"/>
+    <circle cx="90" cy="340" r="8" fill="url(#starGlow)"/><circle cx="90" cy="340" r="2" fill="#fff"/>
+    <circle cx="990" cy="360" r="9" fill="url(#starGlow)"/><circle cx="990" cy="360" r="2.2" fill="#fff"/>
   </g>
-  <text x="58" y="350" fill="#a997df" font-family="monospace" font-size="10" letter-spacing="3">CELESTIAL WITCHCRAFT · CODE BY NIGHT</text>
+  <g fill="#ffe9a8">
+    <path class="twinkle" transform="translate(310,180) scale(0.9)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle3" transform="translate(680,130) scale(0.7)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle2" transform="translate(220,330) scale(0.8)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle4" transform="translate(760,330) scale(0.9)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle" transform="translate(600,240) scale(0.6)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+    <path class="twinkle twinkle2" transform="translate(340,300) scale(0.7)" d="M0,-8 L2.4,-2.4 L8,0 L2.4,2.4 L0,8 L-2.4,2.4 L-8,0 L-2.4,-2.4 Z"/>
+  </g>
+  <g transform="translate(150,110)" class="twinkle3">
+    <circle r="3" fill="none" stroke="#dbe4ff" stroke-width="1"/>
+    <path d="M 5 -4 A 5 5 0 1 0 5 6 A 4 4 0 1 1 5 -4 Z" fill="#fdf6e3" transform="translate(-2,-1) scale(0.8)"/>
+  </g>
+  <g transform="translate(920,370)" class="twinkle">
+    <path d="M 4 -3 A 4 4 0 1 0 4 5 A 3.2 3.2 0 1 1 4 -3 Z" fill="#fdf6e3"/>
+  </g>
+  <!-- ============ TYPOGRAPHY & IDENTITY ============ -->
+  <g transform="translate(600, 200)">
+    <!-- top divider -->
+    <g transform="translate(0,-60)">
+      <line x1="-160" y1="0" x2="-18" y2="0" stroke="#e8ecf7" stroke-width="1" opacity="0.8"/>
+      <line x1="18" y1="0" x2="160" y2="0" stroke="#e8ecf7" stroke-width="1" opacity="0.8"/>
+      <path d="M0,-9 L3,-3 L9,0 L3,3 L0,9 L-3,3 L-9,0 L-3,-3 Z" fill="#f4f4ff"/>
+    </g>
+
+    <text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+          font-size="64" letter-spacing="12" fill="#f6f6fc" font-weight="600">
+      NOCTUA CODER
+    </text>
+
+    <text y="40" text-anchor="middle" font-family="Georgia, serif"
+          font-size="14" letter-spacing="8" fill="#a9b6d8" font-style="italic">
+      DIGITAL ALCHEMIST · SOVEREIGN SYSTEMS
+    </text>
+
+    <!-- small crescent moon accent -->
+    <g transform="translate(0,75)">
+      <path d="M -6 -8 A 8 8 0 1 0 -6 8 A 6.4 6.4 0 1 1 -6 -8 Z" fill="#e9edfb" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- Status Indicator (Bottom Right) -->
+  <g transform="translate(1050, 360)">
+    <circle cx="0" cy="0" r="4" fill="#cfe0ff">
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="12" y="4" font-family="Georgia, serif" font-size="10" fill="#7c88ad" style="letter-spacing: 2px;">AQUARIUS SOUL</text>
+  </g>
+
 </svg>
