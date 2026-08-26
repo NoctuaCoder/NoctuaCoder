@@ -6,6 +6,10 @@
 
 ### Compiling the night.
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+IA+local+%C2%B7+Autonomia+de+software;Construindo+sistemas+silenciosos+para+mundos+barulhentos&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=F6E7B2&background=1A153300" alt="Texto de apresentação animado" />
+</p>
+
 [English](./README.md) · [Português do Brasil](./README.pt-BR.md)
 
 Experimentos, ferramentas e sistemas construídos em torno de **Linux, IA local e autonomia de software**.
@@ -72,6 +76,15 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
 | **Interface** | QML · Quickshell · Electron |
 | **Ferramentas** | Git · GitHub Actions · Neovim |
 
+## Painel de sistemas ao vivo
+
+<div align="center">
+
+<img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=radical&show_icons=true&hide_border=true&bg_color=1A1533&title_color=F6E7B2&icon_color=6D5ACD&text_color=F6E7B2" width="49%" alt="Estatísticas do GitHub" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=radical&hide_border=true&bg_color=1A1533&title_color=F6E7B2&text_color=F6E7B2" width="41%" alt="Linguagens de programação mais usadas" />
+
+</div>
+
 ## Centrais de atividade
 
 <div align="center">
@@ -88,6 +101,18 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
   <img alt="Animação da cobra no gráfico de contribuições do GitHub" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+## Constelação 3D de contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output-3d-contrib/night.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output-3d-contrib/day.svg" />
+  <img alt="Calendário 3D de contribuições do GitHub" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output-3d-contrib/day.svg" />
 </picture>
 
 </div>
