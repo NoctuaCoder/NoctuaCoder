@@ -80,6 +80,18 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
 
 </div>
 
+## Trilha de contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+  <img alt="Animação da cobra no gráfico de contribuições do GitHub" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
 O gráfico nativo de contribuições está disponível no [perfil principal](https://github.com/NoctuaCoder). Commits, releases, issues, instruções de instalação e detalhes de implementação ficam registrados em cada repositório.
 
 ## Contato

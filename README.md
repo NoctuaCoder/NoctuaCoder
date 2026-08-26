@@ -80,6 +80,18 @@ For `noctua-niri`, that means clearer screenshots, installation guidance, config
 
 </div>
 
+## Contribution trail
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
 The native contribution graph is available on the [main profile](https://github.com/NoctuaCoder). Commits, releases, issues, installation notes, and implementation details live in each project repository.
 
 ## Contact
