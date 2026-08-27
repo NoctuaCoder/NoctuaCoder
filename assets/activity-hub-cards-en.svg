@@ -1,12 +1,12 @@
 <svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#141b3d"/>
-      <stop offset="100%" stop-color="#1e1440"/>
+      <stop offset="0%" stop-color="#52616D"/>
+      <stop offset="100%" stop-color="#708090"/>
     </linearGradient>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6d5acd"/>
-      <stop offset="100%" stop-color="#c76b9e"/>
+      <stop offset="0%" stop-color="#C4B9C9"/>
+      <stop offset="100%" stop-color="#FFEBC9"/>
     </linearGradient>
     <style>
       .dot { animation: pulse 2.2s infinite ease-in-out; }
@@ -18,26 +18,26 @@
   <!-- Row 1 -->
   <g transform="translate(0,0)">
     <rect width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
-    <circle class="dot" cx="28" cy="26" r="4" fill="#c9bfff"/>
-    <text x="46" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">MAIN PROFILE</text>
-    <text x="28" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">github.com/NoctuaCoder</text>
+    <circle class="dot" cx="28" cy="26" r="4" fill="#9CA764"/>
+    <text x="46" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#C4B9C9">MAIN PROFILE</text>
+    <text x="28" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#F1E8C7">github.com/NoctuaCoder</text>
 
     <rect x="440" width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
-    <circle class="dot dot2" cx="468" cy="26" r="4" fill="#c9bfff"/>
-    <text x="486" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">LINUX &amp; NIRI ENVIRONMENT</text>
-    <text x="468" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">noctua-niri</text>
+    <circle class="dot dot2" cx="468" cy="26" r="4" fill="#9CA764"/>
+    <text x="486" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#C4B9C9">LINUX &amp; NIRI ENVIRONMENT</text>
+    <text x="468" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#F1E8C7">noctua-niri</text>
   </g>
 
   <!-- Row 2 -->
   <g transform="translate(0,96)">
     <rect width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
-    <circle class="dot dot3" cx="28" cy="26" r="4" fill="#c9bfff"/>
-    <text x="46" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">LOCAL CODING AGENTS</text>
-    <text x="28" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">ArbiterAI</text>
+    <circle class="dot dot3" cx="28" cy="26" r="4" fill="#9CA764"/>
+    <text x="46" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#C4B9C9">LOCAL CODING AGENTS</text>
+    <text x="28" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#F1E8C7">ArbiterAI</text>
 
     <rect x="440" width="420" height="80" rx="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.2"/>
-    <circle class="dot dot4" cx="468" cy="26" r="4" fill="#c9bfff"/>
-    <text x="486" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#a99fd6">LOCAL LLM TOOLING</text>
-    <text x="468" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f4f2ff">voidkitty-llm</text>
+    <circle class="dot dot4" cx="468" cy="26" r="4" fill="#9CA764"/>
+    <text x="486" y="31" font-family="Georgia, serif" font-size="13" letter-spacing="1.5" fill="#C4B9C9">LOCAL LLM TOOLING</text>
+    <text x="468" y="58" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#F1E8C7">voidkitty-llm</text>
   </g>
 </svg>

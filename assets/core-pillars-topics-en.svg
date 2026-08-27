@@ -1,21 +1,21 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a0e27"/>
-      <stop offset="50%" stop-color="#141b3d"/>
-      <stop offset="100%" stop-color="#0a0e27"/>
+      <stop offset="0%" stop-color="#3F4B56"/>
+      <stop offset="50%" stop-color="#52616D"/>
+      <stop offset="100%" stop-color="#3F4B56"/>
     </linearGradient>
     <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6d5acd" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#6d5acd" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C4B9C9" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#C4B9C9" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c76b9e" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#c76b9e" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFEBC9" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFEBC9" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="cardBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6d5acd"/>
-      <stop offset="100%" stop-color="#c76b9e"/>
+      <stop offset="0%" stop-color="#C4B9C9"/>
+      <stop offset="100%" stop-color="#FFEBC9"/>
     </linearGradient>
     <filter id="softBlur"><feGaussianBlur stdDeviation="45"/></filter>
 
@@ -57,26 +57,26 @@
 
   <!-- top label -->
   <g transform="translate(600,44)">
-    <line x1="-170" y1="0" x2="-16" y2="0" stroke="#cfc7f5" stroke-width="1" opacity="0.7"/>
-    <line x1="16" y1="0" x2="170" y2="0" stroke="#cfc7f5" stroke-width="1" opacity="0.7"/>
-    <path d="M0,-7 L2.4,-2.4 L7,0 L2.4,2.4 L0,7 L-2.4,2.4 L-7,0 L-2.4,-2.4 Z" fill="#f4f2ff"/>
+    <line x1="-170" y1="0" x2="-16" y2="0" stroke="#C4B9C9" stroke-width="1" opacity="0.7"/>
+    <line x1="16" y1="0" x2="170" y2="0" stroke="#C4B9C9" stroke-width="1" opacity="0.7"/>
+    <path d="M0,-7 L2.4,-2.4 L7,0 L2.4,2.4 L0,7 L-2.4,2.4 L-7,0 L-2.4,-2.4 Z" fill="#F1E8C7"/>
   </g>
   <text x="600" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="13"
-        letter-spacing="6" fill="#a99fd6">CORE PILLARS</text>
+        letter-spacing="6" fill="#C4B9C9">CORE PILLARS</text>
 
   <!-- 4 topic cards -->
   <!-- Card 1: Autonomy -->
   <g class="card card1" transform="translate(60,80)">
-    <rect width="255" height="200" rx="16" fill="#141b3d" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
+    <rect width="255" height="200" rx="16" fill="#52616D" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
     <g class="card-icon" transform="translate(127,55)">
-      <circle r="26" fill="none" stroke="#c9bfff" stroke-width="2"/>
-      <circle r="6" fill="#c9bfff"/>
-      <circle r="26" fill="none" stroke="#c9bfff" stroke-width="1" stroke-dasharray="3 4" opacity="0.6">
+      <circle r="26" fill="none" stroke="#9CA764" stroke-width="2"/>
+      <circle r="6" fill="#9CA764"/>
+      <circle r="26" fill="none" stroke="#9CA764" stroke-width="1" stroke-dasharray="3 4" opacity="0.6">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
       </circle>
     </g>
-    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#f4f2ff">Autonomy</text>
-    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#a99fd6">
+    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F1E8C7">Autonomy</text>
+    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#C4B9C9">
       <tspan x="127" dy="0">systems that run</tspan>
       <tspan x="127" dy="16">without relying on</tspan>
       <tspan x="127" dy="16">external services</tspan>
@@ -85,13 +85,13 @@
 
   <!-- Card 2: Privacy -->
   <g class="card card2" transform="translate(335,80)">
-    <rect width="255" height="200" rx="16" fill="#141b3d" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
+    <rect width="255" height="200" rx="16" fill="#52616D" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
     <g class="card-icon" transform="translate(127,50)">
-      <path d="M0,-26 L20,-16 L20,4 Q20,24 0,32 Q-20,24 -20,4 L-20,-16 Z" fill="none" stroke="#c9bfff" stroke-width="2"/>
-      <path d="M-8,2 L-2,10 L10,-8" stroke="#c9bfff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0,-26 L20,-16 L20,4 Q20,24 0,32 Q-20,24 -20,4 L-20,-16 Z" fill="none" stroke="#9CA764" stroke-width="2"/>
+      <path d="M-8,2 L-2,10 L10,-8" stroke="#9CA764" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#f4f2ff">Privacy</text>
-    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#a99fd6">
+    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F1E8C7">Privacy</text>
+    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#C4B9C9">
       <tspan x="127" dy="0">data and execution</tspan>
       <tspan x="127" dy="16">remain under</tspan>
       <tspan x="127" dy="16">local control</tspan>
@@ -100,14 +100,14 @@
 
   <!-- Card 3: Reproducibility -->
   <g class="card card3" transform="translate(610,80)">
-    <rect width="255" height="200" rx="16" fill="#141b3d" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
+    <rect width="255" height="200" rx="16" fill="#52616D" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
     <g class="card-icon" transform="translate(127,55)">
-      <path d="M -20,-14 A 20 20 0 1 1 -20,14" fill="none" stroke="#c9bfff" stroke-width="2.2"/>
-      <path d="M -20,-14 L -20,-24 M -20,-14 L -10,-16" stroke="#c9bfff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-      <circle cx="0" cy="0" r="3" fill="#c9bfff"/>
+      <path d="M -20,-14 A 20 20 0 1 1 -20,14" fill="none" stroke="#9CA764" stroke-width="2.2"/>
+      <path d="M -20,-14 L -20,-24 M -20,-14 L -10,-16" stroke="#9CA764" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="3" fill="#9CA764"/>
     </g>
-    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#f4f2ff">Reproducibility</text>
-    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#a99fd6">
+    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F1E8C7">Reproducibility</text>
+    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#C4B9C9">
       <tspan x="127" dy="0">same environment,</tspan>
       <tspan x="127" dy="16">same result,</tspan>
       <tspan x="127" dy="16">consistently</tspan>
@@ -116,12 +116,12 @@
 
   <!-- Card 4: Experiência de uso -->
   <g class="card card4" transform="translate(885,80)">
-    <rect width="255" height="200" rx="16" fill="#141b3d" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
+    <rect width="255" height="200" rx="16" fill="#52616D" fill-opacity="0.5" stroke="url(#cardBorder)" stroke-width="1.2"/>
     <g class="card-icon" transform="translate(127,55)">
-      <path d="M0,-26 L6,-8 L26,-8 L10,4 L16,24 L0,12 L-16,24 L-10,4 L-26,-8 L-6,-8 Z" fill="#c9bfff" opacity="0.9"/>
+      <path d="M0,-26 L6,-8 L26,-8 L10,4 L16,24 L0,12 L-16,24 L-10,4 L-26,-8 L-6,-8 Z" fill="#9CA764" opacity="0.9"/>
     </g>
-    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#f4f2ff">User Experience</text>
-    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#a99fd6">
+    <text x="127" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F1E8C7">User Experience</text>
+    <text x="127" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" fill="#C4B9C9">
       <tspan x="127" dy="0">beautiful interfaces</tspan>
       <tspan x="127" dy="16">do not compromise</tspan>
       <tspan x="127" dy="16">on performance</tspan>

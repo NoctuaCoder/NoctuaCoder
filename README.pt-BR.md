@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/noctua_editorial_header_twilight_wide.png?v=1" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/noctua_editorial_header_light_wide.png?v=1" />
-  <img width="100%" alt="Paisagem editorial tecnológica do Noctua" src="./assets/noctua_editorial_header_light_wide.png?v=1" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/noctua_editorial_header_twilight_editorial.png?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/noctua_editorial_header_light_editorial.png?v=2" />
+  <img width="100%" alt="Paisagem editorial tecnológica do Noctua" src="./assets/noctua_editorial_header_light_editorial.png?v=2" />
 </picture>
 
 # Noctua Lab
@@ -35,7 +35,7 @@ O Noctua Lab é um espaço pessoal de código aberto para construir e testar sof
 
 <div align="center">
 
-![Pilares centrais: autonomia, privacidade, reprodutibilidade e experiência](./assets/core-pillars-topics.svg?v=2)
+![Pilares centrais: autonomia, privacidade, reprodutibilidade e experiência](./assets/core-pillars-topics.svg?v=3)
 
 </div>
 
@@ -88,8 +88,8 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=radical&show_icons=true&hide_border=true&bg_color=708090&title_color=FFEBC9&icon_color=EAE0C8&text_color=F1E8C7&border_color=C4B9C9&ring_color=9CA764" width="49%" alt="Estatísticas do GitHub" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=radical&hide_border=true&bg_color=708090&title_color=FFEBC9&text_color=F1E8C7&border_color=C4B9C9" width="41%" alt="Linguagens de programação mais usadas" />
+<img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=transparent&show_icons=true&hide_border=true&bg_color=708090&title_color=FFEBC9&icon_color=EAE0C8&text_color=F1E8C7&border_color=C4B9C9&ring_color=9CA764" width="49%" alt="Estatísticas do GitHub" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=transparent&hide_border=true&bg_color=708090&title_color=FFEBC9&text_color=F1E8C7&border_color=C4B9C9" width="41%" alt="Linguagens de programação mais usadas" />
 
 </div>
 
@@ -97,7 +97,7 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
 
 <div align="center">
 
-![Centrais de atividade: perfil, Linux e Niri, agentes de código locais e ferramentas para LLMs](./assets/activity-hub-cards-pt.svg?v=1)
+![Centrais de atividade: perfil, Linux e Niri, agentes de código locais e ferramentas para LLMs](./assets/activity-hub-cards-pt.svg?v=2)
 
 </div>
 
