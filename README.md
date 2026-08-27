@@ -1,21 +1,29 @@
 <div align="center">
 
-![Noctua Prime Header](./assets/noctua_prime_header.svg?v=8)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/noctua_editorial_header_twilight_wide.png?v=1" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/noctua_editorial_header_light_wide.png?v=1" />
+  <img width="100%" alt="Noctua editorial technology landscape" src="./assets/noctua_editorial_header_light_wide.png?v=1" />
+</picture>
 
 # Noctua Lab
 
 ### Compiling the night.
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+autonomy;Building+quiet+systems+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=F6E7B2&background=1A153300" alt="Animated typing tagline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+autonomy;Building+quiet+systems+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=FFEBC9&background=70809000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+autonomy;Building+quiet+systems+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=708090&background=EAE0C800" />
+    <img alt="Animated typing tagline" src="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+autonomy;Building+quiet+systems+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=708090&background=EAE0C800" />
+  </picture>
 </p>
 
 [English](./README.md) · [Português do Brasil](./README.pt-BR.md)
 
 Experiments, tools, and systems built around **Linux, local AI, and software autonomy**.
 
-[![GitHub](https://img.shields.io/badge/GitHub-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
-[![Contact](https://img.shields.io/badge/Contact-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
+[![GitHub](https://img.shields.io/badge/GitHub-708090?style=for-the-badge&logo=github&logoColor=FFEBC9)](https://github.com/NoctuaCoder)
+[![Contact](https://img.shields.io/badge/Contact-C4B9C9?style=for-the-badge&logo=gmail&logoColor=FFEBC9)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 </div>
 
@@ -59,12 +67,12 @@ For `noctua-niri`, that means clearer screenshots, installation guidance, config
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-6D5ACD?style=for-the-badge&logo=python&logoColor=F6E7B2&labelColor=1A1533)
-![TypeScript](https://img.shields.io/badge/TypeScript-6D5ACD?style=for-the-badge&logo=typescript&logoColor=F6E7B2&labelColor=1A1533)
-![Rust](https://img.shields.io/badge/Rust-6D5ACD?style=for-the-badge&logo=rust&logoColor=F6E7B2&labelColor=1A1533)
-![QML](https://img.shields.io/badge/QML-6D5ACD?style=for-the-badge&logo=qt&logoColor=F6E7B2&labelColor=1A1533)
-![Docker](https://img.shields.io/badge/Docker-6D5ACD?style=for-the-badge&logo=docker&logoColor=F6E7B2&labelColor=1A1533)
-![Ollama](https://img.shields.io/badge/Ollama-6D5ACD?style=for-the-badge&logo=ollama&logoColor=F6E7B2&labelColor=1A1533)
+![Python](https://img.shields.io/badge/Python-C4B9C9?style=for-the-badge&logo=python&logoColor=FFEBC9&labelColor=708090)
+![TypeScript](https://img.shields.io/badge/TypeScript-C4B9C9?style=for-the-badge&logo=typescript&logoColor=FFEBC9&labelColor=708090)
+![Rust](https://img.shields.io/badge/Rust-C4B9C9?style=for-the-badge&logo=rust&logoColor=FFEBC9&labelColor=708090)
+![QML](https://img.shields.io/badge/QML-C4B9C9?style=for-the-badge&logo=qt&logoColor=FFEBC9&labelColor=708090)
+![Docker](https://img.shields.io/badge/Docker-C4B9C9?style=for-the-badge&logo=docker&logoColor=FFEBC9&labelColor=708090)
+![Ollama](https://img.shields.io/badge/Ollama-C4B9C9?style=for-the-badge&logo=ollama&logoColor=FFEBC9&labelColor=708090)
 
 </div>
 
@@ -80,8 +88,8 @@ For `noctua-niri`, that means clearer screenshots, installation guidance, config
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=radical&show_icons=true&hide_border=true&bg_color=1A1533&title_color=F6E7B2&icon_color=6D5ACD&text_color=F6E7B2" width="49%" alt="GitHub statistics" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=radical&hide_border=true&bg_color=1A1533&title_color=F6E7B2&text_color=F6E7B2" width="41%" alt="Most used programming languages" />
+<img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=radical&show_icons=true&hide_border=true&bg_color=708090&title_color=FFEBC9&icon_color=EAE0C8&text_color=F1E8C7&border_color=C4B9C9&ring_color=9CA764" width="49%" alt="GitHub statistics" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=radical&hide_border=true&bg_color=708090&title_color=FFEBC9&text_color=F1E8C7&border_color=C4B9C9" width="41%" alt="Most used programming languages" />
 
 </div>
 
@@ -125,8 +133,8 @@ If you are interested in Linux desktops, local AI, Rust tooling, coding agents, 
 
 <div align="center">
 
-[![Explore projects](https://img.shields.io/badge/Explore_projects-1A1533?style=for-the-badge&logo=github&logoColor=F6E7B2)](https://github.com/NoctuaCoder)
-[![Send a message](https://img.shields.io/badge/Send_a_message-6D5ACD?style=for-the-badge&logo=gmail&logoColor=F6E7B2)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
+[![Explore projects](https://img.shields.io/badge/Explore_projects-708090?style=for-the-badge&logo=github&logoColor=FFEBC9)](https://github.com/NoctuaCoder)
+[![Send a message](https://img.shields.io/badge/Send_a_message-C4B9C9?style=for-the-badge&logo=gmail&logoColor=FFEBC9)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 `LOCAL SYSTEMS · OPEN SOURCE · PRACTICAL AI`
 
