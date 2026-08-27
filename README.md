@@ -84,6 +84,14 @@ For `noctua-niri`, that means clearer screenshots, installation guidance, config
 | **UI** | QML · Quickshell · Electron |
 | **Tooling** | Git · GitHub Actions · Neovim |
 
+## Nocturne Command Center
+
+<div align="center">
+
+![Nocturne Command Center: public GitHub activity dashboard](./assets/nocturne-command-center.svg?v=1)
+
+</div>
+
 ## Live systems dashboard
 
 <div align="center">

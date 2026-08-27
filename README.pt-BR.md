@@ -84,6 +84,14 @@ No `noctua-niri`, isso significa melhorar screenshots, instruções de instalaç
 | **Interface** | QML · Quickshell · Electron |
 | **Ferramentas** | Git · GitHub Actions · Neovim |
 
+## Nocturne Command Center
+
+<div align="center">
+
+![Nocturne Command Center: painel da atividade pública do GitHub](./assets/nocturne-command-center.svg?v=1)
+
+</div>
+
 ## Painel de sistemas ao vivo
 
 <div align="center">

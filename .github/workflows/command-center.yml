@@ -1,0 +1,47 @@
+name: Update Nocturne Command Center
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_command_center.py"
+      - ".github/workflows/command-center.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate Command Center
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate SVG from public GitHub activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/generate_command_center.py
+
+      - name: Commit changed panel
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/nocturne-command-center.svg; then
+            echo "Command Center is already up to date."
+            exit 0
+          fi
+          git add assets/nocturne-command-center.svg
+          git commit -m "Update Nocturne Command Center"
+          git push
