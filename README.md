@@ -18,7 +18,7 @@
   </picture>
 </p>
 
-[English](./README.md) · [Português do Brasil](./README.pt-BR.md)
+[English](./README.md) · [Português do Brasil](./README.pt-BR.md) · [Color system](./docs/PROFILE_PALETTE.md)
 
 Experiments, tools, and systems built around **Linux, local AI, and software autonomy**.
 
