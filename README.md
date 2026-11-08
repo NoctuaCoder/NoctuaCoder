@@ -23,6 +23,7 @@
 Experiments, tools, and systems built around **Linux, local AI, and software autonomy**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-708090?style=for-the-badge&logo=github&logoColor=FFEBC9)](https://github.com/NoctuaCoder)
+[![Portfolio](https://img.shields.io/badge/Portfolio-9CA764?style=for-the-badge&logo=sparkles&logoColor=FFEBC9)](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
 [![Contact](https://img.shields.io/badge/Contact-C4B9C9?style=for-the-badge&logo=gmail&logoColor=FFEBC9)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
 
 </div>
