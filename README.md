@@ -2,7 +2,7 @@
   <img src="./assets/dither-hands.png" alt="Noctua Dithered Hands Header" width="100%">
 </p>
 
-<h1 align="center">Hi 👋, I'm Alana (NoctuaCoder)</h1>
+<h1 align="center"></h1>
 
 <h3 align="center">Linux Systems · Local AI Infrastructure · Analog Interfaces</h3>
 
