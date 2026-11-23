@@ -1,189 +1,238 @@
-<svg width="1000" height="600" viewBox="0 0 1000 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Styles for animations -->
-  <style>
-    @keyframes twinkle {
-      0%, 100% { opacity: 0.4; transform: scale(0.8); }
-      50% { opacity: 1; transform: scale(1.2); }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-    }
-    @keyframes glow {
-      0%, 100% { filter: drop-shadow(0 0 3px #00FFFF); }
-      50% { filter: drop-shadow(0 0 8px #00FFFF); }
-    }
-    .star {
-      fill: #00FFFF;
-      animation: twinkle 3s infinite ease-in-out;
-    }
-    .star-secondary {
-      fill: #00BFFF;
-      animation: twinkle 4s infinite ease-in-out 1s;
-    }
-    .star-tertiary {
-      fill: #4A9EFF;
-      animation: twinkle 3.5s infinite ease-in-out 0.5s;
-    }
-    .line {
-      stroke: #4A9EFF;
-      stroke-width: 2;
-      stroke-opacity: 0.6;
-      stroke-linecap: round;
-    }
-    .constellation {
-      animation: float 6s infinite ease-in-out;
-    }
-    .text {
-      font-family: 'Segoe UI', sans-serif;
-      fill: #00BFFF;
-      font-size: 16px;
-      text-anchor: middle;
-      opacity: 0.9;
-    }
-    .title {
-      font-family: 'Segoe UI', sans-serif;
-      fill: #00FFFF;
-      font-size: 20px;
-      font-weight: bold;
-      text-anchor: middle;
-      animation: glow 3s infinite ease-in-out;
-    }
-  </style>
+<svg width="1000" height="520" viewBox="0 0 1000 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2026"/>
+      <stop offset="50%" stop-color="#28323B"/>
+      <stop offset="100%" stop-color="#1A2026"/>
+    </linearGradient>
 
-  <!-- Row 1: 3 Trophies -->
-  
-  <!-- Trophy 1: The Cup -->
-  <g class="constellation" transform="translate(120, 80)">
-    <path class="line" d="M40 30 L90 30 L105 70 L65 110 L25 70 L40 30" />
-    <path class="line" d="M65 110 L65 150" />
-    <path class="line" d="M40 150 L90 150" />
-    <path class="line" d="M25 70 L10 55 L10 40 L40 30" />
-    <path class="line" d="M105 70 L120 55 L120 40 L90 30" />
+    <!-- Celestial Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B9C9" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFEBC9" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9CA764" stop-opacity="0.7"/>
+    </linearGradient>
 
-    <circle cx="40" cy="30" r="4" class="star" />
-    <circle cx="90" cy="30" r="4" class="star" />
-    <circle cx="105" cy="70" r="3" class="star-secondary" />
-    <circle cx="25" cy="70" r="3" class="star-secondary" />
-    <circle cx="65" cy="110" r="4" class="star" />
-    <circle cx="65" cy="150" r="3" class="star-secondary" />
-    <circle cx="40" cy="150" r="3" class="star-tertiary" />
-    <circle cx="90" cy="150" r="3" class="star-tertiary" />
-    <circle cx="10" cy="55" r="3" class="star" />
-    <circle cx="120" cy="55" r="3" class="star" />
+    <!-- Star Glow Filter -->
+    <filter id="celestialGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-    <text x="65" y="190" class="title">🏆 Commit Master</text>
-    <text x="65" y="210" class="text">500+ Commits</text>
+    <filter id="starSparkle" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.35; transform: scale(0.85); }
+        50% { opacity: 1; transform: scale(1.25); }
+      }
+      @keyframes slowFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes ringPulse {
+        0%, 100% { r: 7px; opacity: 0.3; }
+        50% { r: 12px; opacity: 0.8; }
+      }
+      .star-honey {
+        fill: #FFEBC9;
+        transform-origin: center;
+        animation: twinkle 3s infinite ease-in-out;
+      }
+      .star-matcha {
+        fill: #9CA764;
+        transform-origin: center;
+        animation: twinkle 4s infinite ease-in-out 1s;
+      }
+      .star-lilac {
+        fill: #C4B9C9;
+        transform-origin: center;
+        animation: twinkle 3.5s infinite ease-in-out 0.5s;
+      }
+      .constellation {
+        animation: slowFloat 7s infinite ease-in-out;
+      }
+      .c-line {
+        stroke: #C4B9C9;
+        stroke-width: 1.5;
+        stroke-opacity: 0.55;
+        stroke-linecap: round;
+        stroke-dasharray: 4 2;
+      }
+      .c-line-solid {
+        stroke: url(#lineGrad);
+        stroke-width: 1.8;
+        stroke-linecap: round;
+      }
+      .node-title {
+        font-family: Georgia, 'Playfair Display', serif;
+        fill: #FFEBC9;
+        font-size: 16px;
+        font-weight: 700;
+        text-anchor: middle;
+        letter-spacing: 0.5px;
+      }
+      .node-sub {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        fill: #C4B9C9;
+        font-size: 11px;
+        text-anchor: middle;
+        letter-spacing: 1px;
+      }
+      .header-title {
+        font-family: Georgia, serif;
+        fill: #FFEBC9;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-anchor: middle;
+      }
+      .header-sub {
+        font-family: 'JetBrains Mono', monospace;
+        fill: #9CA764;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Sky Card Background -->
+  <rect width="1000" height="520" rx="16" fill="url(#skyGrad)" stroke="#52616D" stroke-width="1.2"/>
+
+  <!-- Subtle Celestial Grid Lines -->
+  <circle cx="500" cy="270" r="230" stroke="#52616D" stroke-width="0.8" stroke-dasharray="3 6" opacity="0.4"/>
+  <circle cx="500" cy="270" r="140" stroke="#52616D" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.3"/>
+  <line x1="80" y1="270" x2="920" y2="270" stroke="#52616D" stroke-width="0.6" stroke-dasharray="4 8" opacity="0.3"/>
+
+  <!-- Celestial Title Banner -->
+  <g transform="translate(500, 38)">
+    <text y="0" class="header-title">✦ NOCTUA LAB STELLAR CONSTELLATION ✦</text>
+    <text y="20" class="header-sub">MAPPING LOCAL SYSTEMS &amp; AUTONOMOUS ENGINES</text>
   </g>
 
-  <!-- Trophy 2: The Star -->
-  <g class="constellation" transform="translate(420, 70)">
-    <path class="line" d="M65 15 L85 60 L130 60 L100 90 L115 135 L65 110 L15 135 L30 90 L0 60 L45 60 L65 15" />
-
-    <circle cx="65" cy="15" r="4" class="star" />
-    <circle cx="85" cy="60" r="3" class="star-secondary" />
-    <circle cx="130" cy="60" r="4" class="star" />
-    <circle cx="100" cy="90" r="3" class="star-tertiary" />
-    <circle cx="115" cy="135" r="4" class="star" />
-    <circle cx="65" cy="110" r="3.5" class="star" />
-    <circle cx="15" cy="135" r="4" class="star" />
-    <circle cx="30" cy="90" r="3" class="star-tertiary" />
-    <circle cx="0" cy="60" r="4" class="star" />
-    <circle cx="45" cy="60" r="3" class="star-secondary" />
-    <circle cx="65" cy="75" r="5" class="star" style="animation-duration: 2s;" />
-
-    <text x="65" y="190" class="title">⭐ Pull Request Pro</text>
-    <text x="65" y="210" class="text">100+ PRs Merged</text>
+  <!-- Node 1: Corvus Noctua (noctua-niri) -->
+  <g class="constellation" transform="translate(160, 110)">
+    <!-- Constellation Lines -->
+    <path class="c-line" d="M10 50 L45 20 L80 50 L65 95 L25 95 Z" />
+    <path class="c-line-solid" d="M45 20 L45 70" />
+    <!-- Stars -->
+    <circle cx="45" cy="20" r="4.5" class="star-honey" filter="url(#celestialGlow)"/>
+    <circle cx="10" cy="50" r="3.5" class="star-lilac"/>
+    <circle cx="80" cy="50" r="3.5" class="star-lilac"/>
+    <circle cx="25" cy="95" r="3.5" class="star-matcha"/>
+    <circle cx="65" cy="95" r="3.5" class="star-matcha"/>
+    <circle cx="45" cy="70" r="4" class="star-honey"/>
+    <!-- Texts -->
+    <text x="45" y="125" class="node-title">Corvus Noctua</text>
+    <text x="45" y="143" class="node-sub">noctua-niri · Desktop</text>
   </g>
 
-  <!-- Trophy 3: The Crown -->
-  <g class="constellation" transform="translate(750, 80)">
-    <path class="line" d="M25 110 L105 110 L120 40 L85 80 L65 25 L45 80 L10 40 L25 110" />
-
-    <circle cx="25" cy="110" r="4" class="star" />
-    <circle cx="105" cy="110" r="4" class="star" />
-    <circle cx="120" cy="40" r="4" class="star-secondary" />
-    <circle cx="85" cy="80" r="3" class="star" />
-    <circle cx="65" cy="25" r="5" class="star" />
-    <circle cx="45" cy="80" r="3" class="star" />
-    <circle cx="10" cy="40" r="4" class="star-secondary" />
-    <circle cx="45" cy="110" r="3" class="star-tertiary" />
-    <circle cx="65" cy="110" r="3" class="star-tertiary" />
-    <circle cx="85" cy="110" r="3" class="star-tertiary" />
-
-    <text x="65" y="190" class="title">👑 Code Sovereign</text>
-    <text x="65" y="210" class="text">Project Leader</text>
+  <!-- Node 2: Lyra Analógica (noctua-player) -->
+  <g class="constellation" transform="translate(500, 95)" style="animation-delay: -2s;">
+    <!-- Cassette Reel / Lyra Form -->
+    <path class="c-line" d="M15 35 L40 15 L70 15 L95 35 L75 80 L35 80 Z" />
+    <path class="c-line-solid" d="M35 48 L75 48" />
+    <circle cx="35" cy="48" r="8" stroke="#FFEBC9" stroke-width="1.2" fill="none" opacity="0.6"/>
+    <circle cx="75" cy="48" r="8" stroke="#FFEBC9" stroke-width="1.2" fill="none" opacity="0.6"/>
+    <!-- Stars -->
+    <circle cx="40" cy="15" r="4" class="star-honey"/>
+    <circle cx="70" cy="15" r="4" class="star-honey"/>
+    <circle cx="15" cy="35" r="3.5" class="star-matcha"/>
+    <circle cx="95" cy="35" r="3.5" class="star-matcha"/>
+    <circle cx="35" cy="80" r="3.5" class="star-lilac"/>
+    <circle cx="75" cy="80" r="3.5" class="star-lilac"/>
+    <!-- Texts -->
+    <text x="55" y="125" class="node-title">Lyra Analógica</text>
+    <text x="55" y="143" class="node-sub">noctua-player · Audio</text>
   </g>
 
-  <!-- Row 2: 3 More Trophies -->
-  
-  <!-- Trophy 4: The Diamond -->
-  <g class="constellation" transform="translate(120, 350)">
-    <path class="line" d="M65 20 L110 65 L65 110 L20 65 L65 20" />
-    <path class="line" d="M20 65 L110 65" />
-    <path class="line" d="M65 20 L65 110" />
-
-    <circle cx="65" cy="20" r="4" class="star" />
-    <circle cx="110" cy="65" r="4" class="star" />
-    <circle cx="65" cy="110" r="4" class="star" />
-    <circle cx="20" cy="65" r="4" class="star" />
-    <circle cx="65" cy="65" r="5" class="star" style="animation-duration: 2.5s;" />
-    <circle cx="45" cy="42" r="3" class="star-secondary" />
-    <circle cx="85" cy="42" r="3" class="star-secondary" />
-    <circle cx="45" cy="88" r="3" class="star-tertiary" />
-    <circle cx="85" cy="88" r="3" class="star-tertiary" />
-
-    <text x="65" y="160" class="title">💎 Code Quality</text>
-    <text x="65" y="180" class="text">Zero Bugs</text>
+  <!-- Node 3: Orion Arbiter (ArbiterAI) -->
+  <g class="constellation" transform="translate(830, 110)" style="animation-delay: -4s;">
+    <!-- Diamond Shield Form -->
+    <path class="c-line" d="M50 15 L90 50 L50 85 L10 50 Z" />
+    <path class="c-line-solid" d="M50 15 L50 85" />
+    <path class="c-line-solid" d="M10 50 L90 50" />
+    <!-- Stars -->
+    <circle cx="50" cy="15" r="4.5" class="star-honey" filter="url(#celestialGlow)"/>
+    <circle cx="90" cy="50" r="3.5" class="star-matcha"/>
+    <circle cx="50" cy="85" r="4" class="star-honey"/>
+    <circle cx="10" cy="50" r="3.5" class="star-matcha"/>
+    <circle cx="50" cy="50" r="5" class="star-honey" filter="url(#starSparkle)"/>
+    <!-- Texts -->
+    <text x="50" y="125" class="node-title">Orion Arbiter</text>
+    <text x="50" y="143" class="node-sub">ArbiterAI · Local Agents</text>
   </g>
 
-  <!-- Trophy 5: The Rocket -->
-  <g class="constellation" transform="translate(420, 350)">
-    <path class="line" d="M65 20 L65 100 M45 60 L65 20 L85 60 M35 100 L65 100 L95 100 M35 100 L25 130 M95 100 L105 130" />
-
-    <circle cx="65" cy="20" r="5" class="star" />
-    <circle cx="45" cy="60" r="3" class="star-secondary" />
-    <circle cx="85" cy="60" r="3" class="star-secondary" />
-    <circle cx="65" cy="100" r="4" class="star" />
-    <circle cx="35" cy="100" r="3" class="star-tertiary" />
-    <circle cx="95" cy="100" r="3" class="star-tertiary" />
-    <circle cx="25" cy="130" r="4" class="star" />
-    <circle cx="105" cy="130" r="4" class="star" />
-    <circle cx="65" cy="50" r="3" class="star" />
-    <circle cx="65" cy="80" r="3" class="star-secondary" />
-
-    <text x="65" y="170" class="title">🚀 Fast Shipper</text>
-    <text x="65" y="190" class="text">Quick Delivery</text>
+  <!-- Node 4: Cygnus Ferrugineus (voidkitty-llm) -->
+  <g class="constellation" transform="translate(160, 310)" style="animation-delay: -1s;">
+    <!-- Cross/Swan Form -->
+    <path class="c-line" d="M45 10 L45 80 M15 35 L75 35 M25 65 L65 65" />
+    <!-- Stars -->
+    <circle cx="45" cy="10" r="4.5" class="star-honey"/>
+    <circle cx="45" cy="35" r="5" class="star-matcha" filter="url(#celestialGlow)"/>
+    <circle cx="15" cy="35" r="3.5" class="star-lilac"/>
+    <circle cx="75" cy="35" r="3.5" class="star-lilac"/>
+    <circle cx="25" cy="65" r="3" class="star-honey"/>
+    <circle cx="65" cy="65" r="3" class="star-honey"/>
+    <circle cx="45" cy="80" r="4" class="star-matcha"/>
+    <!-- Texts -->
+    <text x="45" y="115" class="node-title">Cygnus Ferrugineus</text>
+    <text x="45" y="133" class="node-sub">voidkitty-llm · Rust GGUF</text>
   </g>
 
-  <!-- Trophy 6: The Shield -->
-  <g class="constellation" transform="translate(750, 350)">
-    <path class="line" d="M65 20 L110 40 L110 80 L65 120 L20 80 L20 40 L65 20" />
-    <path class="line" d="M65 20 L65 120" />
-    <path class="line" d="M20 60 L110 60" />
-
-    <circle cx="65" cy="20" r="4" class="star" />
-    <circle cx="110" cy="40" r="3" class="star-secondary" />
-    <circle cx="110" cy="80" r="3" class="star-secondary" />
-    <circle cx="65" cy="120" r="4" class="star" />
-    <circle cx="20" cy="80" r="3" class="star-secondary" />
-    <circle cx="20" cy="40" r="3" class="star-secondary" />
-    <circle cx="65" cy="60" r="4" class="star" />
-    <circle cx="45" cy="40" r="2" class="star-tertiary" />
-    <circle cx="85" cy="40" r="2" class="star-tertiary" />
-
-    <text x="65" y="170" class="title">🛡️ Security Guard</text>
-    <text x="65" y="190" class="text">Safe Code</text>
+  <!-- Node 5: Pegasus Mesh (noctua-drop) -->
+  <g class="constellation" transform="translate(500, 310)" style="animation-delay: -3s;">
+    <!-- Winged Square Form -->
+    <path class="c-line" d="M25 25 L85 25 L85 75 L25 75 Z" />
+    <path class="c-line-solid" d="M85 25 L105 10 M85 75 L105 90" />
+    <!-- Stars -->
+    <circle cx="25" cy="25" r="4" class="star-honey"/>
+    <circle cx="85" cy="25" r="4.5" class="star-matcha"/>
+    <circle cx="85" cy="75" r="4" class="star-honey"/>
+    <circle cx="25" cy="75" r="3.5" class="star-lilac"/>
+    <circle cx="105" cy="10" r="3.5" class="star-honey"/>
+    <circle cx="105" cy="90" r="3.5" class="star-honey"/>
+    <!-- Texts -->
+    <text x="55" y="115" class="node-title">Pegasus Mesh</text>
+    <text x="55" y="133" class="node-sub">noctua-drop · Local P2P</text>
   </g>
 
-  <!-- Background stars -->
-  <circle cx="80" cy="30" r="1.5" class="star" style="opacity: 0.3; animation-delay: 0.5s" />
-  <circle cx="300" cy="250" r="2" class="star-secondary" style="opacity: 0.4; animation-delay: 1.2s" />
-  <circle cx="600" cy="40" r="1.5" class="star" style="opacity: 0.3; animation-delay: 2.5s" />
-  <circle cx="900" cy="280" r="2" class="star-secondary" style="opacity: 0.4; animation-delay: 0.8s" />
-  <circle cx="950" cy="60" r="1.5" class="star" style="opacity: 0.3; animation-delay: 1.5s" />
-  <circle cx="200" cy="500" r="1.5" class="star-tertiary" style="opacity: 0.3; animation-delay: 2s" />
-  <circle cx="500" cy="520" r="2" class="star" style="opacity: 0.4; animation-delay: 0.3s" />
-  <circle cx="800" cy="500" r="1.5" class="star-secondary" style="opacity: 0.3; animation-delay: 1.8s" />
+  <!-- Node 6: Nocturne Aegis (nocturne-forge) -->
+  <g class="constellation" transform="translate(830, 310)" style="animation-delay: -5s;">
+    <!-- Shield & Beacon Form -->
+    <path class="c-line" d="M50 15 L85 30 L85 60 L50 85 L15 60 L15 30 Z" />
+    <path class="c-line-solid" d="M50 15 L50 85" />
+    <!-- Stars -->
+    <circle cx="50" cy="15" r="4.5" class="star-honey" filter="url(#celestialGlow)"/>
+    <circle cx="85" cy="30" r="3.5" class="star-lilac"/>
+    <circle cx="85" cy="60" r="3.5" class="star-matcha"/>
+    <circle cx="50" cy="85" r="4" class="star-honey"/>
+    <circle cx="15" cy="60" r="3.5" class="star-matcha"/>
+    <circle cx="15" cy="30" r="3.5" class="star-lilac"/>
+    <circle cx="50" cy="50" r="4" class="star-honey"/>
+    <!-- Texts -->
+    <text x="50" y="115" class="node-title">Nocturne Aegis</text>
+    <text x="50" y="133" class="node-sub">nocturne-forge · Diagnostics</text>
+  </g>
 
+  <!-- Ambient Micro Stars -->
+  <circle cx="90" cy="70" r="1.5" class="star-honey" style="animation-delay: 0.3s; opacity: 0.5;"/>
+  <circle cx="340" cy="160" r="1.5" class="star-lilac" style="animation-delay: 1.1s; opacity: 0.6;"/>
+  <circle cx="680" cy="120" r="1.5" class="star-honey" style="animation-delay: 1.7s; opacity: 0.5;"/>
+  <circle cx="940" cy="220" r="1.5" class="star-matcha" style="animation-delay: 0.8s; opacity: 0.6;"/>
+  <circle cx="320" cy="420" r="1.5" class="star-honey" style="animation-delay: 2.1s; opacity: 0.5;"/>
+  <circle cx="700" cy="410" r="1.5" class="star-lilac" style="animation-delay: 1.4s; opacity: 0.5;"/>
+  <circle cx="80" cy="460" r="1.5" class="star-matcha" style="animation-delay: 2.5s; opacity: 0.5;"/>
 </svg>
