@@ -1,166 +1,123 @@
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/noctua_editorial_header_twilight_editorial.png?v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/noctua_editorial_header_light_editorial.png?v=2" />
-  <img width="100%" alt="Noctua celestial technology landscape" src="./assets/noctua_editorial_header_light_editorial.png?v=2" />
-</picture>
-
 <p align="center">
-  <img src="./assets/noctua_celestial_avatar.png" width="112" height="112" alt="Noctua Celestial Avatar" style="border-radius: 50%;" />
+  <img src="./assets/dither-hands.png" alt="Noctua Dithered Hands Header" width="100%">
 </p>
 
-# ✦ Noctua Lab ✦
+<h1 align="center">Hi 👋, I'm Alana (NoctuaCoder)</h1>
 
-### Compiling the night.
+<h3 align="center">Linux Systems · Local AI Infrastructure · Analog Interfaces</h3>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+Autonomy;Observing+systems+from+the+digital+zenith;Building+quiet+tools+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=FFEBC9&background=70809000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+Autonomy;Observing+systems+from+the+digital+zenith;Building+quiet+tools+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=708090&background=EAE0C800" />
-    <img alt="Animated typing tagline" src="https://readme-typing-svg.demolab.com/?lines=Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+Autonomy;Observing+systems+from+the+digital+zenith;Building+quiet+tools+for+noisy+worlds&font=Fira%20Code&center=true&vCenter=true&width=800&height=50&duration=3500&pause=900&color=708090&background=EAE0C800" />
-  </picture>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=FFEBC9&center=true&vCenter=true&width=750&height=55&lines=Compiling+the+night...;Converting+starlight+into+source+code...;Linux+%C2%B7+Local+AI+%C2%B7+Software+Autonomy;Building+quiet+tools+for+noisy+worlds" alt="Typing SVG" />
 </p>
 
-[English](./README.md) · [Português do Brasil](./README.pt-BR.md) · [Color system](./docs/PROFILE_PALETTE.md) · [Automation](./docs/PROFILE_AUTOMATIONS.md)
+<p align="center">
+Building quiet systems, local AI coding runtimes, and crafted Linux desktop experiences.
+</p>
 
-Experiments, tools, and systems built around **Linux, local AI, analog aesthetics, and software autonomy**.
-
-[![GitHub](https://img.shields.io/badge/GitHub-708090?style=for-the-badge&logo=github&logoColor=FFEBC9)](https://github.com/NoctuaCoder)
-[![Portfolio](https://img.shields.io/badge/Portfolio-9CA764?style=for-the-badge&logo=sparkles&logoColor=FFEBC9)](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
-[![Contact](https://img.shields.io/badge/Contact-C4B9C9?style=for-the-badge&logo=gmail&logoColor=FFEBC9)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
-
-</div>
+<p align="center">
+  <a href="./README.md">English</a> · <a href="./README.pt-BR.md">Português do Brasil</a> · <a href="./docs/PROFILE_PALETTE.md">Color system</a> · <a href="./docs/PROFILE_AUTOMATIONS.md">Automations</a>
+</p>
 
 ---
 
-## What I build
+<h2 align="center">🚀 About Me</h2>
 
-Noctua Lab is a personal open-source workspace for building and testing software around Linux desktops, local language models, developer tooling, and interface systems. The goal is simple: make the work visible through repositories, documentation, demos, and code that people can inspect and run.
+<img align="right" src="./assets/dither-astro.png" width="270" alt="Dithered Astronaut Illustration"/>
 
-<div align="center">
+**Alana (Noctua Lab)** here — crafting open-source software around **Linux desktops, local language models, and analog aesthetic interfaces**.
 
-![Core pillars: autonomy, privacy, reproducibility, and experience](./assets/core-pillars-topics-en.svg?v=2)
+- 🔭 **Linux Desktop:** Building daily-driver setups on **CachyOS, Niri, and Wayland** with spring physics animations and custom QML/Quickshell widgets.
+- ⚡ **Local AI & Tooling:** Developing **ArbiterAI** (Docker-isolated coding agents) and **voidkitty-llm** (Rust GGUF model manager & llama.cpp orchestrator).
+- 📼 **Analog Audio & P2P:** Designing **noctua-player** (Hi-Fi analog tape/reel UI) and **noctua-drop** (local zero-cloud P2P transfers).
+- 💡 **Philosophy:** Evidence over adjectives. Quiet systems designed to run locally, reliably, and beautifully.
 
-</div>
+<br clear="right"/>
 
-## Stellar constellation
+---
 
-<div align="center">
-
-![Noctua Lab Stellar Constellation: Mapping local systems and autonomous engines](./assets/achievements-constellation.svg?v=3)
-
-</div>
-
-## Project map
+<h2 align="center">✦ Selected Projects ✦</h2>
 
 | Area | Project | Role in the ecosystem |
 |---|---|---|
 | **Analog audio** | [**noctua-player**](https://github.com/NoctuaCoder/noctua-player) | Noctua — Analog Edition: Hi-Fi music player for Linux with reel-to-reel visual aesthetics, MPRIS integration, and local audio streaming. |
-| **Linux desktop** | [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | The main desktop environment experiment: Niri dotfiles, QML components, Quickshell integration, spring animations, and Wayland workflows. |
+| **Linux desktop** | [**noctua-niri**](https://github.com/NoctuaCoder/noctua-niri) | Modern Niri dotfiles suite with spring physics, Quickshell widgets, and refined Wayland ergonomics. |
 | **Local AI infrastructure** | [**ArbiterAI**](https://github.com/NoctuaCoder/ArbiterAI) | A local runtime for coding agents that plans tasks, uses tools, integrates with Git, and executes work inside ephemeral Docker sandboxes. |
-| **LLM tooling** | [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | A high-performance Rust tool for pulling GGUF models, managing llama-server processes, and serving local models through a web UI and OpenAI-compatible API. |
+| **LLM tooling** | [**voidkitty-llm**](https://github.com/NoctuaCoder/voidkitty-llm) | High-performance Rust tooling for pulling GGUF models, managing llama-server processes, and serving local models through OpenAI-compatible APIs. |
 | **Local transfers** | [**noctua-drop**](https://github.com/NoctuaCoder/noctua-drop) | Fast peer-to-peer transfers between mobile and Linux workstations, local PDF optimizations, and automated HEIC to JPG conversion. |
 | **Quiet diagnostics** | [**nocturne-forge**](https://github.com/NoctuaCoder/nocturne-forge) | Silent hardware telemetry, GPU offload verification, and local AI runtime diagnostics for Linux workstations. |
 
-## Current focus
+---
 
-The priority is depth rather than quantity: make the existing projects easier to install, easier to understand, and easier to evaluate.
+<h2 align="center">✦ Stellar Constellation ✦</h2>
 
-For `noctua-player` and `noctua-niri`, that means fluid tactile interfaces, audio fidelity, and seamless Wayland ergonomics. For `ArbiterAI` and `voidkitty-llm`, it means making sandbox boundaries, memory management, and inference pipelines transparent and deterministic.
+<p align="center">
+  <img src="./assets/achievements-constellation.svg?v=4" alt="Noctua Lab Stellar Constellation" width="100%"/>
+</p>
 
-## Evidence over adjectives
+---
 
-| Project | Concrete surface to explore |
-|---|---|
-| **noctua-player** | Analog tape/reel animations, MPRIS metadata handling, audio buffer pipelines, and lightweight QML/Python architecture. |
-| **noctua-niri** | QML and Quickshell components, Niri configuration, visual previews, and installation scripts. |
-| **ArbiterAI** | Docker sandbox isolation, local Ollama workflow, tool execution, Git integration, and task graph structure. |
-| **voidkitty-llm** | GGUF model pulling, quantization selection, hot model serving, multi-model mode, and OpenAI-compatible API. |
-| **noctua-drop** | Local P2P discovery, zero-cloud media handling, and instant format conversion. |
+<h2 align="center">🤝 Connect</h2>
 
-## Technical stack
+<p align="center">
+  <a href="https://github.com/NoctuaCoder">
+    <img src="https://skillicons.dev/icons?i=github" height="45" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://noctuacoder.github.io/NoctuaCoder/portfolio.html">
+    <img src="https://img.shields.io/badge/Portfolio-9CA764?style=for-the-badge&logo=sparkles&logoColor=FFEBC9" height="45" alt="Portfolio" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:38922657+NoctuaCoder@users.noreply.github.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="Email" />
+  </a>
+</p>
+
+---
+
+<h2 align="center">💻 Tech Stack</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,python,ts,linux,docker,bash,git,github,vscode,neovim,arch,qt" alt="Tech Stack Line 1" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,markdown,figma,postman,powershell,postgres,redis,electron" alt="Tech Stack Line 2" />
+</p>
+
+---
+
+<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
-
-![Rust](https://img.shields.io/badge/Rust-C4B9C9?style=for-the-badge&logo=rust&logoColor=FFEBC9&labelColor=708090)
-![Python](https://img.shields.io/badge/Python-C4B9C9?style=for-the-badge&logo=python&logoColor=FFEBC9&labelColor=708090)
-![TypeScript](https://img.shields.io/badge/TypeScript-C4B9C9?style=for-the-badge&logo=typescript&logoColor=FFEBC9&labelColor=708090)
-![QML](https://img.shields.io/badge/QML-C4B9C9?style=for-the-badge&logo=qt&logoColor=FFEBC9&labelColor=708090)
-![Linux](https://img.shields.io/badge/Linux-C4B9C9?style=for-the-badge&logo=linux&logoColor=FFEBC9&labelColor=708090)
-![Docker](https://img.shields.io/badge/Docker-C4B9C9?style=for-the-badge&logo=docker&logoColor=FFEBC9&labelColor=708090)
-![Ollama](https://img.shields.io/badge/Ollama-C4B9C9?style=for-the-badge&logo=ollama&logoColor=FFEBC9&labelColor=708090)
-
+  <img src="https://streak-stats.demolab.com?user=NoctuaCoder&theme=city_lights&hide_border=false&border_radius=8" height="155" alt="GitHub Streak Stats" />
 </div>
 
-| Area | Technologies |
-|---|---|
-| **Languages** | Rust · Python · TypeScript · Bash |
-| **Systems** | Linux · Wayland · Niri · Hyprland · Docker |
-| **AI** | llama.cpp · GGUF · Local LLMs · Autonomous Coding Agents |
-| **UI & Audio** | QML · Quickshell · PipeWire · Analog UI |
-| **Tooling** | Git · GitHub Actions · Neovim · uv |
-
-## Nocturne Command Center
+<br/>
 
 <div align="center">
-
-![Nocturne Command Center: public GitHub activity dashboard](./assets/nocturne-command-center.svg?v=1)
-
+  <img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=transparent&show_icons=true&hide_border=true&bg_color=1F242C&title_color=FFEBC9&icon_color=9CA764&text_color=F1E8C7&border_color=C4B9C9" width="49%" alt="GitHub statistics" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=transparent&hide_border=true&bg_color=1F242C&title_color=FFEBC9&text_color=F1E8C7&border_color=C4B9C9" width="41%" alt="Most used programming languages" />
 </div>
 
-## Live systems dashboard
+---
 
-<div align="center">
+<h2 align="center">📈 Activity Graph</h2>
 
-<img src="https://github-stats-extended.vercel.app/api?username=NoctuaCoder&theme=transparent&show_icons=true&hide_border=true&bg_color=708090&title_color=FFEBC9&icon_color=EAE0C8&text_color=F1E8C7&border_color=C4B9C9&ring_color=9CA764" width="49%" alt="GitHub statistics" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NoctuaCoder&layout=compact&theme=transparent&hide_border=true&bg_color=708090&title_color=FFEBC9&text_color=F1E8C7&border_color=C4B9C9" width="41%" alt="Most used programming languages" />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NoctuaCoder&bg_color=1F242C&color=E6EDF3&line=9CA764&point=FFEBC9&area=true&hide_border=true&radius=16" width="100%" alt="Activity Graph"/>
+</p>
 
-</div>
+---
 
-## Activity hubs
-
-<div align="center">
-
-![Activity hubs: profile, analog audio, Linux and Niri, local coding agents, local LLM tooling, and local media](./assets/activity-hub-cards-en.svg?v=3)
-
-</div>
-
-## Contribution trail
-
-<div align="center">
+<h2 align="center">⌘ Contribution Trail</h2>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+  <p align="center">
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output/github-contribution-grid-snake.svg" />
+  </p>
 </picture>
 
-</div>
-
-## 3D contribution constellation
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output-3d-contrib/night.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output-3d-contrib/day.svg" />
-  <img alt="3D GitHub contribution calendar" src="https://raw.githubusercontent.com/NoctuaCoder/NoctuaCoder/output-3d-contrib/day.svg" />
-</picture>
-
-</div>
-
-The native contribution graph is available on the [main profile](https://github.com/NoctuaCoder). Commits, releases, issues, installation notes, and implementation details live in each project repository.
-
-## Contact
-
-If you are interested in Linux desktops, local AI, Rust tooling, coding agents, analog interfaces, or QML systems, explore the projects and open a discussion in the repository that matches your interest.
-
-<div align="center">
-
-[![Explore projects](https://img.shields.io/badge/Explore_projects-708090?style=for-the-badge&logo=github&logoColor=FFEBC9)](https://github.com/NoctuaCoder)
-[![Send a message](https://img.shields.io/badge/Send_a_message-C4B9C9?style=for-the-badge&logo=gmail&logoColor=FFEBC9)](mailto:38922657+NoctuaCoder@users.noreply.github.com)
-
-`LOCAL SYSTEMS · OPEN SOURCE · PRACTICAL AI · ANALOG HARMONY`
-
-</div>
+<p align="center">
+  <code>LOCAL SYSTEMS · OPEN SOURCE · PRACTICAL AI · ANALOG HARMONY</code>
+</p>
