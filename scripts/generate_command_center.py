@@ -31,9 +31,12 @@ PALETTE = {
 }
 
 PROJECT_META = {
+    "noctua-player": ("ANALOG AUDIO", "Linux / QML"),
     "noctua-niri": ("LINUX DESKTOP", "Niri / QML"),
     "ArbiterAI": ("LOCAL CODING AGENTS", "Python"),
     "voidkitty-llm": ("LOCAL LLM TOOLING", "Rust"),
+    "noctua-drop": ("LOCAL TRANSFERS", "Python / P2P"),
+    "nocturne-forge": ("DIAGNOSTICS", "Linux / AI"),
     "noctua-material": ("DESKTOP DESIGN", "QML"),
     "termlens": ("OPEN SOURCE CONTRIBUTION", "Rust"),
 }
