@@ -48,14 +48,6 @@ Aqui é a **Alana (Noctua Lab)** — desenvolvendo software de código aberto fo
 
 ---
 
-<h2 align="center">✦ Constelação Estelar ✦</h2>
-
-<p align="center">
-  <img src="./assets/achievements-constellation.svg?v=4" alt="Constelação Estelar do Noctua Lab" width="100%"/>
-</p>
-
----
-
 <h2 align="center">🤝 Conexões</h2>
 
 <p align="center">

@@ -48,14 +48,6 @@ Building quiet systems, local AI coding runtimes, and crafted Linux desktop expe
 
 ---
 
-<h2 align="center">✦ Stellar Constellation ✦</h2>
-
-<p align="center">
-  <img src="./assets/achievements-constellation.svg?v=4" alt="Noctua Lab Stellar Constellation" width="100%"/>
-</p>
-
----
-
 <h2 align="center">🤝 Connect</h2>
 
 <p align="center">
